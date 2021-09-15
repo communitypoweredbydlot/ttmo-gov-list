@@ -1,0 +1,48 @@
+name: Fetch & Convert TTMO source datasets
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-approved-routes-dataset:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - uses: actions/cache@v2
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('scripts/turism_gov_ro/requirements.txt') }}
+
+      - name: Install the requirements
+        run: pip install --upgrade --upgrade-strategy eager -r scripts/turism_gov_ro/requirements.txt
+
+      - name: Fetch the current dataset
+        id: fetch-approved-routes-dataset
+        run: |
+          chmod +x scripts/turism_gov_ro/fetch_and_update_routes_dataset.py
+          ./scripts/turism_gov_ro/fetch_and_update_routes_dataset.py
+          echo "##[set-output name=fetch_end_timestamp;]$(date)"
+
+      - name: Commit the new dataset
+        run: |
+          git add .
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git diff-index --quiet HEAD || git commit -m 'Update the RO approved routes original dataset'
+          git push
+
+      - name: Fetch end timestamp badge
+        uses: RubbaBoy/BYOB@v1.2.1
+        with:
+          NAME: fetch_end_timestamp
+          LABEL: 'Last check at'
+          STATUS: ${{ steps.fetch-approved-routes-dataset.outputs.fetch_end_timestamp }}
+          COLOR: blue
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,36 @@
+name: Generate README.md
+on:
+  push:
+    paths:
+      - "data/original/turism_gov_ro/ttmo_approved_list.xls"
+      - "data/original/turism_gov_ro/info.json"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - uses: actions/cache@v2
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('scripts/generate_readme/requirements.txt') }}
+
+      - name: Install the requirements
+        run: pip install --upgrade --upgrade-strategy eager -r scripts/generate_readme/requirements.txt
+      
+      - name: Generate README.md
+        run: python scripts/generate_readme/generate_readme.py
+
+      - name: Commit the new dataset
+        run: |
+          git add .
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git diff-index --quiet HEAD || git commit -m 'Update the original file info in README'
+          git push
