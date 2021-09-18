@@ -1,7 +1,7 @@
 name: Fetch & Convert TTMO source datasets
 on:
   schedule:
-    - cron: '0 5 * * *'
+    - cron: '0 20 * * 1-5'
   workflow_dispatch:
 
 jobs:
