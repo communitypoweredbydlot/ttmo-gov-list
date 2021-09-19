@@ -252,7 +252,7 @@ def clean_and_convert(xls_file, csv_file, sheet_name):
     errors_df.to_csv(errors_file_name, index=False)
 
     console.print(f'Writing the cleanish csv file to {csv_file}')
-    cleaned_df.to_csv(csv_file, index=False, quotechar="%", date_format='%Y-%m-%d')
+    cleaned_df.to_csv(csv_file, index=False, date_format='%Y-%m-%d')
 
 
 if __name__ == '__main__':
