@@ -1,9 +1,10 @@
-name: Generate README.md
+name: On source dataset changed
 on:
   push:
     paths:
       - "data/original/turism_gov_ro/ttmo_approved_list.xls"
       - "data/original/turism_gov_ro/info.json"
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -33,4 +34,33 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git diff-index --quiet HEAD || git commit -m 'Update the original file info in README'
+          git push
+
+  convert-to-csv-and-clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - uses: actions/cache@v2
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('scripts/turism_gov_ro/convert_and_clean/requirements.txt') }}
+
+      - name: Install the requirements
+        run: pip install --upgrade --upgrade-strategy eager -r scripts/turism_gov_ro/convert_and_clean/requirements.txt
+
+      - name: Generate untouched CSV and cleanish CSV
+        run: python scripts/turism_gov_ro/convert_and_clean/convert_to_csv_and_clean.py
+
+      - name: Commit the new dataset
+        run: |
+          git add .
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git diff-index --quiet HEAD || git commit -m 'Update the auto generated CSV files'
           git push
