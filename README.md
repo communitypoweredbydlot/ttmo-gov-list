@@ -1,6 +1,35 @@
 # ttmo-gov-list
 ![](https://byob.yarr.is/communitypoweredbydlot/ttmo-gov-list/fetch_end_timestamp)
+[![Hits][hits-src]][hits-href]
+[![contributions welcome][contributions-welcome-src]][contributions-welcome-href]  
+[![License][code-license-src]][code-license-href]
+[![License: ODbl][database-license-src]][database-license-href]
+[![License: CC BY-SA 4.0][content-license-src]][content-license-href]
 
 The **source** dataset was last updated on 2021-07-28, created on 2005-10-30 and the filename  
 claims it was freshest on 2021-07-30.  
 You can find the source dataset [here](http://turism.gov.ro/web/wp-content/uploads/2021/07/TraseeTuristicemontaneOmologate-30.07.2021.xls).  
+
+## LICENSE
+Copyright for the source dataset is held by [© 2017 Ministerul Turismului](http://turism.gov.ro) and reproduction of the dataset is allowed under the legal terms described [here](http://turism.gov.ro/web/conditii-legale/).  
+The source dataset can be found on the [Autorizare Turism](http://turism.gov.ro/web/autorizare-turism/) page in the _Trasee turistice_ section.
+
+This derived __TTMO-GOV-LIST__ database is made available under the [Open Database License](http://opendatacommons.org/licenses/odbl/1.0/).  
+Any rights in individual contents of the database are licensed under the Database Contents License: [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
+
+The source code is licensed under the [MIT](./LICENSE) license while and all the documentation and text content is licensed under the [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
+[code-license-src]: https://img.shields.io/badge/Code%20License-MIT-green
+[code-license-href]: ./LICENSE
+
+[database-license-src]:  https://img.shields.io/badge/Database%20License-ODbl-ff69b2
+[database-license-href]: https://opendatacommons.org/licenses/odbl/
+
+[content-license-src]: https://img.shields.io/badge/Content%20License-CC%20BY--SA%204.0-yellow
+[content-license-href]: https://creativecommons.org/licenses/by-sa/4.0/
+
+[contributions-welcome-src]: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
+[contributions-welcome-href]: https://github.com/communitypoweredbydlot/ttmo-gov-list/issues
+
+[hits-src]: https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcommunitypoweredbydlot%2Fttmo-gov-liste&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false
+[hits-href]: https://hits.seeyoufarm.com
