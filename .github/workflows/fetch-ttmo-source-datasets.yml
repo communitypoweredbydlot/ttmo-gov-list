@@ -1,4 +1,4 @@
-name: Fetch & Convert TTMO source datasets
+name: Fetch TTMO source dataset
 on:
   schedule:
     - cron: '0 20 * * 1-5'
@@ -13,7 +13,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.8'
+          python-version: '3.9'
 
       - uses: actions/cache@v2
         with:
