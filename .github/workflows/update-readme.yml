@@ -34,5 +34,5 @@ jobs:
           git add .
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git diff-index --quiet HEAD || git commit -m 'Update the original file info in README'
+          git diff-index --quiet HEAD || git commit -m 'Generate the README'
           git push
