@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  convert-to-csv-and-clean:
+  update-verification-tasks:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

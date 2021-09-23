@@ -1,0 +1,36 @@
+name: Generate the validated ttmo-gov-list dataset
+on:
+  push:
+    paths:
+      - "data/clean/turism_gov_ro/verification/ttmo_gov_list.csv"
+  workflow_dispatch:
+
+jobs:
+  generate-validate-table:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - uses: actions/cache@v2
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('scripts/generate_validated/requirements.txt') }}
+
+      - name: Install the requirements
+        run: pip install --upgrade --upgrade-strategy eager -r scripts/generate_validated/requirements.txt
+
+      - name: Generate the validate dataset
+        run: python scripts/turism_gov_ro/generate_validated/generate_validated_dataset.py
+
+      - name: Commit the new dataset
+        run: |
+          git add .
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git diff-index --quiet HEAD || git commit -m 'Generate the validated dataset'
+          git push
