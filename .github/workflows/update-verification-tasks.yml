@@ -1,0 +1,68 @@
+name: Update verification tasks
+on:
+  push:
+    paths:
+      - "data/clean/turism_gov_ro/uniform/ttmo_gov_list.csv"
+  workflow_dispatch:
+
+jobs:
+  convert-to-csv-and-clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - uses: actions/cache@v2
+        with:
+          path: ${{ env.pythonLocation }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('scripts/turism_gov_ro/verification_tasks/requirements.txt') }}
+
+      - name: Install the requirements
+        run: pip install --upgrade --upgrade-strategy eager -r scripts/turism_gov_ro/verification_tasks/requirements.txt
+
+      - name: Update the verification tasks and write deleted and modified tasks to markdown files
+        id: verify
+        run: |
+          python scripts/turism_gov_ro/verification_tasks/generate_verification_task_dataset.py --commit-hash ${{ github.sha }}
+          if [[-f -e "issue.md"]]; then
+            echo "##[set-output name=should_create_issue;]true"
+          fi
+      
+      - name: Create an issue for the modified and deleted rows
+        if: steps.outputs.should_create_issue
+        uses: peter-evans/create-issue-from-file@v3
+        with:
+          title: Clean dataset rows deleted or modified
+          content-filepath: issue.md
+          labels: |
+            automated
+            important
+
+      - name: Remove the issue file
+        run: |
+          if [[-f -e "issue.md"]]; then
+            rm -f issue.md
+          fi
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          branch: update-verification-tasks
+          commit-message: Update verification tasks
+          author: github-actions <github-actions@github.com>
+          delete-branch: true
+          title: Update verification tasks
+          labels: |
+            automated
+            verification
+            new task
+          assignees: archblob
+          reviewers: archblob
+          draft: false
+          body: |
+            This is an automated PR to update the verification tasks.
+            Please review the changes and merge if everything is correct.
