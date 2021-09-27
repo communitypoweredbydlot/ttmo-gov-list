@@ -15,7 +15,7 @@ jobs:
           script: |
             github.rest.repos.createDispatchEvent({
               owner: 'communitypoweredbydlot',
-              repo: 'ttmo-admin-contact-list',
+              repo: 'ttmo-admin-contact-lists',
               event_type: 'ttmo_valid_list_updated',
               client_payload: {
                 path: 'data/clean/turism_gov_ro/ttmo_gov_list.csv'
