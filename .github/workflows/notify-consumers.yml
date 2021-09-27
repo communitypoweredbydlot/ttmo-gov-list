@@ -1,4 +1,4 @@
-name: Update the README on source dataset or template changes
+name: Notify valid ttmo list consumers
 on:
   push:
     paths:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  notify-consumers:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/github-script@v5
