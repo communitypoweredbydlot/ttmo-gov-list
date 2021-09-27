@@ -1,0 +1,23 @@
+name: Update the README on source dataset or template changes
+on:
+  push:
+    paths:
+      - "data/clean/turism_gov_ro/ttmo_gov_list.csv"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v5
+        with:
+          github-token: ${{ secrets.CONSUMER_DISPATCH }}
+          script: |
+            github.rest.repos.createDispatchEvent({
+              owner: 'communitypoweredbydlot',
+              repo: 'ttmo-admin-contact-list',
+              event_type: 'ttmo_valid_list_updated',
+              client_payload: {
+                path: 'data/clean/turism_gov_ro/ttmo_gov_list.csv'
+              }
+            });
