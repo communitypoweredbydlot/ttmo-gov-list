@@ -97,6 +97,7 @@ def expand_abbreviations(value: str) -> str:
       r'\bMan\.': 'Mănastirea',
       r'\bCh\.': 'Cheile',
       r'\bacum\.': 'acumulare',
+      r'\bst\.': 'Stație',
       r'\B[A-Z][a-z]+': None,
       r'\({0,1}\d+ *m\){0,1}': ''
     })
@@ -154,7 +155,8 @@ def correct_words(value: str) -> str:
         'izbucul': 'Izbucul',
         'turnul': 'Turnul',
         'cascada': 'Cascada',
-        'ascutit': 'Ascuțit'
+        'ascutit': 'Ascuțit',
+        'valea': 'Valea'
     })
 
 
