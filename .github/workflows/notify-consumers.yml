@@ -1,8 +1,9 @@
 name: Notify valid ttmo list consumers
 on:
   push:
+    branches: [main]
     paths:
-      - "data/clean/turism_gov_ro/ttmo_gov_list.csv"
+      - 'data/clean/turism_gov_ro/ttmo_gov_list.csv'
   workflow_dispatch:
 
 jobs:
