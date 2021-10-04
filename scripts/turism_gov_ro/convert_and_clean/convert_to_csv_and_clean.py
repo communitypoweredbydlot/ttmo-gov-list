@@ -156,7 +156,10 @@ def correct_words(value: str) -> str:
         'turnul': 'Turnul',
         'cascada': 'Cascada',
         'ascutit': 'Ascuțit',
-        'valea': 'Valea'
+        'valea': 'Valea',
+        'belvedere': 'Belvedere',
+        'malul': 'Malul',
+        'paraul': 'Pârâul'
     })
 
 
