@@ -64,7 +64,7 @@ nr,certificate_number,registration_date,name,administrator,location,county,verif
 63,63,2006-05-02,Casa de Vânătoare Bângăleasa - Valea Gaura - Stâna Gaura,Consiliul Județean Brașov,Masivul Bucegi,Brașov,True,63,expand parenthesis
 64,64,2006-05-02,Bran (Poarta) - Valea Clincea - Vârful Omul,Consiliul Județean Brașov,Masivul Bucegi,Brașov,True,64,"https://ro.wikipedia.org/wiki/Poarta,_Bra%C8%99ov"
 65,65,2006-05-02,Bran (Poarta) - Valea Ciubotei - Vârful Omul,Consiliul Județean Brașov,Masivul Bucegi,Brașov,True,65,"https://ro.wikipedia.org/wiki/Poarta,_Bra%C8%99ov"
-66,66,2006-05-02,Bran (Poarta) - Valea Gaura - Vârful Omul,Consiliul Județean Brașov,Masivul Bucegi,Brașov,true,66,"https://ro.wikipedia.org/wiki/Poarta,_Bra%C8%99ov"
+66,66,2006-05-02,Bran (Poarta) - Valea Gaura - Vârful Omul,Consiliul Județean Brașov,Masivul Bucegi,Brașov,True,66,"https://ro.wikipedia.org/wiki/Poarta,_Bra%C8%99ov"
 67,67,2006-05-02,Bran - Casa de Vânătoare Bângăleasa - Șaua Strunga,Consiliul Județean Brașov,Masivul Bucegi,Brașov,True,67,
 68,68,2006-05-02,Șimon - Valea Șimonului - Valea Gaura - Stâna Gaura,Consiliul Județean Brașov,Masivul Bucegi,Brașov,True,68,
 69,69,2006-05-02,Vârful Omul - Drumul Grănicerilor - Muntele Doamnele - Șaua Bătrâna - Șaua Strunga,Consiliul Județean Brașov,Masivul Bucegi,Brașov,True,69,
@@ -171,7 +171,7 @@ nr,certificate_number,registration_date,name,administrator,location,county,verif
 169,169,2006-06-21,Cabana Vârful cu Dor - Cabana Valea Dorului - Blana - Cabana Zănoaga,Consiliul Județean Prahova,Masivul Bucegi,Prahova,True,169,
 169,169,2006-06-21,Cabana Vârful cu Dor - Cabana Valea Dorului - Blana - Cabana Zănoaga,Consiliul Județean Dâmbovița,Masivul Bucegi,Prahova,True,169,
 170,170,2006-06-21,Sinaia - Poiana Stanei Piciorul Pietrei Arse - Cabana Piatra Arsă - Hotelul Peștera,Consiliul Județean Prahova,Masivul Bucegi,Prahova,True,170,
-170,170,2006-06-21,Sinaia - Poiana Stanei Piciorul Pietrei Arse - Cabana Piatra Arsă - Hotelul Peștera,Consiliul Județean Dâmbovița,Masivul Bucegi,Prahova,true,170,
+170,170,2006-06-21,Sinaia - Poiana Stanei Piciorul Pietrei Arse - Cabana Piatra Arsă - Hotelul Peștera,Consiliul Județean Dâmbovița,Masivul Bucegi,Prahova,True,170,
 171,171,2006-06-21,Bușteni - Cascada Urlătoarea,Consiliul Județean Prahova,Masivul Bucegi,Prahova,True,171,
 172,172,2006-06-21,Poiana Țapului - Cascada Urlătoarera,Consiliul Județean Prahova,Masivul Bucegi,Prahova,True,172,
 173,173,2006-06-21,Bușteni - Valea Jepilor Mari - Cantonul Jepi - Cabana Piatra Arsă,Consiliul Județean Prahova,Masivul Bucegi,Prahova,True,173,
@@ -234,7 +234,7 @@ nr,certificate_number,registration_date,name,administrator,location,county,verif
 226,226,2006-12-11,Bifurcația de la Podul Jibrii - Valea Moașa Avrigului - Izvorul Florii - Culmea Moașei - Refugiul Suru - Fruntea Moașei - Șaua Apa Cumpănită,Consiliul Județean Sibiu,Masivul Făgăraș,Sibiu,True,226,
 227,227,2006-12-11,Stația CFR Avrig - Valea Mare a Avrigului - Cabana Poiana Neamțului - Cabana Bărcaciu - Sub Vârful Scara,Consiliul Județean Sibiu,Masivul Făgăraș,Sibiu,True,227,
 228,228,2006-12-11,Cabana Bărcaciu - Căldarea Văii Mari a Avrigului - Lacul Avrig,Consiliul Județean Sibiu,Masivul Făgăraș,Sibiu,True,228,
-229,229,2006-12-11,Cabana Negoiu - Valea Șerbota - Valea Porumbăcelului - Cabana Bărcaciu,Consiliul Județean Sibiu,Masivul Făgăraș,Sibiu,true,229,
+229,229,2006-12-11,Cabana Negoiu - Valea Șerbota - Valea Porumbăcelului - Cabana Bărcaciu,Consiliul Județean Sibiu,Masivul Făgăraș,Sibiu,True,229,
 230,230,2006-12-11,Stația CFR Porumbacu de Jos - Porumbacu de Sus - Valea Mare a Porumbacului - Cabana Negoiu - Căldarea Sărății - Șaua Cleopatrei,Consiliul Județean Sibiu,Masivul Făgăraș,Sibiu,True,230,
 231,231,2006-12-11,Cabana Negoiu - Valea Șerbota - Căldarea Puha - Șaua Puha - Șaua Scara,Consiliul Județean Sibiu,Masivul Făgăraș,Sibiu,True,231,
 232,232,2006-12-11,Cabana Negoiu - Muchia Șerbota - Vârful Șerbota,Consiliul Județean Sibiu,Masivul Făgăraș,Sibiu,True,232,
@@ -333,7 +333,7 @@ nr,certificate_number,registration_date,name,administrator,location,county,verif
 325,388,2009-05-18,Neagra - Pârâul Schwartz - Poiana Cădăreni - Neagra,Consiliul Județean Mureș,Munții Gurghiu,Mureș,True,388,
 326,389,2009-05-18,Neagra - Creasta Suhacani - Poiana Cădăreni - 7 Poieni - Neagra,Consiliul Județean Mureș,Munții Gurghiu,Mureș,False,389,
 327,390,2009-05-18,Sălard - Valea Sălard - Valea Salea - Culmea Fâncel,Consiliul Județean Mureș,Munții Gurghiu,Mureș,True,390,
-328,391,2009-05-18,Sălard - Creasta Hedan - Poiana Belciu - Poiana Ion,Consiliul Județean Mureș,Munții Gurghiu,Mureș,)true,391,
+328,391,2009-05-18,Sălard - Creasta Hedan - Poiana Belciu - Poiana Ion,Consiliul Județean Mureș,Munții Gurghiu,Mureș,True,391,
 329,392,2009-05-18,Gura Văii Sestina - Valea Sestina - Poiana Moita,Consiliul Județean Mureș,Munții Gurghiu,Mureș,True,392,
 330,393,2009-05-18,Gura Văii Tiba Mare - Valea Tiba Mare - Vârful Sălășel,Consiliul Județean Mureș,Munții Gurghiu,Mureș,True,393,
 331,394,2009-05-18,Androneasa - Valea Tomoroaga - Poiana Barta - Vârful Sălășel,Consiliul Județean Mureș,Munții Gurghiu,Mureș,True,394,
@@ -673,7 +673,7 @@ nr,certificate_number,registration_date,name,administrator,location,county,verif
 661,723,2014-11-25,Borsec - Valea Hanzkel - Vârful Arcoza - Pasul Creangă - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita,True,723,
 662,724,2014-11-25,Borsec - Muntele Dosul Bâtcii - Capu Corbului - Pârâul Cupelor - Uzina de apă 7 Izvoare - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita,True,724,
 663,725,2014-11-25,Borsec - Valea Nadășa - Făgetul Mare - Culmea Mezovești - Vârful Țibra - Casa Țifrei - Valea Bistricioarei - Pârâul Cupelor - Uzina de apă 7 Izvoare - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita,True,725,
-664,726,2014-11-25,Borsec - Strada Carpați - Valea Nadășa - Vârful Arcoza - Pasul Creangă - Borsecul de Jos - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita,true,726,
+664,726,2014-11-25,Borsec - Strada Carpați - Valea Nadășa - Vârful Arcoza - Pasul Creangă - Borsecul de Jos - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita,True,726,
 665,727,2014-11-25,Borsec - Valea Vinului/ DN 15 - Vârful Bâtca - Valea Cupelor - Culmea Mezovești/Vârful Făget - Poiana Arcoza - Pasul Creangă - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita,False,727,
 666,728,2014-11-25,Borsec - Borsecul de Jos - Pasul Creangă - Vârful Sărmaș - Pasul Chiozrez - Valea Tinova - Valea Vinului - Borsecul de Jos - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita,True,728,
 667,729,2014-11-25,Primăria Borsec - Strada Cimiturului - Izvorul 10 - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita,True,729,
