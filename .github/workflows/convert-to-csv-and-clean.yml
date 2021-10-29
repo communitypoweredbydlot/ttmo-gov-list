@@ -22,7 +22,7 @@ jobs:
       - uses: actions/cache@v2
         with:
           path: ${{ env.pythonLocation }}
-          key: ${{ env.pythonLocation }}-${{ hashFiles('scripts/turism_gov_ro/convert_and_clean/requirements.txt') }}
+          key: ${{ env.pythonLocation }}-${{ hashFiles('scripts/turism_gov_ro/convert_and_clean/requirements.txt') }}-${{ hashFiles('scripts/generate_readme/requirements.txt') }}
 
       - name: Install the requirements
         run: pip install --upgrade --upgrade-strategy eager -r scripts/turism_gov_ro/convert_and_clean/requirements.txt
@@ -30,10 +30,16 @@ jobs:
       - name: Generate untouched CSV and cleanish CSV
         run: python scripts/turism_gov_ro/convert_and_clean/convert_to_csv_and_clean.py
 
+      - name: Install the requirements
+        run: pip install --upgrade --upgrade-strategy eager -r scripts/generate_readme/requirements.txt
+
+      - name: Generate README.md
+        run: python scripts/generate_readme/generate_readme.py
+
       - name: Commit the new dataset
         run: |
           git add .
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git diff-index --quiet HEAD || git commit -m 'Update the auto generated CSV files'
+          git diff-index --quiet HEAD || git commit -m 'Convert to XML to csv and generate cleanish dataset'
           git push
