@@ -1,6 +1,4 @@
 import click
-import click_logging
-import logging
 import pandas as pd
 import os
 import re
@@ -18,9 +16,6 @@ CLEANING_RULE = Enum('CLEANING_RULE', 'CONVERT_CHARS REMOVE_EXTRA_END_SPACES REM
 
 Cleaned = namedtuple('Cleaned', 'nr certificate_number registration_date name administrator location county')
 Errors = namedtuple('Errors', 'certificate_number column correction')
-
-logger = logging.getLogger(__name__)
-click_logging.basic_config(logger)
 
 
 def replace_through(text: str, lens: Callable[[str], str], pattern: str, new: str) -> str:
@@ -112,7 +107,7 @@ def correct_sticky_dashes(column_value: str) -> str:
 
 
 def clean_loose_dashes(column_value: str) -> str:
-    return column_value.replace(' - ', '-').replace(' -', '-').replace('- ', '-');
+    return column_value.replace(' - ', '-').replace(' -', '-').replace('- ', '-')
 
 
 def remove_multi_whitespaces(column_value: str) -> str:
@@ -192,7 +187,7 @@ def clean_column(cleaning_functions: Tuple[Callable[[str], str], Type[CLEANING_R
 
 
 def clean(source_df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
-    logger.info('Sanitizing the data.')
+    print('Sanitizing the data.')
 
     errors = []
     cleaned_rows = []
@@ -238,12 +233,11 @@ def clean(source_df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
                 required=True,
                 type=click.Path(exists=False, dir_okay=False, writable=True))
 @click.option('--sheet-name', '-s', default=0, type=int, help="The name of the sheet to convert.")
-@click_logging.simple_verbosity_option(logger)
 def convert_and_clean(xls_file, csv_file, sheet_name):
     """
     Convert the the xls to csv and write a clean-ish copy to the destination folder.
     """
-    logger.info('Loading the xls file.')
+    print('Loading the xls file.')
     source_df = pd.read_excel(xls_file, sheet_name=sheet_name, header=5,
                               parse_dates=[3], usecols=range(1, 8),
                               dtype={
@@ -258,10 +252,10 @@ def convert_and_clean(xls_file, csv_file, sheet_name):
                               ).dropna()
 
     source_csv_dest_path = f'{os.path.splitext(xls_file)[0]}.csv'
-    logger.info(f'Writing a CSV copy without modifications to {source_csv_dest_path}')
+    print(f'Writing a CSV copy without modifications to {source_csv_dest_path}')
     source_df.to_csv(source_csv_dest_path, index=False, date_format='%Y-%m-%d')
 
-    logger.info('Cleaning the source dataset.')
+    print('Cleaning the source dataset.')
     source_df.rename(columns={
         'Nr. crt.': 'nr',
         'Nr. Certificat': 'certificate_number',
@@ -275,11 +269,11 @@ def convert_and_clean(xls_file, csv_file, sheet_name):
     cleaned_df, errors_df = clean(source_df)
 
     errors_file_name = f'{os.path.splitext(csv_file)[0]}.error.csv'
-    logger.info(f'Writing the errors file to {errors_file_name}.')
+    print(f'Writing the errors file to {errors_file_name}.')
     os.makedirs(os.path.dirname(csv_file), exist_ok=True)
     errors_df.to_csv(errors_file_name, index=False)
 
-    logger.info(f'Writing the clean-ish csv file to {csv_file}')
+    print(f'Writing the clean-ish csv file to {csv_file}')
     cleaned_df.to_csv(csv_file, index=False, date_format='%Y-%m-%d')
 
 

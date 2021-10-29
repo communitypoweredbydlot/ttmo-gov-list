@@ -28,8 +28,7 @@ jobs:
       - name: Fetch the current dataset
         id: fetch-approved-routes-dataset
         run: |
-          chmod +x scripts/turism_gov_ro/fetch_and_update_routes_dataset.py
-          ./scripts/turism_gov_ro/fetch_and_update_routes_dataset.py
+          python scripts/turism_gov_ro/fetch_and_update_routes_dataset.py
           echo "##[set-output name=fetch_end_timestamp;]$(date)"
 
       - name: Commit the new dataset
