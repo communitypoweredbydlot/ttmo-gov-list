@@ -1,0 +1,59 @@
+# Project
+
+*       text   eol=lf
+
+# Language Diffs
+
+*.cs    diff=csharp
+*.css   diff=css
+*.cpp   diff=cpp
+*.go    diff=golang
+*.h     diff=cpp
+*.html  diff=html
+*.java  diff=java
+*.md    diff=markdown
+*.py    diff=python
+*.rs    diff=rust
+*.ruby  diff=ruby
+*.sh    diff=bash
+Gemfile diff=ruby
+
+# Documents
+
+*.doc   binary diff=exif
+*.docx  binary diff=docx
+*.dot   binary diff=exif
+*.dotx  binary diff=exif
+*.xls   binary diff=exif
+*.xlsx  binary diff=exif
+*.xlt   binary diff=exif
+*.xltm  binary diff=exif
+*.odb   binary diff=exif
+*.odf   binary diff=exif
+*.odg   binary diff=exif
+*.odi   binary diff=exif
+*.odp   binary diff=exif
+*.ods   binary diff=exif
+*.odt   binary diff=odt
+*.otc   binary diff=exif
+*.otg   binary diff=exif
+*.oti   binary diff=exif
+*.otp   binary diff=exif
+*.ots   binary diff=exif
+*.ott   binary diff=exif
+*.pdf   binary diff=exif
+*.ppt   binary diff=exif
+*.pptx  binary diff=exif
+*.ps    binary diff=exif
+
+# Images
+
+*.bmp   binary diff=exif
+*.gif   binary diff=exif
+*.jpeg  binary diff=exif
+*.jpg   binary diff=exif
+*.png   binary diff=exif
+*.psd   binary diff=exif
+*.svg   text
+*.tif   binary diff=exif
+*.tiff  binary diff=exif
