@@ -38,12 +38,3 @@ jobs:
           git config user.email github-actions@github.com
           git diff-index --quiet HEAD || git commit -m 'Update the RO approved routes original dataset'
           git push
-
-      - name: Fetch end timestamp badge
-        uses: RubbaBoy/BYOB@v1.2.1
-        with:
-          NAME: fetch_end_timestamp
-          LABEL: 'Last check at'
-          STATUS: ${{ steps.fetch-approved-routes-dataset.outputs.fetch_end_timestamp }}
-          COLOR: blue
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
