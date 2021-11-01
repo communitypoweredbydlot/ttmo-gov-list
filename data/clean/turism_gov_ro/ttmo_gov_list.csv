@@ -102,6 +102,7 @@ nr,certificate_number,registration_date,name,administrator,location,county
 101,101,2006-05-02,Predeal - Cabana Clăbucet Plecare,Consiliul Județean Brașov,Munții Piatra Mare,Brașov
 102,102,2006-05-02,Cabana Clăbucet Plecare - Cabana Susai,Consiliul Județean Brașov,Munții Piatra Mare,Brașov
 103,103,2006-05-02,Săcele (Turcheș) - Valea Gârcinului - Cabana Rențea,Consiliul Județean Brașov,Munții Piatra Mare,Brașov
+104,104,2006-05-02,Săcele (Gârcini) - Valea Gârcinului - Cabana Rențea,Consiliul Județean Brașov,Munții Piatra Mare,Brașov
 105,105,2006-05-02,Săcele (Gârcini) - Tâlfa - Cabana Rențea,Consiliul Județean Brașov,Munții Piatra Mare,Brașov
 106,106,2006-05-02,Camping Dârste - Cabana Bunloc - Valea Mușatului - Valea Gârcinului - Cabana Rențea,Consiliul Județean Brașov,Munții Piatra Mare,Brașov
 107,107,2006-05-02,Săcele (Baciu) - Cabana Bunloc - Peștera de Gheaţă - Cabana Piatra Mare,Consiliul Județean Brașov,Munții Piatra Mare,Brașov
@@ -399,7 +400,7 @@ nr,certificate_number,registration_date,name,administrator,location,county
 372,435,2009-06-01,Băile Olănești - Plaiul Piatra Tăiată - Șaua La Lac - Cabana Cheia,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
 373,436,2009-06-01,Băile Olănești - Cheile Olănești - Vârful Folea,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
 374,437,2009-06-01,Cabana Cheia - Vârful Netedu - Vârful Govora - Șaua Zmeuret,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
-375,438,2009-06-01,Cabana Cheia - Vârful Căprăreasa - Vârful Gera -,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
+375,438,2009-06-01,Cabana Cheia - Vârful Căprăreasa - Vârful Gera,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
 376,439,2009-06-01,Mănastirea Bistrița - Mănastirea Arnota - Vârful Netedu - Vârful Govora - Șaua Zmeuret,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
 377,440,2009-06-01,Stâna Roșiile - Lacul Verde - Muntele Slivei - Stâna Roșiile,Consiliul Județean Hunedoara,Munții Parâng,Hunedoara
 378,441,2009-06-01,Lacul Câlcescu - Piatra Tăiată - Vârful Mohorul - Cabana Rânca,Consiliul Județean Hunedoara,Munții Parâng,Hunedoara
@@ -579,7 +580,8 @@ nr,certificate_number,registration_date,name,administrator,location,county
 551,614,2011-11-28,Cabana Pietrele - Valea Galeș - Lacul Galeș - Șaua Vârful Mare - Vârful Mare,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
 552,615,2011-11-28,Cabana Pietrele - Valea Rea - Tăurile din Valea Rea - Șaua Pelegii,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
 553,616,2011-11-28,Cabana Pietrele - Valea Stânişoarei - Lacul Stânișoara - Șaua Retezatului - Vârful Retezat,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
-554,617,2011-11-28,Cabana Pietrele - Culmea Lolaia - Șaua Ciurila - Vârful Lolaia - Șaua Lolaia - Vârful Retezat - Poarta Bucurei - Tăul Porții - Lacul Bucura,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
+554,617,2011-11-28,Cabana Pietrele - Culmea Lolaia - Șaua Ciurila - Vârful Lolaia - Șaua Lolaia - Vârful Retezat - Șaua Retezatului - Poarta Bucurei - Tăul Porții - Lacul Bucura,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
+555,618,2011-11-28,Cabana Pietrele - Valea Stânișoarei - Șaua Ciurila - Pârtia Râușor - Baza Salvamont Râușor,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
 556,619,2011-11-28,Lacul Galeș - Șaua Zănoagele - Tăurile din Valea Rea - Șaua Pelegii,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
 557,620,2011-11-28,Valea Nucșoara - Cetatea Colț,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
 558,621,2011-11-28,Râu de Mori - Suseni - Valea Râușor - Baza Salvamont Râușor - Pârtia Râușor - Valea Valeresca - Șaua Muncelul - Culmea Prelucele - Retezat - Vârful Retezat,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
@@ -613,335 +615,354 @@ nr,certificate_number,registration_date,name,administrator,location,county
 586,649,2012-07-12,Pâraul Oii - Pâraul Bicăjel - Lacu Roșu,Consiliul Județean Harghita,Munții Hășmaș,Harghita
 587,650,2012-07-12,Pârâul Cupaș - Poiana Cupaș,Consiliul Județean Harghita,Munții Hășmaș,Harghita
 588,651,2012-07-12,Cabana Piatra Singuratică - Poiana Albă,Consiliul Județean Harghita,Munții Hășmaș,Harghita
+589,652,2012-07-12,Cabana Piatra Singuratică - Șaua Tarcăului,Consiliul Județean Harghita,Munții Hășmaș,Harghita
 590,653,2012-07-12,Bălan - Cabana Piatra Singuratică (Pârâul Kovacs),Consiliul Județean Harghita,Munții Hășmaș,Harghita
 591,654,2012-07-12,Bălan - Cabana Piatra Singuratică (Pârâul Szep),Consiliul Județean Harghita,Munții Hășmaș,Harghita
 592,655,2012-07-12,"Cabana Piatra Singuratică - Stânca ""La Panda"" - retur sau marcajul Bălan - Cabana",Consiliul Județean Harghita,Munții Hășmaș,Harghita
-593,656,2012-07-12,Balan (Fântâna lui Gal) - Șaua Tarcăului,Consiliul Județean Harghita,Munții Hășmaș,Harghita
-595,657,2012-07-12,Toplița - Vârful Rețițiș,Consiliul Județean Harghita,Munții Călimani,Harghita
-596,658,2012-07-12,Gălăuțaș - Vârful Bătrâna,Consiliul Județean Harghita,Munții Călimani,Harghita
-597,659,2012-07-12,Toplița - Vârful Bătrâna,Consiliul Județean Harghita,Munții Călimani,Harghita
-599,661,2012-10-03,Azuga (DN1) - Vârful Clăbucetul Taurului - Cabana Gârbova,Consiliul Județean Prahova,Munții Baiului,Prahova
-599,661,2012-10-03,Azuga (DN1) - Vârful Clăbucetul Taurului - Cabana Gârbova,Consiliul Județean Prahova,Munții Baiului,Brașov
-600,662,2012-10-03,Baza Pârtie Sorica - Captare de Apă - Cabana Gârbova,Consiliul Județean Prahova,Munții Baiului,Prahova
-600,662,2012-10-03,Baza Pârtie Sorica - Captare de Apă - Cabana Gârbova,Consiliul Județean Prahova,Munții Baiului,Brașov
-601,663,2012-10-03,Păstrăvărie - Vârful Clăbucetul Azugii - Cabana Susai,Consiliul Județean Prahova,Munții Baiului,Prahova
-601,663,2012-10-03,Păstrăvărie - Vârful Clăbucetul Azugii - Cabana Susai,Consiliul Județean Prahova,Munții Baiului,Brașov
-602,664,2012-10-03,Gara Azuga - Vârful Grecului - Cabana Diham,Consiliul Județean Prahova,Munții Bucegi,Prahova
-602,664,2012-10-03,Gara Azuga - Vârful Grecului - Cabana Diham,Consiliul Județean Prahova,Munții Bucegi,Brașov
-603,665,2012-10-03,Poiana Țapului - Valea Babei - Poiana Stanei,Consiliul Județean Prahova,Munții Bucegi,Prahova
-604,666,2012-10-03,Bușteni - Culmea Zamora - Culmea Orjogoaia - Plaiul Orjogoaia - Trăisteni,Consiliul Județean Prahova,Munții Baiului,Prahova
-605,667,2012-10-03,Drum de Vară - Colții lui Barbeș - Lacurile Vânturis - Valea Soarelui,Consiliul Județean Prahova,Munții Bucegi,Prahova
-606,668,2012-10-03,Șaua Vârful Cu Dor - Masa Ciobanului - Colții lui Barbes - Lacurile Vânturis,Consiliul Județean Prahova,Munții Bucegi,Prahova
-607,669,2012-10-03,Cota 2000 - Șaua Vârful Cu Dor,Consiliul Județean Prahova,Munții Bucegi,Prahova
-608,670,2012-10-03,Poiana Valea Stânei - Tabla Butii - Cimitirului Eroilor,Consiliul Județean Prahova,Munții Ciucaș,Prahova
-609,671,2013-06-27,Vaideeni - Valea Luncavățului - Podul Lui Pasăre - Lacul Balota - Stâna Balota - Vârful Căpățâna,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
-610,672,2013-06-27,Vaideeni - Plaiul Frăsinet - Vârful Ursulețu - Ursu Stâna - Vârful Ursu - Muntele Groapa Mălăii - La Ezer - Curmătura Popeștilor - Valea Repedea - Ciunget,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
-611,673,2013-06-27,Vaideeni - Valea Plaiului - Fântâna din Plai - Muntele Marginea - Coasta Lacurilor - Sub Vârful Nedeia - Șaua Gropița - Poiana Târnovu Mare - Ciunget,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
-612,674,2013-06-27,Izvorul Rece - Valea Recea - Luncile Frumoase - Stâna Zăvideanu - Pietrele Stroieștilor - Coasta Lacurilor - Curmătura Funicelu,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
-613,675,2013-06-27,Cerna - Valea Cernei - Sohodol - Pârâul Moliftului - Stâna Bucium - Vârful Beleoaia - Vârful Nedeia,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
-614,676,2013-06-27,Costești - Bistrița - Valea Bistriței - Vârful Cuca - Plaiul Zănoaga - Curmătura Rodeanu - Stâna Cocora - Plaiul Cocora - Malaia,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
-615,677,2013-06-27,Marița - Valea Mariței - Vârful Stânișoara - Stâna Zăvideanu - Muntele Zăvideanu,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
-616,678,2013-06-27,Lacul Balota - Tribunalul Haiducilor - Culmea Căpățâna - Pârâul Căpățânii - Lacul Balota,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
-617,679,2013-06-27,Lacul Balota - Izvoarele Luncavățului - Coasta Lacurilor - Vârful Nedeia,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
-618,680,2013-06-27,Vaideeni - Valea Seacă - Vârful Teiș - Vaideeni,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
-619,681,2013-06-27,Vaideeni - Brădățeaua Mică - Dealul Capela - Brădățeaua Mare - Vaideeni,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
-620,682,2013-06-27,Vârful Nedeia - Curmătura Funicel - Vârful Ursu - Curmătura Rodeanu - Vârful Zmeurăt -,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
-621,683,2013-08-06,Șaua Vârtop - Groapa Ruginoasa - Pietrele Negre,Consiliul Județean Bihor,Munții Bihor,Bihor
-621,683,2013-08-06,Șaua Vârtop - Groapa Ruginoasa - Pietrele Negre,Consiliul Județean Bihor,Munții Vlădeasa,Bihor
-622,684,2013-08-06,Pârtia Vârtop 1 - Pârtia Piatra Grăitoare - Magistrala 1 Banda Roșie,Consiliul Județean Bihor,Munții Bihor,Bihor
-622,684,2013-08-06,Pârtia Vârtop 1 - Pârtia Piatra Grăitoare - Magistrala 1 Banda Roșie,Consiliul Județean Bihor,Munții Vlădeasa,Bihor
-623,685,2013-08-06,Magistrala 1 Bandă Roșie - Belvedere Glăvoaia,Consiliul Județean Bihor,Munții Bihor,Bihor
-623,685,2013-08-06,Magistrala 1 Bandă Roșie - Belvedere Glăvoaia,Consiliul Județean Bihor,Munții Vlădeasa,Bihor
-624,686,2013-08-06,"Cabana Meziad - Motel ""Baraj Leșu""",Consiliul Județean Bihor,Munții Bihor,Bihor
-624,686,2013-08-06,"Cabana Meziad - Motel ""Baraj Leșu""",Consiliul Județean Bihor,Munții Vlădeasa,Bihor
-625,687,2013-08-06,Stâna de Vale - Moara Dracului,Consiliul Județean Bihor,Munții Bihor,Bihor
-625,687,2013-08-06,Stâna de Vale - Moara Dracului,Consiliul Județean Bihor,Munții Vlădeasa,Bihor
-626,688,2014-03-19,Circuitul Peștera din Mina Farcu,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
-627,689,2014-06-16,Complex Turistic Cheile Buții - Dâlma Mare - Vârful Pleșa - Vârful Piule - Șaua Scorota - Cabana Buta,Consiliul Județean Hunedoara,Munții Retezatul Mic,Hunedoara
-628,690,2014-06-16,Uricani - Dealul Șerpilor - Șaua Tulișa - Șaua Bilugu - Vârful Bilugu - Vârful Văcarea - Vârful Lazărul - Vârful Custura - Vârful Păpușa - Vârful Peleaga - Căldarea Berbecilor - Lacul Bucura,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
-629,691,2014-06-16,Campușel - Scocul Scorotei - Stâna Scorota - Buta Mica - Cabana Buta,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
-630,692,2014-06-16,Campușel - Pasul Jiu - Cerna (Tăul Rății) - Ciuceava Neagră - Valea Sturului - Cheile Cernișoarei - Izbucul Cernei,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
-631,693,2014-06-16,Gambrinus - Drăgoiu - Pasul Vulcan - Vârful Straja - Vârful Mutu - Vârful Muncel - Vârful Siglau - Mic - Vârful Siglăul Mare - Valea de Pești - Vârful Arcanu - Vârful Nedeița - Coada Oslei - Oslea - Câmpușel,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
-632,694,2014-06-16,Centrul Local de Informare Turistică Baru - Valea Bărișor - Refugiul Tulișa,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
-633,695,2014-06-16,Ohaba Ponor - Cheile Șura Mare - Peștera Ponorici - Peștera Cioclovina - Luncani - Boșorod,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
-634,696,2014-06-16,Baru - Valea Streiului - Vârful Lola - Vârful Bulzu - Vârful Porumbelul Mare,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
-635,697,2014-06-16,Costești - Valea Grădiștei - Dealul Grădiștei - Cetatea Sarmizegetusa Regia - Muncel - Vârful Godeanu,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
-636,698,2014-06-16,Costești - Cetatea Blidaru - Leurdana - Târsa - Poiana Omului - Vârful Rudii - Culmea Meleia - Vârful Tâmpu - Șaua Steaua Mare - Vârful Godeanu,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
-637,699,2014-06-16,Podul Gerosu - Dealul Muncelului - Cetatea Fețele Albe - Valea Albă,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
-638,700,2014-06-16,Grădiștea de Munte - Prihodiște - Poiana Omului - Cetatea Piatra Roșie - Valea Roșia - Cioclovina - Peștera Cioclovina,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
-639,701,2014-07-25,Culmea Bran - Culmea Măgurii - Fântâna lui Botorog,Administrația Parcului Național Piatra Craiului RA,Munții Piatra Craiului,Brașov
-640,702,2014-07-25,Tohănița - Șaua Măgura - Satul Măgura - Fântâna lui Botorog,Administrația Parcului Național Piatra Craiului RA,Munții Piatra Craiului,Brașov
-641,703,2014-07-25,Valea Curmăturii - Poiana Curmătura - Cabana Curmătura,Administrația Parcului Național Piatra Craiului RA,Munții Piatra Craiului,Brașov
-642,704,2014-07-25,Cabana Curmătura - Padinile Frumoase - Vârful Ascuțit,Administrația Parcului Național Piatra Craiului RA,Munții Piatra Craiului,Brașov
-643,705,2014-09-09,Stațiunea Durău - Poiana Viezuri - Cascada Duruitoarea,Consiliul Județean Neamț,Munții Ceahlău,Neamț
-644,706,2014-09-09,Stațiunea Durău - Piciorul lui Bucur - Cascada Duruitoarea,Consiliul Județean Neamț,Munții Ceahlău,Neamț
-645,707,2014-09-09,Stațiunea Durău - Cabana Fântânele - Vârful Toaca - Cabana Dochia,Consiliul Județean Neamț,Munții Ceahlău,Neamț
-646,708,2014-09-09,Stațiunea Durău - La Scaune - Pasul Blaj - Vârful Jidanului - Culmea Fighesului - Cheile CuPasului - Cheile Bicazului,Consiliul Județean Neamț,Munții Ceahlău,Neamț
-647,709,2014-09-09,Cabana Izvorul Muntelui - Curmătura Lutul Roșu - Detunatele - Cabana Dochia,Consiliul Județean Neamț,Munții Ceahlău,Neamț
-648,710,2014-09-09,Durău - Cabana Fântânele - Poiana Viezuri - Cascada Duruitoarea,Consiliul Județean Neamț,Munții Ceahlău,Neamț
-649,711,2014-09-09,Izvorul Muntelui - Curmătura Lutul Roșu - Stânca Dochiei - Jgeabul cu Hotar - Cabana Dochia,Consiliul Județean Neamț,Munții Ceahlău,Neamț
-650,712,2014-09-09,Bicazul Ardelean - Bistra Mare - La Scaune - Curmătura Stanilelor - Jgeabul lui Vodă - Cabana Dochia,Consiliul Județean Neamț,Munții Ceahlău,Neamț
-651,713,2014-11-19,Dealul Moiseiului - Mănăstirea Moisei - Izvorul Negru - Preluca sub Piatră,Consiliul Județean Maramureș,Munții Rodnei,Maramureș
-652,714,2014-11-19,Podul lui Călineț - Izvorul Căpitanului Orlovki - Refugiul Speranțelor - Vârful Ascuțit,Administrația Parcului Național Piatra Craiului RA,Munții Piatra Craiului,Brașov
-653,715,2014-11-25,Borsec - Izvorul Străvechi - Peștera de Gheață - Grota Urșilor - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-654,716,2014-11-25,Borsec - Izvorul Străvechi - Izvorul Pierre Curie - Cetatea Bufnițelor - Valea Vinului - Borsecul de Jos - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-655,717,2014-11-25,Borsec - Făgețelul - Groapa Rotundă - Șapte Izvoare - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-656,718,2014-11-25,Borsec - Făgetul Mare - Făgețelul - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-657,719,2014-11-25,Borsec - Bulevardul 7 Izvoare - Strada Stadionului - Cascada Șapte Izvoare - Valea Nadășa - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-658,720,2014-11-25,Borsec - Valea Vinului - Valea lui Filip Andrei - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-659,721,2014-11-25,Borsec - Strada Malnaș - Pârâul Malnaș - Valea Vinului - Strada Ditrăului - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-660,722,2014-11-25,Borsec - Strada Malnaș - Pârâul Malnaș - Valea Vinului - Strada Ditrăului - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-661,723,2014-11-25,Borsec - Valea Hanzkel - Vârful Arcoza - Pasul Creangă - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-662,724,2014-11-25,Borsec - Muntele Dosul Bâtcii - Capu Corbului - Pârâul Cupelor - Uzina de apă 7 Izvoare - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-663,725,2014-11-25,Borsec - Valea Nadășa - Făgetul Mare - Culmea Mezovești - Vârful Țibra - Casa Țifrei - Valea Bistricioarei - Pârâul Cupelor - Uzina de apă 7 Izvoare - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-664,726,2014-11-25,Borsec - Strada Carpați - Valea Nadășa - Vârful Arcoza - Pasul Creangă - Borsecul de Jos - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-665,727,2014-11-25,Borsec - Valea Vinului (DN 15) - Vârful Bâtca - Valea Cupelor - Culmea Mezovești - Vârful Făget - Poiana Arcoza - Pasul Creangă - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-666,728,2014-11-25,Borsec - Borsecul de Jos - Pasul Creangă - Vârful Sărmaș - Pasul Chiozrez - Valea Tinova - Valea Vinului - Borsecul de Jos - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-667,729,2014-11-25,Primăria Borsec - Strada Cimiturului - Izvorul 10 - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
-668,730,2014-12-04,Peștera cu Cristale din Mina Farcu - Stanu Cârnului - Cheile Lazuri - Peștera Roșie - Peștera cu Cristale din Mina Farcu,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
-669,731,2014-12-04,Peștera cu Cristale din Mina Farcu - Izbucul Roșiei,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
-670,732,2014-12-04,Borz - Sub Vârful Pacău - Borz,Consiliul Județean Bihor,Munții Codru-Moma,Bihor
-671,733,2014-12-04,Valea Iadului - Valea de Runc - Cascada Runcului - Vârful Muncelașu - Cascada Laia - DJ 108J - Cantonul Murgașu - Cascada Vălu Miresii - Săritoarea Ieduțului - Cascada Iadolina - Valea Iadului,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
-671,733,2014-12-04,Valea Iadului - Valea de Runc - Cascada Runcului - Vârful Muncelașu - Cascada Laia - DJ 108J - Cantonul Murgașu - Cascada Vălu Miresii - Săritoarea Ieduțului - Cascada Iadolina - Valea Iadului,Consiliul Județean Bihor,Munții Vlădeasa,Bihor
-672,734,2015-03-01,DN 7C (Vama Cucului) - Muchia Laita - Vârful Mierea - Valea Doamnei,Consiliul Județean Sibiu,Munții Făgăraș,Sibiu
-673,735,2015-03-01,Complex Turistic Albota - Valea Arpășelului - Muchia Netedu - Bifurcația de sub Vârful Buteanu,Consiliul Județean Sibiu,Munții Făgăraș,Sibiu
-674,736,2015-03-01,Cabana Bărcaciu - Căldarea Văii Mari a Avrigului - Lacul Avrig,Consiliul Județean Sibiu,Munții Făgăraș,Sibiu
-675,737,2015-08-18,DN 1 KM 135 - Culmea Sorica - Stație superioară Telegondolă,Consiliul Județean Prahova,Munții Baiului,Prahova
-676,738,2015-08-18,Circuitul Cheile Cuților (Ponița - Valea Cuților - Ponița),Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
-677,739,2015-08-18,Vadu Crișului - Defileul Crișului Repede,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
-678,740,2015-08-18,Boga - Piatra Ciungilor - Cascada Bulbuci,Consiliul Județean Bihor,Munții Bihor,Bihor
-679,741,2015-09-16,Vârful Pârcălabu - Vârful Stânișoara - Coasta Câinenilor - Vârful Capu Muntelui - Șaua Duca - Vârful Lui Vlad - Dealul lui Vlad - Râu Vadului - Câinenii Mici,Consiliul Județean Vâlcea,Munții Lotrului,Vâlcea
-680,742,2015-10-14,Spitalul de Recuperare Borșa - Releu - Custuri - Bobeica - Lacul Măgura - Mănastirea Vinișoru - Gura Vinișorului,Consiliul Local al Orașului Borșa,Munții Maramureșului,Maramureș
-681,743,2016-03-11,Șopotu Nou - Cheile Nerei - Podul Bei - Sasca Română,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
-682,744,2016-03-11,Sasca Română - Sasca Montană - Cascada Șușara - Cărbunari,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
-683,745,2016-03-11,Sasca Română - Sasca Montană - Cascada Șușara - Cărbunari,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
-684,746,2016-03-11,Sat Socolari - Custura Cetății - Valea Beiului - Lacul Ochiul Beiului - Cascadele Beușniței,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
-685,747,2016-03-11,Sasca Română - Dealul Caraula - Podul Bei,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
-686,748,2016-03-11,Potoc - Chichiregul Mare - Valea Beușnița - Cascada Văioagă,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
-687,749,2016-03-11,Dealul Caraula - Dealul Chichireg - Custura Cetății - Cetatea Socolari,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
-688,750,2016-03-11,Sasca Română - Valea Camenița - Livezile Cărbunarilor - Poiana lui Vogiun - Cheile Nerei,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
-689,751,2016-03-11,Cărbunari - Lacul Dracului,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
-690,752,2016-05-04,Ghioroc - Valea Cladovei,Consiliul Județean Arad,Munții Zărand,Arad
-691,753,2016-05-04,Covăsânț - Creasta Principală a Munților Zărand,Consiliul Județean Arad,Munții Zărand,Arad
-692,754,2016-05-04,Monumentul Turiștilor - Feredeu - Creasta Principală a Munților Zărand - Căsoaia,Consiliul Județean Arad,Munții Zărand,Arad
-693,755,2016-05-04,Șaua Cazan - Schitul Feredeu - Creasta Principală a Munților Zărand,Consiliul Județean Arad,Munții Zărand,Arad
-694,756,2016-05-04,Șiria - Cetatea Șiria - Șaua Cazan,Consiliul Județean Arad,Munții Zărand,Arad
-695,757,2016-05-04,Șiria - Valea Almașului - Creasta Principală a Munților Zărand - Căsoaia,Consiliul Județean Arad,Munții Zărand,Arad
-696,758,2016-05-04,DN 7/E68 - Cladova - Valea Cladovei - Creasta Principală a Munților Zărand,Consiliul Județean Arad,Munții Zărand,Arad
-697,759,2016-05-04,Valea Cladovei - Valea Cersca - Creasta Principală a Munților Zărand,Consiliul Județean Arad,Munții Zărand,Arad
-698,760,2016-05-04,DN 7/E68 - Cladova - Creasta Cladovei - Creasta Principală a Munților Zărand,Consiliul Județean Arad,Munții Zărand,Arad
-699,761,2016-05-04,DN 7/E68 - Cladova - Valea Cladoviței - Creasta Principală a Munților Zărand - Căsoaia,Consiliul Județean Arad,Munții Zărand,Arad
-700,762,2016-05-04,Șoimoș - Valea Șoimoșului -  Creasta Principală a Munților Zărand - Căsoaia,Consiliul Județean Arad,Munții Zărand,Arad
-701,763,2016-05-04,Șoimoș - Cetatea Șoimoș - Creasta Șoimoșului - Creasta Principală a Munților Zărand- Căsoaia,Consiliul Județean Arad,Munții Zărand,Arad
-702,764,2016-05-04,Căsoaia - Dealul Dubilor - Vârful Highiș - Creasta Principală a Munților Zărand,Consiliul Județean Arad,Munții Zărand,Arad
-703,765,2016-05-04,Căsoaia - Valea Highișului - Vârful Highiș,Consiliul Județean Arad,Munții Zărand,Arad
-704,766,2016-05-04,Vârful Capra - Creasta Principală a Munților Zărand - Vârful Highiș,Consiliul Județean Arad,Munții Zărand,Arad
-705,767,2016-05-04,Cantonul Negrea (DN) - Peștera Porțile Bihorului,Consiliul Județean Bihor,Munții Bihor,Bihor
-706,768,2016-05-04,Circuitul Cascada Boiului,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
-707,769,2016-10-31,"Drumul Județean 131 - Peștera ""Bârlogul Hoților""",Consiliul Local al Comunei Apața,Munții Perșani,Brașov
-708,770,2017-04-01,Centrul De Informare Turistică Albac - Fața Albacului - Refugiul Turistic Sohodol - Roșești - Valea Starpa - Cheile Albacului - Deve - Centrul De Informare Turistică Albac,Consiliul Județean Alba,Munții Bihor,Alba
-709,771,2017-12-08,Cascada Vălul Miresei - Peștera Șușman - Cascada Vălul Miresei,Consiliul Județean Alba,Munții Bihor,Alba
-710,772,2017-12-08,Peștera Alunului - Valea Alunul Mic - Poiana Onceasa,Consiliul Județean Alba,Munții Bihor,Alba
-711,773,2017-12-08,Poiana Lespezi - Vîrful Lespezi - Peștera Mică a Lespezilor - Valea Stanciului,Consiliul Județean Alba,Munții Bihor,Alba
-712,774,2017-12-08,Baza Salvamont Doda Pilii - Molhașuri - Valea Someșului Cald - Baza Salvamont Doda Pilii,Consiliul Județean Alba,Munții Bihor,Alba
-713,775,2017-12-08,Valea Seacă - Creasta Pietrele Albe - Poiana Stânișoara - Valea Seacă,Consiliul Județean Alba,Munții Bihor,Alba
-714,776,2017-12-08,Peștera cu apă de pe Valea Firii - Peștera Humpleu - Peștera Șura Mare - Poiana Mărului - Poiana Vârtop - Ghețarul de la Vârtop - Cotul Firii,Consiliul Județean Alba,Munții Bihor,Alba
-715,777,2017-12-08,Păuliș - Vârful Capra,Consiliul Județean Arad,Munții Zărand,Arad
-716,778,2017-12-08,Radna - Creasta Radnei - Vârful Crucea Țiganului,Consiliul Județean Arad,Munții Zărand,Arad
-717,779,2017-12-08,DN7/E68 - Petrș - Corbești - Roșia Nouă - Obârșia,Consiliul Județean Arad,Munții Zărand,Arad
-718,780,2017-12-08,Roșia Nouă - Vârful Tufari,Consiliul Județean Arad,Munții Zărand,Arad
-719,781,2017-12-08,Brazii - Vârful Pleșu,Consiliul Județean Arad,Munții Zărand,Arad
-720,782,2017-12-08,Gara Hălmagiu - Hălmăgel - Culmea Găinii - Muntele Găina,Consiliul Județean Arad,Munții Zărand,Arad
-721,783,2017-12-08,Hășmaș - Valea Hășmaș - Vârful Pleșu,Consiliul Județean Arad,Munții Zărand,Arad
-722,784,2017-12-08,Dezna - Ruinele Cetății Dezna,Consiliul Județean Arad,Munții Zărand,Arad
-723,785,2017-12-08,Moneasa - Valea Megheș - Platoul Tinoasa - Cabana Gaudeamus - Moneasa,Consiliul Județean Arad,Munții Zărand,Arad
-724,786,2017-12-08,Moneasa - Culmea Feredeu - Cabana Gaudeamus - Vârful Izoiu,Consiliul Județean Arad,Munții Zărand,Arad
-725,789,2017-12-08,Moneasa - Valea Lungă - Creasta Principală,Consiliul Județean Arad,Munții Zărand,Arad
-726,792,2017-12-08,Moneasa - Peștera Liliecilor,Consiliul Județean Arad,Munții Zărand,Arad
-727,793,2017-12-08,Valea Megheș - Peșterile Viezuroiu,Consiliul Județean Arad,Munții Zărand,Arad
-728,794,2018-06-12,Refugiul Montan Șuligu - Borcutul Șuligu,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
-729,795,2018-06-12,Complex Făina - Borcutul Mihoaia,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
-730,796,2018-06-12,Stația CFF Bardău - Pietrosu Bardăului - Cabana Coșnea,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
-731,797,2018-06-12,Cabana Coșnea - Valea Paulic - Stânișoara - Vârful Mihăilecu - Lacul Vinderel,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
-732,798,2018-06-12,Localitatea Valea Vișeului - Canton Silvic Repedea,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
-733,799,2018-06-12,Repedea - Pietriceaua - Lacul Vinderel,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
-734,800,2018-06-12,Repedea - Chicera - Lacul Vinderel,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
-735,801,2018-06-12,Repedea - Poiana cu narcise Tomnatec-Sehlean - Paltinu,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
-736,802,2018-06-12,Bistra - Vârful Tocarnea,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
-737,803,2018-06-12,Paltinu - Plai - Poiana cu narcise Tomnatec-Sehlean - Valea Tomnatec - Paltinu,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
-738,804,2018-06-12,Pasul Prislop - Vârful Cearcănu - Borșa,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
-739,805,2018-06-12,Valea Vaserului - Stația Paltin - Punct Belvedere Valea Vaserului,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
-740,806,2018-06-15,Poiana Ciunta - Circuitul Versantului Stâng,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
-741,807,2018-06-15,"Sat de Vacanță Coada Lacului - Valea Iadului - Pod - Traseul ""Stâna de Vale - Cabana Meziad""",Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
-742,808,2018-06-15,Circuitul Săritorii Ieduțului,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
-743,809,2018-06-15,Valea Leuca - Cascada Dibarț - Cimitirul de Vagonete,Consiliul Județean Bihor,Munții Bihor,Bihor
-744,810,2018-06-15,Cabana Silvică Valea Lungă - Lacul Tăul Mare,Consiliul Județean Bihor,Munții Bihor,Bihor
-745,811,2018-06-15,Vârtop - Vârful Tătăroaia - Chișcău,Consiliul Județean Bihor,Munții Bihor,Bihor
-746,812,2018-06-15,Pădurea Neagră - Castelul Zichy din Poiana Florilor - Cetatea Piatra Șoimului,Consiliul Județean Bihor,Muntele Șes,Bihor
-747,813,2018-06-15,Circuitul Cetății Piatra Șoimului,Consiliul Județean Bihor,Muntele Șes,Bihor
-748,814,2017-12-12,Negreni - Vârful Păltiniș - Bucea - Negreni,Consiliul Local al Comunei Negreni,Munții Vlădeasa,Cluj
-749,815,2017-12-12,Negreni - Vârful Păltiniș,Consiliul Local al Comunei Negreni,Munții Vlădeasa,Cluj
-750,816,2017-12-12,Negreni - Vârful Merișorului - Vârful Măgura Mare - Bucea - Negreni,Consiliul Local al Comunei Negreni,Munții Vlădeasa,Cluj
-751,817,2017-12-12,Negreni - Vârful Comului,Consiliul Local al Comunei Negreni,Munții Vlădeasa,Cluj
-752,818,2018-04-12,Cheile Cibului - Cheile Glodului - Izvorul Tămăduirii - Ardeu,Consiliul Județean Alba,Munții Metaliferi,Alba
-753,819,2018-04-12,Stațiunea Muntele Băișorii - Crucea Clencii - Știolne - Rezervația Scărița Belioara - Cheile Runcului - Runc,Consiliul Județean Alba,Munții Gilăului,Alba
-753,819,2018-04-12,Stațiunea Muntele Băișorii - Crucea Clencii - Știolne - Rezervația Scărița Belioara - Cheile Runcului - Runc,Consiliul Județean Alba,Muntele Mare,Alba
-754,820,2018-04-12,Circuitul Rezervației Scărița Belioara,Consiliul Județean Alba,Munții Gilăului,Alba
-754,820,2018-04-12,Circuitul Rezervației Scărița Belioara,Consiliul Județean Alba,Muntele Mare,Alba
-755,821,2018-04-12,Schitul Poșaga - Belioara - La Măteoaie - Șaua La Răscruce,Consiliul Județean Alba,Munții Gilăului,Alba
-755,821,2018-04-12,Schitul Poșaga - Belioara - La Măteoaie - Șaua La Răscruce,Consiliul Județean Alba,Muntele Mare,Alba
-756,822,2018-04-12,Runc - Cheile Pociovaliștei - Poiana Cornu Pietrei - Vârful Scărița - Rezervația Scărița Belioara,Consiliul Județean Alba,Munții Gilăului,Alba
-756,822,2018-04-12,Runc - Cheile Pociovaliștei - Poiana Cornu Pietrei - Vârful Scărița - Rezervația Scărița Belioara,Consiliul Județean Alba,Muntele Mare,Alba
-757,823,2018-04-12,Sălciua de Jos - Poiana Șipote - Peștera Poarta Zmeilor - Platoul Bedeleu - Cheile Plaiului - Izvoarele,Consiliul Județean Alba,Munții Trascău,Alba
-758,824,2018-04-12,Rimetea - Vârful Ugerului - Lunca Arieșului,Consiliul Județean Alba,Munții Trascău,Alba
-759,825,2018-04-12,Rimetea - Vârful Piatra Secuiului - Colțești - Pârâul Muntelui - Vidolm,Consiliul Județean Alba,Munții Trascău,Alba
-760,826,2018-04-12,Cabana Rîmeț - Cheile Rîmețului (prin apă) - Cheia - Brădești - Valea poienii - Sub Piatră - Sălciua de Jos,Consiliul Județean Alba,Munții Trascău,Alba
-761,827,2018-04-12,Bucerdea Vinoasă - Lângă Piatra Craivii - Sub Vârful Sfredelașu - Pârâul Turcului - Întregalde - Modolești - Poiana cu Narcise de la Tecșești - Piatra Cetii - Băile Romane - Cetea,Consiliul Județean Alba,Munții Trascău,Alba
-762,828,2018-04-12,Zlatna - Lângă Vârful Dâmbău - Lângă Vârful Părăginoasa - Feneșasa - Poiana Măgurii - Valea Muntelui - Platoul Ciumerna - Iezerul Ighiel - Ighiel,Consiliul Județean Alba,Munții Trascău,Alba
-763,829,2018-04-12,Lângă Vârful Dâmbău - Vârful Părăginoasa - Pădurea Runcului - La Dârdinaș,Consiliul Județean Alba,Munții Trascău,Alba
-764,830,2018-04-12,Zlatna - Măgura Dudașului - Cheile Caprei,Consiliul Județean Alba,Munții Trascău,Alba
-765,831,2018-04-12,Feneșasa - Lângă Vârful Dâmbău,Consiliul Județean Alba,Munții Trascău,Alba
-766,832,2018-04-12,Belvedere Cheile Caprei,Consiliul Județean Alba,Munții Trascău,Alba
-767,833,2018-04-12,Deviație Colțu' lui Blaj,Consiliul Județean Alba,Munții Trascău,Alba
-768,834,2018-04-12,Deviație Refugiul Săruni,Consiliul Județean Alba,Munții Trascău,Alba
-769,835,2018-04-12,Conop - Valea Conopului - Creasta Principală a Munților Zărand - Sălașele Nadășului,Consiliul Județean Arad,Munții Zărand,Arad
-770,836,2018-04-12,Conop - Creasta Conopului - Creasta Principală a Munților Zărand - Debela Gora,Consiliul Județean Arad,Munții Zărand,Arad
-771,837,2018-04-12,Baraj Tauț - Văsoaia,Consiliul Județean Arad,Munții Zărand,Arad
-772,838,2018-04-12,Baraj Tauț - Minișel - Văsoaia,Consiliul Județean Arad,Munții Zărand,Arad
-773,839,2018-04-12,Baraj Tauț - Nadăș - Sălașele Nadășului - Debela Gora,Consiliul Județean Arad,Munții Zărand,Arad
-774,840,2018-04-12,Halta Nadăș - Valea Nadășului - Debela Gora,Consiliul Județean Arad,Munții Zărand,Arad
-775,841,2018-04-12,Bârzava - Creasta Principală a Munților Zărand - Sub Vârful Cioaca Popii,Consiliul Județean Arad,Munții Zărand,Arad
-776,842,2018-04-12,Bârzava - Creasta Principală a Munților Zărand - Sub Vârful Concești,Consiliul Județean Arad,Munții Zărand,Arad
-777,843,2018-04-12,Bârzava - Creasta Principală a Munților Zărand - Văsoaia,Consiliul Județean Arad,Munții Zărand,Arad
-778,844,2018-04-12,Circuitul Sălașelor Țărănești,Consiliul Județean Arad,Munții Zărand,Arad
-779,845,2018-04-12,Km 0 Creasta Principală a Munților Zărand - Vârful Ianăș - Vârful Cucuietu - Vârful Omeag - Vârful Tufari,Consiliul Județean Arad,Munții Zărand,Arad
-780,846,2018-04-12,Moneasa - Ruinele Cuptorului de Topit Fier - Cariera de Marmură,Consiliul Județean Arad,Munții Codru-Moma,Arad
-781,847,2018-05-14,Bulz - Munteni - Remeți - Dealul Caprei - Floroiu - Vârful Pin - Vârful Scoroșet - Dealul Mare - Cătunul Fănești - Valea Sărăcel - Bulz,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
-782,848,2018-12-05,Lacul Gura Apei - Culmea Zlata - Vârful Zlata - Platoul Rades - Zlata - Lacul Zănoaga - Tău Răsucit - Culmea Slăveiu - Lacul Bucura,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
-783,849,2018-12-05,Lacul Gura Apei - Culmea Branu - Refugiul Branu - Vârful Gugu - Vârful Moraru - Șaua Mâțului - Plaiul Bulgului - Pârâul Iovanu - Lacul lui Iovan,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
-783,849,2018-12-05,Lacul Gura Apei - Culmea Branu - Refugiul Branu - Vârful Gugu - Vârful Moraru - Șaua Mâțului - Plaiul Bulgului - Pârâul Iovanu - Lacul lui Iovan,Consiliul Județean Hunedoara,Munții Godeanu,Hunedoara
-784,850,2018-12-05,Centrul de informare turistică Hunedoara - Castelul Corvinilor - Tăul Teliucului - Lacul Cinciș - Toplița - Hașdău - Bolta Apei - Cheile Cernei - Lunca Cernii - Gura Bordului - Rusca Montană - Voislova - Oțelu Roșu,Consiliul Județean Hunedoara,Munții Poiana Ruscă,Hunedoara
-785,851,2018-12-05,Centrul de informare turistică Hunedoara - Castelul Corvinilor - Tăul Teliucului - Barajul Cinciș - Pensiunea Panorama Ghelari - Casa Muzeu Drăgan Muntean - Poienița Voinii - Bunila - Vadu Dobrii - Poiana Crivina - Vârful Rusca,Consiliul Județean Hunedoara,Munții Poiana Ruscă,Hunedoara
-786,852,2018-12-05,Centrul de informare turistică Hunedoara - Castelul Corvinilor - Tăul Teliucului - Barajul Cinciș - Centrala Hidroelectrică Cătănaș - Furnalul Govăjdia - Crăciuneasa - Cerișor - Lelese - Runcu Mare - Vadu Dobrii - Roscani - Dobra,Consiliul Județean Hunedoara,Munții Poiana Ruscă,Hunedoara
-787,853,2018-12-05,Situl la Scoabă - Dealul Gomodiu - Dealul Ciurila - Dealul Săreanu - Valea Sibișelului - Gaterul de apă - Casa Pietrelor - Ohaba - Sibișel - Vâltoare - Moară de apă - Muzeul Sătesc Ohaba - Sibișel - Sibișel - Situl la Scoabă - Sânpetru,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
-788,854,2018-12-05,Hațeg - Dealul Hațegului - Padurea Hațegului - Cetatea Regală a Hațegului - Pădurea Hațegului - Hațeg,Consiliul Județean Hunedoara,Dealul Hațegului,Hunedoara
-789,855,2018-12-05,Sălașu de Sus - Bărăștii Hațegului - Săcel - Sânpetru - Sibișel - Ohaba Sibișel - Nucșoara - Mălăiești - Sălașu de Sus,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
-790,856,2018-12-05,Sarmizegetusa - Breazova - Peșteaua - Densuș - Hățăgel - Totești - Păclișa - Sânpetru - Unciuc - Cârnești - Ostrov - Ostrovu Mic - Clopotiva - Sarmizegetusa,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
-791,857,2018-12-05,Sarmizegetusa - Pe lângă satul Păucinești - Cepașului - Valea Hobiței - Hobița - Grădiște - Sarmizegetusa,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
-792,858,2018-12-05,Hațeg - General Berthelot (Unirea) Fărcădiu - Tuștea - Densuș - Hățăgel - Totești - Păclișa - Reea - Nălaț Vad - Hațeg,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
-793,859,2018-12-05,Sălașu de Sus - Mălăiești - Cetatea Mălăiești - Piatra Mâței - Coroiești - Paroș - Zăvoi - Sălașu de Sus,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
-794,860,2018-12-05,Sarmizegetusa - Poieni - Valea Criva - Densuș - Peșteaua - Breazova - Sarmizegetusa,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
-795,861,2018-12-05,Râușor - Suseni - Râu de Mori - Brazi - Clopotiva - Sarmizegetusa,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
-796,862,2018-12-05,Sălașu de Sus - Paroș - Coroiești - Râu Alb - Zăvoi - Sălașu de Jos - Sălașu de Sus,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
-797,863,2018-12-05,Centrul de vizitare al Parcului Național Retezat - Nucșoara - Viaduct Nucșoara - Ohaba Sibișel - Sibișel - Valea Dâljii lângă barajul Ostrov - Unciuc - Sânpetru - Sibișel - Ohaba - Sibișel - Nucșoara - Centrul de vizitare al Parcului Național Retezat,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
-798,864,2018-12-05,Densuș - Răchitova - Valea Ștei - Vârful Văratecu - Mesteacăn - Vălioara - Ciula Mare - Densuș,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
-799,865,2018-10-16,Rodna - Vârful Fântânele - Vârful Căpățânii - Vârful Păltiniș - Vârful Saca - Poarta Beneș - Vârful Corundiș - Vârful Omului,Consiliul Local al Comunei Rodna,Munții Rodnei,Bistrița-Năsăud
-800,866,2018-10-31,"Circuit ""300 de Scări""",Consiliul Județean Bacău,Munții Nemira,Bacău
-801,867,2018-10-31,Slănic Moldova - Vârful Nemira Mare - Poiana Uzului,Consiliul Județean Bacău,Munții Nemira,Bacău
-802,868,2018-10-31,Slănic Moldova - La Salarie - Plaiul Ciungetului - Salatruc,Consiliul Județean Bacău,Munții Nemira,Bacău
-803,869,2018-10-31,Slănic Moldova - Valea Pufu - Vârful La Cireș - Șaua Nemirei,Consiliul Județean Bacău,Munții Nemira,Bacău
-804,870,2018-10-31,Pârtia de schi Nemira - Valea Dobru - Parc Slănic Moldova,Consiliul Județean Bacău,Munții Nemira,Bacău
-805,871,2018-10-31,Plaiul Ciungetului - Vârful Nemira Mare,Consiliul Județean Bacău,Munții Nemira,Bacău
-806,872,2018-10-31,Slănic Moldova - Vârful Pipas,Consiliul Județean Bacău,Munții Nemira,Bacău
-807,873,2018-10-31,Slănic Moldova - Platoul de sub Vârful Cerbului,Consiliul Județean Bacău,Munții Nemira,Bacău
-808,874,2018-10-31,Slănic Moldova - Hârja,Consiliul Județean Bacău,Munții Nemira,Bacău
-809,876,2018-10-16,Borcut Luna Șes - Poiana Boroș,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
-810,877,2018-10-16,Cabana Boda Oșanului - Poiana Boroș,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
-811,878,2018-11-19,Intersecția spre Valea Conopului - Debela Gora - Intersecția spre Vârful Piatra Păcurar,Consiliul Județean Arad,Munții Zărand,Arad
-812,879,2018-11-19,Muntele Găina Cruce - Creasta Principală a Munților Bihor - Vârful Bihor,Consiliul Județean Arad,Munții Bihor,Arad
-813,880,2018-11-19,Dezna - Ruinele Cetății Dezna,Consiliul Județean Arad,Munții Codru-Moma,Arad
-814,787,2018-11-19,Culmea Feredeu - Platoul Tinoasa - Creasta Principală - Platoul Brătcoaia,Consiliul Județean Arad,Munții Codru-Moma,Arad
-815,881,2018-12-14,Julița (DJ 708) - Gurahonț - Vârful Drocea,Consiliul Județean Arad,Munții Zărand,Arad
-816,882,2018-12-14,"Via Transilvanica - Tronsonul VT BN 1 Pasul Grădinița - Sat Lunca Ilvei - Poiana Gălan - Traseu ""Drumul Romanilor"" - Baza Tășuleasa",Consiliul Județean Bistrița-Năsăud,Munții Bârgăului,Bistrița-Năsăud
-817,883,2018-12-14,"Via Transilvanica - Tronsonul VT BN 2 Baza Tășuleasa - Traseu turistic ""Drumul Romanilor"" - Valea Lăzăroaia - Valea Străjii - Mureșenii Bârgăului - Poiana ""Brazii Buni"" - Bistrița Bârgăului",Consiliul Județean Bistrița-Năsăud,Munții Bârgăului,Bistrița-Năsăud
-818,884,2018-12-14,Via Transilvanica - Tronsonul VT BN 3 Comuna Bistrița Bârgăului - Drum forestier Blidireasa - Drum forestier Dealu Negru - Nou - Petriș - Orheiul Bistriței,Consiliul Județean Bistrița-Năsăud,Munții Călimani,Bistrița-Năsăud
-818,884,2018-12-14,Via Transilvanica - Tronsonul VT BN 3 Comuna Bistrița Bârgăului - Drum forestier Blidireasa - Drum forestier Dealu Negru - Nou - Petriș - Orheiul Bistriței,Consiliul Județean Bistrița-Năsăud,Piemontul Munților Căliman,Bistrița-Năsăud
-819,885,2018-12-14,Via Transilvanica - Tronsonul VT BN 4 Sat Orheiul Bistriței - Șesul Orheiului - Padurea Măgurele - Măgurele - Mărișelu - Jeica,Consiliul Județean Bistrița-Năsăud,Piemontul Munților Căliman,Bistrița-Năsăud
-820,886,2018-12-14,Via Transilvanica - Tronsonul VT BN 5 Sat Jeica - Monor,Consiliul Județean Bistrița-Năsăud,Piemontul Munților Căliman,Bistrița-Năsăud
-821,887,2020-09-08,Gol Alpin Pietroasa - Vârful Pietroasa,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
-822,888,2020-09-08,Vârful Pietroasa - Poiana Soci,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
-823,889,2020-09-08,Plecare Telescaun Luna Șes - Vârful Pietroasa,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
-824,891,2020-09-14,Gura Humorului - Vârful Toaca - Vârful Tocila - Vârful Bobeica - Vârful Scorușeț - Poiana Prislopului,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-825,892,2020-09-14,Poiana Prislopului - Pasul Ciumărna - Putna,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-826,893,2020-09-14,Gura Humorului - Vârful Piciorul Înalt - Obcina Cacica - Vârful Călugărița - Pasul Pleșa,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-827,894,2020-09-14,Pleșa - Dealul Pleșa - Poiana Fagului - Poiana Târșiciorului - Poiana Ciungi - Sucevița,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-828,895,2020-09-14,Sucevița - Valea Bercheza - Putna,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-829,896,2020-09-14,Poiana Micului - Poiana Tărșiciori,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-830,897,2020-09-14,Pasul Mestecăniș - Vârful Mestecăniș - Vârful Oiței - Dealul Obcina - Poiana Mănăilei - Schit Botoș,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-831,898,2020-09-14,Poiana Mănăilei - Schit Botoș - Vârful Obcioara - Vârful Lucina - Pasul Cărlibaba - Sat Bobeica - Sat Izvoarele Sucevei,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-832,899,2020-09-14,Pasul Boului - Vârful Obcina Feredeului - Vârful Pietriș - Intersecție drum forestier Breaza/Dămăncușa,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-833,900,2020-09-14,Dragoșa - Poiana Mărului - Vârful Târșicior - Pârâul Șoarecu,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-834,901,2020-09-14,Gura Humorului - Obcina Voronețului (Circuit 1),Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-835,902,2020-09-14,Gura Humorului - Obcina Voronețului (Circuit 2),Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-836,903,2020-09-14,Gura Humorului - Vârful Piciorul Înalt - Gura Humorului (Circuit 3),Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-837,904,2020-09-14,Mănăstirea Humorului - Cacica,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-838,905,2020-09-14,Pârtia Rarău - Hotel Alpin Rarău - Vârful Rarău,Consiliul Județean Suceava,Munții Rarău,Suceava
-839,906,2020-09-14,Pojorâta - Obcina Floceasca - Vârful Prașca,Consiliul Județean Suceava,Munții Rarău,Suceava
-840,907,2020-09-14,Sat Valea Putnei - Poiana Scăldători - Poiana Ciungi - Cabana Giumalău,Consiliul Județean Suceava,Munții Giumalău,Suceava
-841,908,2020-09-14,Păltiniș - Vârful Călimanul Cerbului - Vârful Călimani Izvor - Stația Meteo Rătițiș,Consiliul Județean Suceava,Munții Călimani,Suceava
-842,909,2020-09-14,Stația Meteo Rășitiș - Vârful Pietrosu - Șaua Tihului - Piciorul Bistriciorului - Vârful Strănior,Consiliul Județean Suceava,Munții Călimani,Suceava
-843,910,2020-09-14,Sărișor - Schit Apa Rece,Consiliul Județean Suceava,Munții Călimani,Suceava
-844,911,2020-09-14,Exploatarea Călimani - Șaua Nicovala,Consiliul Județean Suceava,Munții Călimani,Suceava
-845,912,2020-09-14,Monumentul de la Gruiu - Poiana Izvoarele,Consiliul Județean Suceava,Munții Călimani,Suceava
-846,913,2020-09-14,Cozănești - Pârâul Bărnărel - Crucea,Consiliul Județean Suceava,Munții Bistriței,Suceava
-847,914,2020-09-14,Via Transilvanica - Sucevița - Vatra Moldoviței,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-848,915,2020-09-14,Via Transilvanica - Vatra Moldoviței - Fundu Moldovei,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-849,916,2020-09-14,Via Transilvanica - Fundu Moldovei - Pasul Mestecăniș,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
-850,917,2020-09-14,Via Transilvanica - Poiana Obcinii (sau Poiana Țicșeni) - Vatra Dornei - Dorna Cândreni,Consiliul Județean Suceava,Munții Giumalău,Suceava
-851,918,2020-09-14,Via Transilvanica - Dorna Cândreni - Poiana Negrii - Poiana Stampei - Grădinița,Consiliul Județean Suceava,Munții Suhard,Suceava
-852,919,2020-09-14,Neagra Șarului - 12 Apostoli - Poiana Izvoarelor,Consiliul Județean Suceava,Munții Călimani,Suceava
-853,920,2020-09-14,Poiana Izvoarelor - Șaua Negoiu - Vârful Rățitiș - Vârful Călimanul Cerbului - Neagra Șarului,Consiliul Județean Suceava,Munții Călimani,Suceava
-854,921,2020-09-15,Poiana Negrii - Schit Apa Rece - 12 Apostoli - Gura Haitii - Vârful Călimanul Cerbului,Consiliul Județean Suceava,Munții Călimani,Suceava
-855,922,2020-09-15,Gura Haitii - Poiana Izvoarele - Coada Pietrosului,Consiliul Județean Suceava,Munții Călimani,Suceava
-856,923,2020-09-15,Gura Haitii - Vârful Pietrele Roșii - Vârful Tămău - Valea Vorona - Dornișoara,Consiliul Județean Suceava,Munții Călimani,Suceava
-857,924,2020-09-15,Dornișoara - Izvoarele Dornei - La Troiță,Consiliul Județean Suceava,Munții Călimani,Suceava
-858,925,2020-09-15,Poiana Șesului Muntelui (baza vârfului Oușorul) - Schitul Sfânta Cruce pe Părăul Recele,Consiliul Județean Suceava,Munții Suhard,Suceava
-859,926,2020-09-15,Schitul Sfânta Cruce - Părăul Recele - Vârful Icoana - Vârful Omu,Consiliul Județean Suceava,Munții Suhard,Suceava
-860,927,2020-09-15,Vatra Dornei - Poiana Șesul Muntelui (baza Vârful Oușorul),Consiliul Județean Suceava,Munții Suhard,Suceava
-861,928,2020-09-15,Ciocănești - Pârâul Recele - Schitul Sfânta Cruce - Valea Bancului - Podul Coșnei,Consiliul Județean Suceava,Munții Suhard,Suceava
-862,929,2020-09-15,Poiana Șesul Muntelui - Vârful Oușorul,Consiliul Județean Suceava,Munții Suhard,Suceava
-863,930,2020-09-15,Zugreni - Vârful Bogolin - Vârful Pietrosul - Poiana Prislopului,Consiliul Județean Suceava,Munții Bistriței,Suceava
-864,931,2020-09-15,Poiana Prislopului - Poiana Șandru - Vârful Busuiocului - Mănăstirea Piatra Tăieturii - Vârful Dealul Vânăt - Păltiniș,Consiliul Județean Suceava,Munții Bistriței,Suceava
-865,932,2020-09-15,Rusca - Poiana Prislopului - Izvorul Rău,Consiliul Județean Suceava,Munții Bistriței,Suceava
-866,933,2020-09-15,Vatra Dornei - Poiana Țicșeni,Consiliul Județean Suceava,Munții Giumalău,Suceava
-867,934,2020-09-15,Rusca - Valea Ruscă - Cabana Giumalău,Consiliul Județean Suceava,Munții Giumalău,Suceava
-868,935,2020-09-15,Rusca - Piciorul Ruștii - Cabana Giumalău,Consiliul Județean Suceava,Munții Giumalău,Suceava
-869,936,2020-10-07,Posada - Valea Florei - Vârful Doamnele - Vârful Piscul Cainelui - Vârful Baiul Mare - Culmea Zamora,Consiliul Județean Prahova,Munții Baiului,Prahova
-870,947,2020-11-12,Armeniș (Centru Informare Turistică) - Cascada Urma de Bour,Consiliul Local al Comunei Armeniș,Munții Țarcu,Caraș-Severin
-871,948,2020-11-12,Armeniș (Centru Informare Turistică) - Culmea Lazuri - Plopu,Consiliul Local al Comunei Armeniș,Munții Țarcu,Caraș-Severin
-872,949,2020-11-12,Armeniș - Plopu - Poiana Zloaba - Cabana Cuntu,Consiliul Local al Comunei Armeniș,Munții Țarcu,Caraș-Severin
-873,950,2021-01-21,Pălinciile din Bătarci - Vârful Cetățeaua,Consiliul Județean Satu Mare,Munții Oaș,Satu Mare
-874,951,2021-01-21,Tămășeni - Vârful Cetățeaua,Consiliul Județean Satu Mare,Munții Oaș,Satu Mare
-875,952,2021-01-21,Primăria Bătarci - Măgura Bătarci - Ghiboacele,Consiliul Județean Satu Mare,Munții Oaș,Satu Mare
-876,953,2021-01-21,Centru SPA - Drumul Măgurii,Consiliul Județean Satu Mare,Munții Oaș,Satu Mare
-877,954,2021-01-21,Borcut Luna Șes - Izvor Trestia,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
-878,955,2021-01-21,Plecare Telescaun Luna Șes - Poiana Soci,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
-879,956,2021-01-21,Piatra Tâlharului - Vârful Pietroasa,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
-880,957,2021-01-21,Negrești-Oaș - Vârful Pietroasa,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
-881,958,2021-01-21,Negrești-Oaș - Muntele Mic,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
-882,959,2021-02-02,Sfântu Gheorghe - Vâlcele - Vârful Gurgău - Șugaș Băi - Sfântu Gheorghe,Consiliul Județean Covasna,Munții Baraolt,Covasna
-883,960,2021-02-02,Izvorul Honvéd - Șugaș Băi - Sfântu Gheorghe (piața Kálvin),Consiliul Județean Covasna,Munții Baraolt,Covasna
-884,961,2021-02-02,Gara CFR Bixad - Piatra Șoimilor,Consiliul Județean Covasna,Munții Harghitei,Covasna
-885,962,2021-04-16,Cluj-Napoca - Tureni,Consiliul Județean Cluj,Munții Trascău,Cluj
-886,963,2021-04-16,Tureni - Cheile Turzii - Moldovenești,Consiliul Județean Cluj,Munții Trascău,Cluj
-887,964,2021-04-16,Moldovenești - Colții Trascăului,Consiliul Județean Cluj,Munții Trascău,Cluj
-888,965,2021-04-16,Cabana Buru - Colții Corbului - Gura Jigăului,Consiliul Județean Cluj,Munții Trascău,Cluj
-889,966,2021-04-16,Cheile Turzii - Pârâul Arinei - Cornești,Consiliul Județean Cluj,Munții Trascău,Cluj
-890,967,2021-04-16,Turda - Drumul Domnilor - Cheile Turzii - Petreștii de Jos,Consiliul Județean Cluj,Munții Trascău,Cluj
-891,968,2021-04-16,Circuitul Cheilor Turenilor,Consiliul Județean Cluj,Munții Trascău,Cluj
-892,969,2021-04-16,Circuitul Cheilor Borzești,Consiliul Județean Cluj,Munții Trascău,Cluj
-893,970,2021-04-16,Circuitul Cheilor Turzii,Consiliul Județean Cluj,Munții Trascău,Cluj
-894,971,2021-04-16,Tureni - Cheile Turenilor - Izvorul Romanilor - Vapa - Cheile Turzii,Consiliul Județean Cluj,Munții Trascău,Cluj
-895,972,2021-04-16,Cheile Turzii - Ciuma Goală - Cascada Ciucaș - Cornești,Consiliul Județean Cluj,Munții Trascău,Cluj
-896,973,2021-04-16,Cheile Turzii - Gura Jigăului - Cheile Borzești - Cabana Buru,Consiliul Județean Cluj,Munții Trascău,Cluj
-897,974,2021-04-16,Codlea (Zona Maial) - Poiana Mărul Dulce - Cetatea Neagră,Consiliul Județean Brașov,Munții Perșani,Brașov
-898,975,2021-04-16,Codlea (Zona Maial) - Poiana Mărul Dulce - Vârful Măgura Codlei,Consiliul Județean Brașov,Munții Perșani,Brașov
-899,976,2021-04-16,Codlea (Zona Maial) - Valea Trei Fântâni - Piatra Albă - Vârful Măgura Codlei,Consiliul Județean Brașov,Munții Perșani,Brașov
-900,977,2021-04-16,Codlea (Zona Maial) - Ștrandul Codlea - Zona Carieră (traseu de legătură spre Vârful Măgura Codlei),Consiliul Județean Brașov,Munții Perșani,Brașov
-901,978,2021-04-16,Ștrandul Codlea/Lacul 1 - Vârful Măgura Codlei - Cetatea Neagră,Consiliul Județean Brașov,Munții Perșani,Brașov
-902,979,2021-04-16,Zona Carieră - Poiana lui Rușeț - Vârful Măgura Codlei,Consiliul Județean Brașov,Munții Perșani,Brașov
-903,980,2021-04-16,Gara Dumbrăvița Bârsei - Dealu Frumos - DN1 - Cariera Veche,Consiliul Județean Brașov,Munții Perșani,Brașov
-904,981,2021-07-09,Șugaș Băi (stația de autobuz) - Creasta Munții Baraolt,Consiliul Județean Covasna,Munții Baraolt,Covasna
-905,982,2021-07-09,Sfântu Gheorghe (Stadion Municipal) - Poiana Bironé - Izvorul Honvéd - Izvorul Pucioasa din Sfântu Gheorghe,Consiliul Județean Covasna,Munții Baraolt,Covasna
-906,983,2021-07-09,Sfântu Gheorghe (Stadion Municipal) - Poiana Marinica - Izvorul Pucioasa din Sfântu Gheorghe,Consiliul Județean Covasna,Munții Baraolt,Covasna
-907,984,2021-07-09,Arcuș - Șugaș Băi - Creasta Munții Baraolt,Consiliul Județean Covasna,Munții Baraolt,Covasna
+593,656,2012-07-12,Bălan (Fântâna lui Gal) - Șaua Tarcăului,Consiliul Județean Harghita,Munții Hășmaș,Harghita
+594,657,2012-07-12,Toplița - Vârful Rețițiș,Consiliul Județean Harghita,Munții Călimani,Harghita
+595,658,2012-07-12,Gălăuțaș - Vârful Bătrâna,Consiliul Județean Harghita,Munții Călimani,Harghita
+596,659,2012-07-12,Toplița - Cartier Măgheruș - Pârtiile Magheruș și Bradul - Poiana Refugiu Bătrâna - Vârful Bătrâna,Consiliul Județean Harghita,Munții Călimani,Harghita
+597,660,2012-07-12,Toplița - Pârtia Bradul - Poiana de sub Vârful Bătrâna - Vârful Bătrâna,Consiliul Județean Harghita,Munții Călimani,Harghita
+598,661,2012-10-03,Azuga (DN1) - Vârful Clăbucetul Taurului - Cabana Gârbova,Consiliul Județean Prahova,Munții Baiului,Prahova
+598,661,2012-10-03,Azuga (DN1) - Vârful Clăbucetul Taurului - Cabana Gârbova,Consiliul Județean Prahova,Munții Baiului,Brașov
+599,662,2012-10-03,Baza Pârtie Sorica - Captare de Apă - Cabana Gârbova,Consiliul Județean Prahova,Munții Baiului,Prahova
+599,662,2012-10-03,Baza Pârtie Sorica - Captare de Apă - Cabana Gârbova,Consiliul Județean Prahova,Munții Baiului,Brașov
+600,663,2012-10-03,Păstrăvărie - Vârful Clăbucetul Azugii - Cabana Susai,Consiliul Județean Prahova,Munții Baiului,Prahova
+600,663,2012-10-03,Păstrăvărie - Vârful Clăbucetul Azugii - Cabana Susai,Consiliul Județean Prahova,Munții Baiului,Brașov
+601,664,2012-10-03,Gara Azuga - Vârful Grecului - Cabana Diham,Consiliul Județean Prahova,Munții Bucegi,Prahova
+601,664,2012-10-03,Gara Azuga - Vârful Grecului - Cabana Diham,Consiliul Județean Prahova,Munții Bucegi,Brașov
+602,665,2012-10-03,Poiana Țapului - Valea Babei - Poiana Stanei,Consiliul Județean Prahova,Munții Bucegi,Prahova
+603,666,2012-10-03,Bușteni - Culmea Zamora - Culmea Orjogoaia - Plaiul Orjogoaia - Trăisteni,Consiliul Județean Prahova,Munții Baiului,Prahova
+604,667,2012-10-03,Drum de Vară - Colții lui Barbeș - Lacurile Vânturis - Valea Soarelui,Consiliul Județean Prahova,Munții Bucegi,Prahova
+605,668,2012-10-03,Șaua Vârful Cu Dor - Masa Ciobanului - Colții lui Barbes - Lacurile Vânturis,Consiliul Județean Prahova,Munții Bucegi,Prahova
+606,669,2012-10-03,Cota 2000 - Șaua Vârful Cu Dor,Consiliul Județean Prahova,Munții Bucegi,Prahova
+607,670,2012-10-03,Poiana Valea Stânei - Tabla Butii - Cimitirului Eroilor,Consiliul Județean Prahova,Munții Ciucaș,Prahova
+608,671,2013-06-27,Vaideeni - Valea Luncavățului - Podul Lui Pasăre - Lacul Balota - Stâna Balota - Vârful Căpățâna,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
+609,672,2013-06-27,Vaideeni - Plaiul Frăsinet - Vârful Ursulețu - Ursu Stâna - Vârful Ursu - Muntele Groapa Mălăii - La Ezer - Curmătura Popeștilor - Valea Repedea - Ciunget,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
+610,673,2013-06-27,Vaideeni - Valea Plaiului - Fântâna din Plai - Muntele Marginea - Coasta Lacurilor - Sub Vârful Nedeia - Șaua Gropița - Poiana Târnovu Mare - Ciunget,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
+611,674,2013-06-27,Izvorul Rece - Valea Recea - Luncile Frumoase - Stâna Zăvideanu - Pietrele Stroieștilor - Coasta Lacurilor - Curmătura Funicelu,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
+612,675,2013-06-27,Cerna - Valea Cernei - Sohodol - Pârâul Moliftului - Stâna Bucium - Vârful Beleoaia - Vârful Nedeia,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
+613,676,2013-06-27,Costești - Bistrița - Valea Bistriței - Vârful Cuca - Plaiul Zănoaga - Curmătura Rodeanu - Stâna Cocora - Plaiul Cocora - Malaia,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
+614,677,2013-06-27,Marița - Valea Mariței - Vârful Stânișoara - Stâna Zăvideanu - Muntele Zăvideanu,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
+615,678,2013-06-27,Lacul Balota - Tribunalul Haiducilor - Culmea Căpățâna - Pârâul Căpățânii - Lacul Balota,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
+616,679,2013-06-27,Lacul Balota - Izvoarele Luncavățului - Coasta Lacurilor - Vârful Nedeia,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
+617,680,2013-06-27,Vaideeni - Valea Seacă - Vârful Teiș - Vaideeni,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
+618,681,2013-06-27,Vaideeni - Brădățeaua Mică - Dealul Capela - Brădățeaua Mare - Vaideeni,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
+619,682,2013-06-27,Vârful Nedeia - Curmătura Funicel - Vârful Ursu - Curmătura Rodeanu - Vârful Zmeurăt -,Consiliul Județean Vâlcea,Munții Căpățânii,Vâlcea
+620,683,2013-08-06,Șaua Vârtop - Groapa Ruginoasa - Pietrele Negre,Consiliul Județean Bihor,Munții Bihor,Bihor
+620,683,2013-08-06,Șaua Vârtop - Groapa Ruginoasa - Pietrele Negre,Consiliul Județean Bihor,Munții Vlădeasa,Bihor
+621,684,2013-08-06,Pârtia Vârtop 1 - Pârtia Piatra Grăitoare - Magistrala 1 Banda Roșie,Consiliul Județean Bihor,Munții Bihor,Bihor
+621,684,2013-08-06,Pârtia Vârtop 1 - Pârtia Piatra Grăitoare - Magistrala 1 Banda Roșie,Consiliul Județean Bihor,Munții Vlădeasa,Bihor
+622,685,2013-08-06,Magistrala 1 Bandă Roșie - Belvedere Glăvoaia,Consiliul Județean Bihor,Munții Bihor,Bihor
+622,685,2013-08-06,Magistrala 1 Bandă Roșie - Belvedere Glăvoaia,Consiliul Județean Bihor,Munții Vlădeasa,Bihor
+623,686,2013-08-06,"Cabana Meziad - Motel ""Baraj Leșu""",Consiliul Județean Bihor,Munții Bihor,Bihor
+623,686,2013-08-06,"Cabana Meziad - Motel ""Baraj Leșu""",Consiliul Județean Bihor,Munții Vlădeasa,Bihor
+624,687,2013-08-06,Stâna de Vale - Moara Dracului,Consiliul Județean Bihor,Munții Bihor,Bihor
+624,687,2013-08-06,Stâna de Vale - Moara Dracului,Consiliul Județean Bihor,Munții Vlădeasa,Bihor
+625,688,2014-03-19,Circuitul Peștera din Mina Farcu,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
+626,689,2014-06-16,Complex Turistic Cheile Buții - Dâlma Mare - Vârful Pleșa - Vârful Piule - Șaua Scorota - Cabana Buta,Consiliul Județean Hunedoara,Munții Retezatul Mic,Hunedoara
+627,690,2014-06-16,Uricani - Dealul Șerpilor - Șaua Tulișa - Șaua Bilugu - Vârful Bilugu - Vârful Văcarea - Vârful Lazărul - Vârful Custura - Vârful Păpușa - Vârful Peleaga - Căldarea Berbecilor - Lacul Bucura,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
+628,691,2014-06-16,Campușel - Scocul Scorotei - Stâna Scorota - Buta Mica - Cabana Buta,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
+629,692,2014-06-16,Campușel - Pasul Jiu - Cerna (Tăul Rății) - Ciuceava Neagră - Valea Sturului - Cheile Cernișoarei - Izbucul Cernei,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
+630,693,2014-06-16,Gambrinus - Drăgoiu - Pasul Vulcan - Vârful Straja - Vârful Mutu - Vârful Muncel - Vârful Siglau - Mic - Vârful Siglăul Mare - Valea de Pești - Vârful Arcanu - Vârful Nedeița - Coada Oslei - Oslea - Câmpușel,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
+631,694,2014-06-16,Centrul Local de Informare Turistică Baru - Valea Bărișor - Refugiul Tulișa,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
+632,695,2014-06-16,Ohaba Ponor - Cheile Șura Mare - Peștera Ponorici - Peștera Cioclovina - Luncani - Boșorod,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
+633,696,2014-06-16,Baru - Valea Streiului - Vârful Lola - Vârful Bulzu - Vârful Porumbelul Mare,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
+634,697,2014-06-16,Costești - Valea Grădiștei - Dealul Grădiștei - Cetatea Sarmizegetusa Regia - Muncel - Vârful Godeanu,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
+635,698,2014-06-16,Costești - Cetatea Blidaru - Leurdana - Târsa - Poiana Omului - Vârful Rudii - Culmea Meleia - Vârful Tâmpu - Șaua Steaua Mare - Vârful Godeanu,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
+636,699,2014-06-16,Podul Gerosu - Dealul Muncelului - Cetatea Fețele Albe - Valea Albă,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
+637,700,2014-06-16,Grădiștea de Munte - Prihodiște - Poiana Omului - Cetatea Piatra Roșie - Valea Roșia - Cioclovina - Peștera Cioclovina,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
+638,701,2014-07-25,Culmea Bran - Culmea Măgurii - Fântâna lui Botorog,Administrația Parcului Național Piatra Craiului RA,Munții Piatra Craiului,Brașov
+639,702,2014-07-25,Tohănița - Șaua Măgura - Satul Măgura - Fântâna lui Botorog,Administrația Parcului Național Piatra Craiului RA,Munții Piatra Craiului,Brașov
+640,703,2014-07-25,Valea Curmăturii - Poiana Curmătura - Cabana Curmătura,Administrația Parcului Național Piatra Craiului RA,Munții Piatra Craiului,Brașov
+641,704,2014-07-25,Cabana Curmătura - Padinile Frumoase - Vârful Ascuțit,Administrația Parcului Național Piatra Craiului RA,Munții Piatra Craiului,Brașov
+642,705,2014-09-09,Stațiunea Durău - Poiana Viezuri - Cascada Duruitoarea,Consiliul Județean Neamț,Munții Ceahlău,Neamț
+643,706,2014-09-09,Stațiunea Durău - Piciorul lui Bucur - Cascada Duruitoarea,Consiliul Județean Neamț,Munții Ceahlău,Neamț
+644,707,2014-09-09,Stațiunea Durău - Cabana Fântânele - Vârful Toaca - Cabana Dochia,Consiliul Județean Neamț,Munții Ceahlău,Neamț
+645,708,2014-09-09,Stațiunea Durău - La Scaune - Pasul Blaj - Vârful Jidanului - Culmea Fighesului - Cheile CuPasului - Cheile Bicazului,Consiliul Județean Neamț,Munții Ceahlău,Neamț
+646,709,2014-09-09,Cabana Izvorul Muntelui - Curmătura Lutul Roșu - Detunatele - Cabana Dochia,Consiliul Județean Neamț,Munții Ceahlău,Neamț
+647,710,2014-09-09,Durău - Cabana Fântânele - Poiana Viezuri - Cascada Duruitoarea,Consiliul Județean Neamț,Munții Ceahlău,Neamț
+648,711,2014-09-09,Izvorul Muntelui - Curmătura Lutul Roșu - Stânca Dochiei - Jgeabul cu Hotar - Cabana Dochia,Consiliul Județean Neamț,Munții Ceahlău,Neamț
+649,712,2014-09-09,Bicazul Ardelean - Bistra Mare - La Scaune - Curmătura Stanilelor - Jgeabul lui Vodă - Cabana Dochia,Consiliul Județean Neamț,Munții Ceahlău,Neamț
+650,713,2014-11-19,Dealul Moiseiului - Mănăstirea Moisei - Izvorul Negru - Preluca sub Piatră,Consiliul Județean Maramureș,Munții Rodnei,Maramureș
+651,714,2014-11-19,Podul lui Călineț - Izvorul Căpitanului Orlovki - Refugiul Speranțelor - Vârful Ascuțit,Administrația Parcului Național Piatra Craiului RA,Munții Piatra Craiului,Brașov
+652,715,2014-11-25,Borsec - Izvorul Străvechi - Peștera de Gheață - Grota Urșilor - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+653,716,2014-11-25,Borsec - Izvorul Străvechi - Izvorul Pierre Curie - Cetatea Bufnițelor - Valea Vinului - Borsecul de Jos - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+654,717,2014-11-25,Borsec - Făgețelul - Groapa Rotundă - Șapte Izvoare - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+655,718,2014-11-25,Borsec - Făgetul Mare - Făgețelul - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+656,719,2014-11-25,Borsec - Bulevardul 7 Izvoare - Strada Stadionului - Cascada Șapte Izvoare - Valea Nadășa - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+657,720,2014-11-25,Borsec - Valea Vinului - Valea lui Filip Andrei - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+658,721,2014-11-25,Borsec - Strada Malnaș - Pârâul Malnaș - Valea Vinului - Strada Ditrăului - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+659,722,2014-11-25,Borsec - Strada Malnaș - Pârâul Malnaș - Valea Vinului - Strada Ditrăului - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+660,723,2014-11-25,Borsec - Valea Hanzkel - Vârful Arcoza - Pasul Creangă - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+661,724,2014-11-25,Borsec - Muntele Dosul Bâtcii - Capu Corbului - Pârâul Cupelor - Uzina de apă 7 Izvoare - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+662,725,2014-11-25,Borsec - Valea Nadășa - Făgetul Mare - Culmea Mezovești - Vârful Țibra - Casa Țifrei - Valea Bistricioarei - Pârâul Cupelor - Uzina de apă 7 Izvoare - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+663,726,2014-11-25,Borsec - Strada Carpați - Valea Nadășa - Vârful Arcoza - Pasul Creangă - Borsecul de Jos - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+664,727,2014-11-25,Borsec - Valea Vinului (DN 15) - Vârful Bâtca - Valea Cupelor - Culmea Mezovești - Vârful Făget - Poiana Arcoza - Pasul Creangă - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+665,728,2014-11-25,Borsec - Borsecul de Jos - Pasul Creangă - Vârful Sărmaș - Pasul Chiozrez - Valea Tinova - Valea Vinului - Borsecul de Jos - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+666,729,2014-11-25,Primăria Borsec - Strada Cimiturului - Izvorul 10 - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+667,730,2014-12-04,Peștera cu Cristale din Mina Farcu - Stanu Cârnului - Cheile Lazuri - Peștera Roșie - Peștera cu Cristale din Mina Farcu,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
+668,731,2014-12-04,Peștera cu Cristale din Mina Farcu - Izbucul Roșiei,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
+669,732,2014-12-04,Borz - Sub Vârful Pacău - Borz,Consiliul Județean Bihor,Munții Codru-Moma,Bihor
+670,733,2014-12-04,Valea Iadului - Valea de Runc - Cascada Runcului - Vârful Muncelașu - Cascada Laia - DJ 108J - Cantonul Murgașu - Cascada Vălu Miresii - Săritoarea Ieduțului - Cascada Iadolina - Valea Iadului,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
+670,733,2014-12-04,Valea Iadului - Valea de Runc - Cascada Runcului - Vârful Muncelașu - Cascada Laia - DJ 108J - Cantonul Murgașu - Cascada Vălu Miresii - Săritoarea Ieduțului - Cascada Iadolina - Valea Iadului,Consiliul Județean Bihor,Munții Vlădeasa,Bihor
+671,734,2015-03-01,DN 7C (Vama Cucului) - Muchia Laita - Vârful Mierea - Valea Doamnei,Consiliul Județean Sibiu,Munții Făgăraș,Sibiu
+672,735,2015-03-01,Complex Turistic Albota - Valea Arpășelului - Muchia Netedu - Bifurcația de sub Vârful Buteanu,Consiliul Județean Sibiu,Munții Făgăraș,Sibiu
+673,736,2015-03-01,Cabana Bărcaciu - Căldarea Văii Mari a Avrigului - Lacul Avrig,Consiliul Județean Sibiu,Munții Făgăraș,Sibiu
+674,737,2015-08-18,DN 1 KM 135 - Culmea Sorica - Stație superioară Telegondolă,Consiliul Județean Prahova,Munții Baiului,Prahova
+675,738,2015-08-18,Circuitul Cheile Cuților (Ponița - Valea Cuților - Ponița),Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
+676,739,2015-08-18,Vadu Crișului - Defileul Crișului Repede,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
+677,740,2015-08-18,Boga - Piatra Ciungilor - Cascada Bulbuci,Consiliul Județean Bihor,Munții Bihor,Bihor
+678,741,2015-09-16,Vârful Pârcălabu - Vârful Stânișoara - Coasta Câinenilor - Vârful Capu Muntelui - Șaua Duca - Vârful Lui Vlad - Dealul lui Vlad - Râu Vadului - Câinenii Mici,Consiliul Județean Vâlcea,Munții Lotrului,Vâlcea
+679,742,2015-10-14,Spitalul de Recuperare Borșa - Releu - Custuri - Bobeica - Lacul Măgura - Mănastirea Vinișoru - Gura Vinișorului,Consiliul Local al Orașului Borșa,Munții Maramureșului,Maramureș
+680,743,2016-03-11,Șopotu Nou - Cheile Nerei - Podul Bei - Sasca Română,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
+681,744,2016-03-11,Sasca Română - Sasca Montană - Cascada Șușara - Cărbunari,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
+682,745,2016-03-11,Sasca Română - Sasca Montană - Cascada Șușara - Cărbunari,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
+683,746,2016-03-11,Sat Socolari - Custura Cetății - Valea Beiului - Lacul Ochiul Beiului - Cascadele Beușniței,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
+684,747,2016-03-11,Sasca Română - Dealul Caraula - Podul Bei,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
+685,748,2016-03-11,Potoc - Chichiregul Mare - Valea Beușnița - Cascada Văioagă,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
+686,749,2016-03-11,Dealul Caraula - Dealul Chichireg - Custura Cetății - Cetatea Socolari,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
+687,750,2016-03-11,Sasca Română - Valea Camenița - Livezile Cărbunarilor - Poiana lui Vogiun - Cheile Nerei,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
+688,751,2016-03-11,Cărbunari - Lacul Dracului,Consiliul Județean Caraș-Severin,Munții Aninei,Caraș-Severin
+689,752,2016-05-04,Ghioroc - Valea Cladovei,Consiliul Județean Arad,Munții Zărand,Arad
+690,753,2016-05-04,Covăsânț - Creasta Principală a Munților Zărand,Consiliul Județean Arad,Munții Zărand,Arad
+691,754,2016-05-04,Monumentul Turiștilor - Feredeu - Creasta Principală a Munților Zărand - Căsoaia,Consiliul Județean Arad,Munții Zărand,Arad
+692,755,2016-05-04,Șaua Cazan - Schitul Feredeu - Creasta Principală a Munților Zărand,Consiliul Județean Arad,Munții Zărand,Arad
+693,756,2016-05-04,Șiria - Cetatea Șiria - Șaua Cazan,Consiliul Județean Arad,Munții Zărand,Arad
+694,757,2016-05-04,Șiria - Valea Almașului - Creasta Principală a Munților Zărand - Căsoaia,Consiliul Județean Arad,Munții Zărand,Arad
+695,758,2016-05-04,DN 7/E68 - Cladova - Valea Cladovei - Creasta Principală a Munților Zărand,Consiliul Județean Arad,Munții Zărand,Arad
+696,759,2016-05-04,Valea Cladovei - Valea Cersca - Creasta Principală a Munților Zărand,Consiliul Județean Arad,Munții Zărand,Arad
+697,760,2016-05-04,DN 7/E68 - Cladova - Creasta Cladovei - Creasta Principală a Munților Zărand,Consiliul Județean Arad,Munții Zărand,Arad
+698,761,2016-05-04,DN 7/E68 - Cladova - Valea Cladoviței - Creasta Principală a Munților Zărand - Căsoaia,Consiliul Județean Arad,Munții Zărand,Arad
+699,762,2016-05-04,Șoimoș - Valea Șoimoșului -  Creasta Principală a Munților Zărand - Căsoaia,Consiliul Județean Arad,Munții Zărand,Arad
+700,763,2016-05-04,Șoimoș - Cetatea Șoimoș - Creasta Șoimoșului - Creasta Principală a Munților Zărand- Căsoaia,Consiliul Județean Arad,Munții Zărand,Arad
+701,764,2016-05-04,Căsoaia - Dealul Dubilor - Vârful Highiș - Creasta Principală a Munților Zărand,Consiliul Județean Arad,Munții Zărand,Arad
+702,765,2016-05-04,Căsoaia - Valea Highișului - Vârful Highiș,Consiliul Județean Arad,Munții Zărand,Arad
+703,766,2016-05-04,Vârful Capra - Creasta Principală a Munților Zărand - Vârful Highiș,Consiliul Județean Arad,Munții Zărand,Arad
+704,767,2016-05-04,Cantonul Negrea (DN) - Peștera Porțile Bihorului,Consiliul Județean Bihor,Munții Bihor,Bihor
+705,768,2016-05-04,Circuitul Cascada Boiului,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
+706,769,2016-10-31,"Drumul Județean 131 - Peștera ""Bârlogul Hoților""",Consiliul Local al Comunei Apața,Munții Perșani,Brașov
+707,770,2017-04-01,Centrul De Informare Turistică Albac - Fața Albacului - Refugiul Turistic Sohodol - Roșești - Valea Starpa - Cheile Albacului - Deve - Centrul De Informare Turistică Albac,Consiliul Județean Alba,Munții Bihor,Alba
+708,771,2017-12-08,Cascada Vălul Miresei - Peștera Șușman - Cascada Vălul Miresei,Consiliul Județean Alba,Munții Bihor,Alba
+709,772,2017-12-08,Peștera Alunului - Valea Alunul Mic - Poiana Onceasa,Consiliul Județean Alba,Munții Bihor,Alba
+710,773,2017-12-08,Poiana Lespezi - Vîrful Lespezi - Peștera Mică a Lespezilor - Valea Stanciului,Consiliul Județean Alba,Munții Bihor,Alba
+711,774,2017-12-08,Baza Salvamont Doda Pilii - Molhașuri - Valea Someșului Cald - Baza Salvamont Doda Pilii,Consiliul Județean Alba,Munții Bihor,Alba
+712,775,2017-12-08,Valea Seacă - Creasta Pietrele Albe - Poiana Stânișoara - Valea Seacă,Consiliul Județean Alba,Munții Bihor,Alba
+713,776,2017-12-08,Peștera cu apă de pe Valea Firii - Peștera Humpleu - Peștera Șura Mare - Poiana Mărului - Poiana Vârtop - Ghețarul de la Vârtop - Cotul Firii,Consiliul Județean Alba,Munții Bihor,Alba
+714,777,2017-12-08,Păuliș - Vârful Capra,Consiliul Județean Arad,Munții Zărand,Arad
+715,778,2017-12-08,Radna - Creasta Radnei - Vârful Crucea Țiganului,Consiliul Județean Arad,Munții Zărand,Arad
+716,779,2017-12-08,DN7/E68 - Petrș - Corbești - Roșia Nouă - Obârșia,Consiliul Județean Arad,Munții Zărand,Arad
+717,780,2017-12-08,Roșia Nouă - Vârful Tufari,Consiliul Județean Arad,Munții Zărand,Arad
+718,781,2017-12-08,Brazii - Vârful Pleșu,Consiliul Județean Arad,Munții Zărand,Arad
+719,782,2017-12-08,Gara Hălmagiu - Hălmăgel - Culmea Găinii - Muntele Găina,Consiliul Județean Arad,Munții Zărand,Arad
+720,783,2017-12-08,Hășmaș - Valea Hășmaș - Vârful Pleșu,Consiliul Județean Arad,Munții Zărand,Arad
+721,784,2017-12-08,Dezna - Ruinele Cetății Dezna,Consiliul Județean Arad,Munții Zărand,Arad
+722,785,2017-12-08,Moneasa - Valea Megheș - Platoul Tinoasa - Cabana Gaudeamus - Moneasa,Consiliul Județean Arad,Munții Zărand,Arad
+723,786,2017-12-08,Moneasa - Culmea Feredeu - Cabana Gaudeamus - Vârful Izoiu,Consiliul Județean Arad,Munții Zărand,Arad
+813,787,2018-11-19,Culmea Feredeu - Platoul Tinoasa - Creasta Principală - Platoul Brătcoaia,Consiliul Județean Arad,Munții Codru-Moma,Arad
+724,789,2017-12-08,Moneasa - Valea Lungă - Creasta Principală,Consiliul Județean Arad,Munții Zărand,Arad
+725,792,2017-12-08,Moneasa - Peștera Liliecilor,Consiliul Județean Arad,Munții Zărand,Arad
+726,793,2017-12-08,Valea Megheș - Peșterile Viezuroiu,Consiliul Județean Arad,Munții Zărand,Arad
+727,794,2018-06-12,Refugiul Montan Șuligu - Borcutul Șuligu,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
+728,795,2018-06-12,Complex Făina - Borcutul Mihoaia,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
+729,796,2018-06-12,Stația CFF Bardău - Pietrosu Bardăului - Cabana Coșnea,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
+730,797,2018-06-12,Cabana Coșnea - Valea Paulic - Stânișoara - Vârful Mihăilecu - Lacul Vinderel,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
+731,798,2018-06-12,Localitatea Valea Vișeului - Canton Silvic Repedea,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
+732,799,2018-06-12,Repedea - Pietriceaua - Lacul Vinderel,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
+733,800,2018-06-12,Repedea - Chicera - Lacul Vinderel,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
+734,801,2018-06-12,Repedea - Poiana cu narcise Tomnatec-Sehlean - Paltinu,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
+735,802,2018-06-12,Bistra - Vârful Tocarnea,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
+736,803,2018-06-12,Paltinu - Plai - Poiana cu narcise Tomnatec-Sehlean - Valea Tomnatec - Paltinu,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
+737,804,2018-06-12,Pasul Prislop - Vârful Cearcănu - Borșa,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
+738,805,2018-06-12,Valea Vaserului - Stația Paltin - Punct Belvedere Valea Vaserului,Consiliul Județean Maramureș,Munții Maramureșului,Maramureș
+739,806,2018-06-15,Poiana Ciunta - Circuitul Versantului Stâng,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
+740,807,2018-06-15,"Sat de Vacanță Coada Lacului - Valea Iadului - Pod - Traseul ""Stâna de Vale - Cabana Meziad""",Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
+741,808,2018-06-15,Circuitul Săritorii Ieduțului,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
+742,809,2018-06-15,Valea Leuca - Cascada Dibarț - Cimitirul de Vagonete,Consiliul Județean Bihor,Munții Bihor,Bihor
+743,810,2018-06-15,Cabana Silvică Valea Lungă - Lacul Tăul Mare,Consiliul Județean Bihor,Munții Bihor,Bihor
+744,811,2018-06-15,Vârtop - Vârful Tătăroaia - Chișcău,Consiliul Județean Bihor,Munții Bihor,Bihor
+745,812,2018-06-15,Pădurea Neagră - Castelul Zichy din Poiana Florilor - Cetatea Piatra Șoimului,Consiliul Județean Bihor,Muntele Șes,Bihor
+746,813,2018-06-15,Circuitul Cetății Piatra Șoimului,Consiliul Județean Bihor,Muntele Șes,Bihor
+747,814,2017-12-12,Negreni - Vârful Păltiniș - Bucea - Negreni,Consiliul Local al Comunei Negreni,Munții Vlădeasa,Cluj
+748,815,2017-12-12,Negreni - Vârful Păltiniș,Consiliul Local al Comunei Negreni,Munții Vlădeasa,Cluj
+749,816,2017-12-12,Negreni - Vârful Merișorului - Vârful Măgura Mare - Bucea - Negreni,Consiliul Local al Comunei Negreni,Munții Vlădeasa,Cluj
+750,817,2017-12-12,Negreni - Vârful Comului,Consiliul Local al Comunei Negreni,Munții Vlădeasa,Cluj
+751,818,2018-04-12,Cheile Cibului - Cheile Glodului - Izvorul Tămăduirii - Ardeu,Consiliul Județean Alba,Munții Metaliferi,Alba
+752,819,2018-04-12,Stațiunea Muntele Băișorii - Crucea Clencii - Știolne - Rezervația Scărița Belioara - Cheile Runcului - Runc,Consiliul Județean Alba,Munții Gilăului,Alba
+752,819,2018-04-12,Stațiunea Muntele Băișorii - Crucea Clencii - Știolne - Rezervația Scărița Belioara - Cheile Runcului - Runc,Consiliul Județean Alba,Muntele Mare,Alba
+753,820,2018-04-12,Circuitul Rezervației Scărița Belioara,Consiliul Județean Alba,Munții Gilăului,Alba
+753,820,2018-04-12,Circuitul Rezervației Scărița Belioara,Consiliul Județean Alba,Muntele Mare,Alba
+754,821,2018-04-12,Schitul Poșaga - Belioara - La Măteoaie - Șaua La Răscruce,Consiliul Județean Alba,Munții Gilăului,Alba
+754,821,2018-04-12,Schitul Poșaga - Belioara - La Măteoaie - Șaua La Răscruce,Consiliul Județean Alba,Muntele Mare,Alba
+755,822,2018-04-12,Runc - Cheile Pociovaliștei - Poiana Cornu Pietrei - Vârful Scărița - Rezervația Scărița Belioara,Consiliul Județean Alba,Munții Gilăului,Alba
+755,822,2018-04-12,Runc - Cheile Pociovaliștei - Poiana Cornu Pietrei - Vârful Scărița - Rezervația Scărița Belioara,Consiliul Județean Alba,Muntele Mare,Alba
+756,823,2018-04-12,Sălciua de Jos - Poiana Șipote - Peștera Poarta Zmeilor - Platoul Bedeleu - Cheile Plaiului - Izvoarele,Consiliul Județean Alba,Munții Trascău,Alba
+757,824,2018-04-12,Rimetea - Vârful Ugerului - Lunca Arieșului,Consiliul Județean Alba,Munții Trascău,Alba
+758,825,2018-04-12,Rimetea - Vârful Piatra Secuiului - Colțești - Pârâul Muntelui - Vidolm,Consiliul Județean Alba,Munții Trascău,Alba
+759,826,2018-04-12,Cabana Rîmeț - Cheile Rîmețului (prin apă) - Cheia - Brădești - Valea poienii - Sub Piatră - Sălciua de Jos,Consiliul Județean Alba,Munții Trascău,Alba
+760,827,2018-04-12,Bucerdea Vinoasă - Lângă Piatra Craivii - Sub Vârful Sfredelașu - Pârâul Turcului - Întregalde - Modolești - Poiana cu Narcise de la Tecșești - Piatra Cetii - Băile Romane - Cetea,Consiliul Județean Alba,Munții Trascău,Alba
+761,828,2018-04-12,Zlatna - Lângă Vârful Dâmbău - Lângă Vârful Părăginoasa - Feneșasa - Poiana Măgurii - Valea Muntelui - Platoul Ciumerna - Iezerul Ighiel - Ighiel,Consiliul Județean Alba,Munții Trascău,Alba
+762,829,2018-04-12,Lângă Vârful Dâmbău - Vârful Părăginoasa - Pădurea Runcului - La Dârdinaș,Consiliul Județean Alba,Munții Trascău,Alba
+763,830,2018-04-12,Zlatna - Măgura Dudașului - Cheile Caprei,Consiliul Județean Alba,Munții Trascău,Alba
+764,831,2018-04-12,Feneșasa - Lângă Vârful Dâmbău,Consiliul Județean Alba,Munții Trascău,Alba
+765,832,2018-04-12,Belvedere Cheile Caprei,Consiliul Județean Alba,Munții Trascău,Alba
+766,833,2018-04-12,Deviație Colțu' lui Blaj,Consiliul Județean Alba,Munții Trascău,Alba
+767,834,2018-04-12,Deviație Refugiul Săruni,Consiliul Județean Alba,Munții Trascău,Alba
+768,835,2018-04-12,Conop - Valea Conopului - Creasta Principală a Munților Zărand - Sălașele Nadășului,Consiliul Județean Arad,Munții Zărand,Arad
+769,836,2018-04-12,Conop - Creasta Conopului - Creasta Principală a Munților Zărand - Debela Gora,Consiliul Județean Arad,Munții Zărand,Arad
+770,837,2018-04-12,Baraj Tauț - Văsoaia,Consiliul Județean Arad,Munții Zărand,Arad
+771,838,2018-04-12,Baraj Tauț - Minișel - Văsoaia,Consiliul Județean Arad,Munții Zărand,Arad
+772,839,2018-04-12,Baraj Tauț - Nadăș - Sălașele Nadășului - Debela Gora,Consiliul Județean Arad,Munții Zărand,Arad
+773,840,2018-04-12,Halta Nadăș - Valea Nadășului - Debela Gora,Consiliul Județean Arad,Munții Zărand,Arad
+774,841,2018-04-12,Bârzava - Creasta Principală a Munților Zărand - Sub Vârful Cioaca Popii,Consiliul Județean Arad,Munții Zărand,Arad
+775,842,2018-04-12,Bârzava - Creasta Principală a Munților Zărand - Sub Vârful Concești,Consiliul Județean Arad,Munții Zărand,Arad
+776,843,2018-04-12,Bârzava - Creasta Principală a Munților Zărand - Văsoaia,Consiliul Județean Arad,Munții Zărand,Arad
+777,844,2018-04-12,Circuitul Sălașelor Țărănești,Consiliul Județean Arad,Munții Zărand,Arad
+778,845,2018-04-12,Km 0 Creasta Principală a Munților Zărand - Vârful Ianăș - Vârful Cucuietu - Vârful Omeag - Vârful Tufari,Consiliul Județean Arad,Munții Zărand,Arad
+779,846,2018-04-12,Moneasa - Ruinele Cuptorului de Topit Fier - Cariera de Marmură,Consiliul Județean Arad,Munții Codru-Moma,Arad
+780,847,2018-05-14,Bulz - Munteni - Remeți - Dealul Caprei - Floroiu - Vârful Pin - Vârful Scoroșet - Dealul Mare - Cătunul Fănești - Valea Sărăcel - Bulz,Consiliul Județean Bihor,Munții Pădurea Craiului,Bihor
+781,848,2018-12-05,Lacul Gura Apei - Culmea Zlata - Vârful Zlata - Platoul Rades - Zlata - Lacul Zănoaga - Tău Răsucit - Culmea Slăveiu - Lacul Bucura,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
+782,849,2018-12-05,Lacul Gura Apei - Culmea Branu - Refugiul Branu - Vârful Gugu - Vârful Moraru - Șaua Mâțului - Plaiul Bulgului - Pârâul Iovanu - Lacul lui Iovan,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
+782,849,2018-12-05,Lacul Gura Apei - Culmea Branu - Refugiul Branu - Vârful Gugu - Vârful Moraru - Șaua Mâțului - Plaiul Bulgului - Pârâul Iovanu - Lacul lui Iovan,Consiliul Județean Hunedoara,Munții Godeanu,Hunedoara
+783,850,2018-12-05,Centrul de informare turistică Hunedoara - Castelul Corvinilor - Tăul Teliucului - Lacul Cinciș - Toplița - Hașdău - Bolta Apei - Cheile Cernei - Lunca Cernii - Gura Bordului - Rusca Montană - Voislova - Oțelu Roșu,Consiliul Județean Hunedoara,Munții Poiana Ruscă,Hunedoara
+784,851,2018-12-05,Centrul de informare turistică Hunedoara - Castelul Corvinilor - Tăul Teliucului - Barajul Cinciș - Pensiunea Panorama Ghelari - Casa Muzeu Drăgan Muntean - Poienița Voinii - Bunila - Vadu Dobrii - Poiana Crivina - Vârful Rusca,Consiliul Județean Hunedoara,Munții Poiana Ruscă,Hunedoara
+785,852,2018-12-05,Centrul de informare turistică Hunedoara - Castelul Corvinilor - Tăul Teliucului - Barajul Cinciș - Centrala Hidroelectrică Cătănaș - Furnalul Govăjdia - Crăciuneasa - Cerișor - Lelese - Runcu Mare - Vadu Dobrii - Roscani - Dobra,Consiliul Județean Hunedoara,Munții Poiana Ruscă,Hunedoara
+786,853,2018-12-05,Situl la Scoabă - Dealul Gomodiu - Dealul Ciurila - Dealul Săreanu - Valea Sibișelului - Gaterul de apă - Casa Pietrelor - Ohaba - Sibișel - Vâltoare - Moară de apă - Muzeul Sătesc Ohaba - Sibișel - Sibișel - Situl la Scoabă - Sânpetru,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
+787,854,2018-12-05,Hațeg - Dealul Hațegului - Padurea Hațegului - Cetatea Regală a Hațegului - Pădurea Hațegului - Hațeg,Consiliul Județean Hunedoara,Dealul Hațegului,Hunedoara
+788,855,2018-12-05,Sălașu de Sus - Bărăștii Hațegului - Săcel - Sânpetru - Sibișel - Ohaba Sibișel - Nucșoara - Mălăiești - Sălașu de Sus,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
+789,856,2018-12-05,Sarmizegetusa - Breazova - Peșteaua - Densuș - Hățăgel - Totești - Păclișa - Sânpetru - Unciuc - Cârnești - Ostrov - Ostrovu Mic - Clopotiva - Sarmizegetusa,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
+790,857,2018-12-05,Sarmizegetusa - Pe lângă satul Păucinești - Cepașului - Valea Hobiței - Hobița - Grădiște - Sarmizegetusa,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
+791,858,2018-12-05,Hațeg - General Berthelot (Unirea) Fărcădiu - Tuștea - Densuș - Hățăgel - Totești - Păclișa - Reea - Nălaț Vad - Hațeg,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
+792,859,2018-12-05,Sălașu de Sus - Mălăiești - Cetatea Mălăiești - Piatra Mâței - Coroiești - Paroș - Zăvoi - Sălașu de Sus,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
+793,860,2018-12-05,Sarmizegetusa - Poieni - Valea Criva - Densuș - Peșteaua - Breazova - Sarmizegetusa,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
+794,861,2018-12-05,Râușor - Suseni - Râu de Mori - Brazi - Clopotiva - Sarmizegetusa,Consiliul Județean Hunedoara,Munții Retezat,Hunedoara
+795,862,2018-12-05,Sălașu de Sus - Paroș - Coroiești - Râu Alb - Zăvoi - Sălașu de Jos - Sălașu de Sus,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
+796,863,2018-12-05,Centrul de vizitare al Parcului Național Retezat - Nucșoara - Viaduct Nucșoara - Ohaba Sibișel - Sibișel - Valea Dâljii lângă barajul Ostrov - Unciuc - Sânpetru - Sibișel - Ohaba - Sibișel - Nucșoara - Centrul de vizitare al Parcului Național Retezat,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
+797,864,2018-12-05,Densuș - Răchitova - Valea Ștei - Vârful Văratecu - Mesteacăn - Vălioara - Ciula Mare - Densuș,Consiliul Județean Hunedoara,Țara Hațegului,Hunedoara
+798,865,2018-10-16,Rodna - Vârful Fântânele - Vârful Căpățânii - Vârful Păltiniș - Vârful Saca - Poarta Beneș - Vârful Corundiș - Vârful Omului,Consiliul Local al Comunei Rodna,Munții Rodnei,Bistrița-Năsăud
+799,866,2018-10-31,"Circuit ""300 de Scări""",Consiliul Județean Bacău,Munții Nemira,Bacău
+800,867,2018-10-31,Slănic Moldova - Vârful Nemira Mare - Poiana Uzului,Consiliul Județean Bacău,Munții Nemira,Bacău
+801,868,2018-10-31,Slănic Moldova - La Salarie - Plaiul Ciungetului - Salatruc,Consiliul Județean Bacău,Munții Nemira,Bacău
+802,869,2018-10-31,Slănic Moldova - Valea Pufu - Vârful La Cireș - Șaua Nemirei,Consiliul Județean Bacău,Munții Nemira,Bacău
+803,870,2018-10-31,Pârtia de schi Nemira - Valea Dobru - Parc Slănic Moldova,Consiliul Județean Bacău,Munții Nemira,Bacău
+804,871,2018-10-31,Plaiul Ciungetului - Vârful Nemira Mare,Consiliul Județean Bacău,Munții Nemira,Bacău
+805,872,2018-10-31,Slănic Moldova - Vârful Pipas,Consiliul Județean Bacău,Munții Nemira,Bacău
+806,873,2018-10-31,Slănic Moldova - Platoul de sub Vârful Cerbului,Consiliul Județean Bacău,Munții Nemira,Bacău
+807,874,2018-10-31,Slănic Moldova - Hârja,Consiliul Județean Bacău,Munții Nemira,Bacău
+808,876,2018-10-16,Borcut Luna Șes - Poiana Boroș,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
+809,877,2018-10-16,Cabana Boda Oșanului - Poiana Boroș,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
+810,878,2018-11-19,Intersecția spre Valea Conopului - Debela Gora - Intersecția spre Vârful Piatra Păcurar,Consiliul Județean Arad,Munții Zărand,Arad
+811,879,2018-11-19,Muntele Găina Cruce - Creasta Principală a Munților Bihor - Vârful Bihor,Consiliul Județean Arad,Munții Bihor,Arad
+812,880,2018-11-19,Dezna - Ruinele Cetății Dezna,Consiliul Județean Arad,Munții Codru-Moma,Arad
+814,881,2018-12-14,Julița (DJ 708) - Gurahonț - Vârful Drocea,Consiliul Județean Arad,Munții Zărand,Arad
+815,882,2018-12-14,"Via Transilvanica - Tronsonul VT BN 1 Pasul Grădinița - Sat Lunca Ilvei - Poiana Gălan - Traseu ""Drumul Romanilor"" - Baza Tășuleasa",Consiliul Județean Bistrița-Năsăud,Munții Bârgăului,Bistrița-Năsăud
+816,883,2018-12-14,"Via Transilvanica - Tronsonul VT BN 2 Baza Tășuleasa - Traseu turistic ""Drumul Romanilor"" - Valea Lăzăroaia - Valea Străjii - Mureșenii Bârgăului - Poiana ""Brazii Buni"" - Bistrița Bârgăului",Consiliul Județean Bistrița-Năsăud,Munții Bârgăului,Bistrița-Năsăud
+817,884,2018-12-14,Via Transilvanica - Tronsonul VT BN 3 Comuna Bistrița Bârgăului - Drum forestier Blidireasa - Drum forestier Dealu Negru - Nou - Petriș - Orheiul Bistriței,Consiliul Județean Bistrița-Năsăud,Munții Călimani,Bistrița-Năsăud
+817,884,2018-12-14,Via Transilvanica - Tronsonul VT BN 3 Comuna Bistrița Bârgăului - Drum forestier Blidireasa - Drum forestier Dealu Negru - Nou - Petriș - Orheiul Bistriței,Consiliul Județean Bistrița-Năsăud,Piemontul Munților Căliman,Bistrița-Năsăud
+818,885,2018-12-14,Via Transilvanica - Tronsonul VT BN 4 Sat Orheiul Bistriței - Șesul Orheiului - Padurea Măgurele - Măgurele - Mărișelu - Jeica,Consiliul Județean Bistrița-Năsăud,Piemontul Munților Căliman,Bistrița-Năsăud
+819,886,2018-12-14,Via Transilvanica - Tronsonul VT BN 5 Sat Jeica - Monor,Consiliul Județean Bistrița-Năsăud,Piemontul Munților Căliman,Bistrița-Năsăud
+820,887,2020-09-08,Gol Alpin Pietroasa - Vârful Pietroasa,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
+821,888,2020-09-08,Vârful Pietroasa - Poiana Soci,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
+822,889,2020-09-08,Plecare Telescaun Luna Șes - Vârful Pietroasa,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
+823,891,2020-09-14,Gura Humorului - Vârful Toaca - Vârful Tocila - Vârful Bobeica - Vârful Scorușeț - Poiana Prislopului,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+824,892,2020-09-14,Poiana Prislopului - Pasul Ciumărna - Putna,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+825,893,2020-09-14,Gura Humorului - Vârful Piciorul Înalt - Obcina Cacica - Vârful Călugărița - Pasul Pleșa,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+826,894,2020-09-14,Pleșa - Dealul Pleșa - Poiana Fagului - Poiana Târșiciorului - Poiana Ciungi - Sucevița,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+827,895,2020-09-14,Sucevița - Valea Bercheza - Putna,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+828,896,2020-09-14,Poiana Micului - Poiana Tărșiciori,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+829,897,2020-09-14,Pasul Mestecăniș - Vârful Mestecăniș - Vârful Oiței - Dealul Obcina - Poiana Mănăilei - Schit Botoș,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+830,898,2020-09-14,Poiana Mănăilei - Schit Botoș - Vârful Obcioara - Vârful Lucina - Pasul Cărlibaba - Sat Bobeica - Sat Izvoarele Sucevei,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+831,899,2020-09-14,Pasul Boului - Vârful Obcina Feredeului - Vârful Pietriș - Intersecție drum forestier Breaza/Dămăncușa,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+832,900,2020-09-14,Dragoșa - Poiana Mărului - Vârful Târșicior - Pârâul Șoarecu,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+833,901,2020-09-14,Gura Humorului - Obcina Voronețului (Circuit 1),Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+834,902,2020-09-14,Gura Humorului - Obcina Voronețului (Circuit 2),Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+835,903,2020-09-14,Gura Humorului - Vârful Piciorul Înalt - Gura Humorului (Circuit 3),Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+836,904,2020-09-14,Mănăstirea Humorului - Cacica,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+837,905,2020-09-14,Pârtia Rarău - Hotel Alpin Rarău - Vârful Rarău,Consiliul Județean Suceava,Munții Rarău,Suceava
+838,906,2020-09-14,Pojorâta - Obcina Floceasca - Vârful Prașca,Consiliul Județean Suceava,Munții Rarău,Suceava
+839,907,2020-09-14,Sat Valea Putnei - Poiana Scăldători - Poiana Ciungi - Cabana Giumalău,Consiliul Județean Suceava,Munții Giumalău,Suceava
+840,908,2020-09-14,Păltiniș - Vârful Călimanul Cerbului - Vârful Călimani Izvor - Stația Meteo Rătițiș,Consiliul Județean Suceava,Munții Călimani,Suceava
+841,909,2020-09-14,Stația Meteo Rășitiș - Vârful Pietrosu - Șaua Tihului - Piciorul Bistriciorului - Vârful Strănior,Consiliul Județean Suceava,Munții Călimani,Suceava
+842,910,2020-09-14,Sărișor - Schit Apa Rece,Consiliul Județean Suceava,Munții Călimani,Suceava
+843,911,2020-09-14,Exploatarea Călimani - Șaua Nicovala,Consiliul Județean Suceava,Munții Călimani,Suceava
+844,912,2020-09-14,Monumentul de la Gruiu - Poiana Izvoarele,Consiliul Județean Suceava,Munții Călimani,Suceava
+845,913,2020-09-14,Cozănești - Pârâul Bărnărel - Crucea,Consiliul Județean Suceava,Munții Bistriței,Suceava
+846,914,2020-09-14,Via Transilvanica - Sucevița - Vatra Moldoviței,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+847,915,2020-09-14,Via Transilvanica - Vatra Moldoviței - Fundu Moldovei,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+848,916,2020-09-14,Via Transilvanica - Fundu Moldovei - Pasul Mestecăniș,Consiliul Județean Suceava,Munții Obcinele Bucovinei,Suceava
+849,917,2020-09-14,Via Transilvanica - Poiana Obcinii (sau Poiana Țicșeni) - Vatra Dornei - Dorna Cândreni,Consiliul Județean Suceava,Munții Giumalău,Suceava
+850,918,2020-09-14,Via Transilvanica - Dorna Cândreni - Poiana Negrii - Poiana Stampei - Grădinița,Consiliul Județean Suceava,Munții Suhard,Suceava
+851,919,2020-09-14,Neagra Șarului - 12 Apostoli - Poiana Izvoarelor,Consiliul Județean Suceava,Munții Călimani,Suceava
+852,920,2020-09-14,Poiana Izvoarelor - Șaua Negoiu - Vârful Rățitiș - Vârful Călimanul Cerbului - Neagra Șarului,Consiliul Județean Suceava,Munții Călimani,Suceava
+853,921,2020-09-15,Poiana Negrii - Schit Apa Rece - 12 Apostoli - Gura Haitii - Vârful Călimanul Cerbului,Consiliul Județean Suceava,Munții Călimani,Suceava
+854,922,2020-09-15,Gura Haitii - Poiana Izvoarele - Coada Pietrosului,Consiliul Județean Suceava,Munții Călimani,Suceava
+855,923,2020-09-15,Gura Haitii - Vârful Pietrele Roșii - Vârful Tămău - Valea Vorona - Dornișoara,Consiliul Județean Suceava,Munții Călimani,Suceava
+856,924,2020-09-15,Dornișoara - Izvoarele Dornei - La Troiță,Consiliul Județean Suceava,Munții Călimani,Suceava
+857,925,2020-09-15,Poiana Șesului Muntelui (baza vârfului Oușorul) - Schitul Sfânta Cruce pe Părăul Recele,Consiliul Județean Suceava,Munții Suhard,Suceava
+858,926,2020-09-15,Schitul Sfânta Cruce - Părăul Recele - Vârful Icoana - Vârful Omu,Consiliul Județean Suceava,Munții Suhard,Suceava
+859,927,2020-09-15,Vatra Dornei - Poiana Șesul Muntelui (baza Vârful Oușorul),Consiliul Județean Suceava,Munții Suhard,Suceava
+860,928,2020-09-15,Ciocănești - Pârâul Recele - Schitul Sfânta Cruce - Valea Bancului - Podul Coșnei,Consiliul Județean Suceava,Munții Suhard,Suceava
+861,929,2020-09-15,Poiana Șesul Muntelui - Vârful Oușorul,Consiliul Județean Suceava,Munții Suhard,Suceava
+862,930,2020-09-15,Zugreni - Vârful Bogolin - Vârful Pietrosul - Poiana Prislopului,Consiliul Județean Suceava,Munții Bistriței,Suceava
+863,931,2020-09-15,Poiana Prislopului - Poiana Șandru - Vârful Busuiocului - Mănăstirea Piatra Tăieturii - Vârful Dealul Vânăt - Păltiniș,Consiliul Județean Suceava,Munții Bistriței,Suceava
+864,932,2020-09-15,Rusca - Poiana Prislopului - Izvorul Rău,Consiliul Județean Suceava,Munții Bistriței,Suceava
+865,933,2020-09-15,Vatra Dornei - Poiana Țicșeni,Consiliul Județean Suceava,Munții Giumalău,Suceava
+866,934,2020-09-15,Rusca - Valea Ruscă - Cabana Giumalău,Consiliul Județean Suceava,Munții Giumalău,Suceava
+867,935,2020-09-15,Rusca - Piciorul Ruștii - Cabana Giumalău,Consiliul Județean Suceava,Munții Giumalău,Suceava
+868,936,2020-10-07,Posada - Valea Florei - Vârful Doamnele - Vârful Piscul Cainelui - Vârful Baiul Mare - Culmea Zamora,Consiliul Județean Prahova,Munții Baiului,Prahova
+869,947,2020-11-12,Armeniș (Centru Informare Turistică) - Cascada Urma de Bour,Consiliul Județean Caraș-Severin,Munții Țarcu,Caraș-Severin
+870,948,2020-11-12,Armeniș (Centru Informare Turistică) - Culmea Lazuri - Plopu,Consiliul Județean Caraș-Severin,Munții Țarcu,Caraș-Severin
+871,949,2020-11-12,Armeniș - Plopu - Poiana Zloaba - Cabana Cuntu,Consiliul Județean Caraș-Severin,Munții Țarcu,Caraș-Severin
+872,950,2021-01-21,Pălinciile din Bătarci - Vârful Cetățeaua,Consiliul Județean Satu Mare,Munții Oaș,Satu Mare
+873,951,2021-01-21,Tămășeni - Vârful Cetățeaua,Consiliul Județean Satu Mare,Munții Oaș,Satu Mare
+874,952,2021-01-21,Primăria Bătarci - Măgura Bătarci - Ghiboacele,Consiliul Județean Satu Mare,Munții Oaș,Satu Mare
+875,953,2021-01-21,Centru SPA - Drumul Măgurii,Consiliul Județean Satu Mare,Munții Oaș,Satu Mare
+876,954,2021-01-21,Borcut Luna Șes - Izvor Trestia,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
+877,955,2021-01-21,Plecare Telescaun Luna Șes - Poiana Soci,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
+878,956,2021-01-21,Piatra Tâlharului - Vârful Pietroasa,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
+879,957,2021-01-21,Negrești-Oaș - Vârful Pietroasa,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
+880,958,2021-01-21,Negrești-Oaș - Muntele Mic,Consiliul Județean Satu Mare,Munții Gutâi,Satu Mare
+881,959,2021-02-02,Sfântu Gheorghe - Vâlcele - Vârful Gurgău - Șugaș Băi - Sfântu Gheorghe,Consiliul Județean Covasna,Munții Baraolt,Covasna
+882,960,2021-02-02,Izvorul Honvéd - Șugaș Băi - Sfântu Gheorghe (piața Kálvin),Consiliul Județean Covasna,Munții Baraolt,Covasna
+883,961,2021-02-02,Gara CFR Bixad - Piatra Șoimilor,Consiliul Județean Covasna,Munții Harghitei,Covasna
+884,962,2021-04-16,Cluj-Napoca - Tureni,Consiliul Județean Cluj,Munții Trascău,Cluj
+885,963,2021-04-16,Tureni - Cheile Turzii - Moldovenești,Consiliul Județean Cluj,Munții Trascău,Cluj
+886,964,2021-04-16,Moldovenești - Colții Trascăului,Consiliul Județean Cluj,Munții Trascău,Cluj
+887,965,2021-04-16,Cabana Buru - Colții Corbului - Gura Jigăului,Consiliul Județean Cluj,Munții Trascău,Cluj
+888,966,2021-04-16,Cheile Turzii - Pârâul Arinei - Cornești,Consiliul Județean Cluj,Munții Trascău,Cluj
+889,967,2021-04-16,Turda - Drumul Domnilor - Cheile Turzii - Petreștii de Jos,Consiliul Județean Cluj,Munții Trascău,Cluj
+890,968,2021-04-16,Circuitul Cheilor Turenilor,Consiliul Județean Cluj,Munții Trascău,Cluj
+891,969,2021-04-16,Circuitul Cheilor Borzești,Consiliul Județean Cluj,Munții Trascău,Cluj
+892,970,2021-04-16,Circuitul Cheilor Turzii,Consiliul Județean Cluj,Munții Trascău,Cluj
+893,971,2021-04-16,Tureni - Cheile Turenilor - Izvorul Romanilor - Vapa - Cheile Turzii,Consiliul Județean Cluj,Munții Trascău,Cluj
+894,972,2021-04-16,Cheile Turzii - Ciuma Goală - Cascada Ciucaș - Cornești,Consiliul Județean Cluj,Munții Trascău,Cluj
+895,973,2021-04-16,Cheile Turzii - Gura Jigăului - Cheile Borzești - Cabana Buru,Consiliul Județean Cluj,Munții Trascău,Cluj
+896,974,2021-04-16,Codlea (Zona Maial) - Poiana Mărul Dulce - Cetatea Neagră,Consiliul Județean Brașov,Munții Perșani,Brașov
+897,975,2021-04-16,Codlea (Zona Maial) - Poiana Mărul Dulce - Vârful Măgura Codlei,Consiliul Județean Brașov,Munții Perșani,Brașov
+898,976,2021-04-16,Codlea (Zona Maial) - Valea Trei Fântâni - Piatra Albă - Vârful Măgura Codlei,Consiliul Județean Brașov,Munții Perșani,Brașov
+899,977,2021-04-16,Codlea (Zona Maial) - Ștrandul Codlea - Zona Carieră (traseu de legătură spre Vârful Măgura Codlei),Consiliul Județean Brașov,Munții Perșani,Brașov
+900,978,2021-04-16,Ștrandul Codlea/Lacul 1 - Vârful Măgura Codlei - Cetatea Neagră,Consiliul Județean Brașov,Munții Perșani,Brașov
+901,979,2021-04-16,Zona Carieră - Poiana lui Rușeț - Vârful Măgura Codlei,Consiliul Județean Brașov,Munții Perșani,Brașov
+902,980,2021-04-16,Gara Dumbrăvița Bârsei - Dealu Frumos - DN1 - Cariera Veche,Consiliul Județean Brașov,Munții Perșani,Brașov
+903,981,2021-07-09,Șugaș Băi (stația de autobuz) - Creasta Munții Baraolt,Consiliul Județean Covasna,Munții Baraolt,Covasna
+904,982,2021-07-09,Sfântu Gheorghe (Stadion Municipal) - Poiana Bironé - Izvorul Honvéd - Izvorul Pucioasa din Sfântu Gheorghe,Consiliul Județean Covasna,Munții Baraolt,Covasna
+905,983,2021-07-09,Sfântu Gheorghe (Stadion Municipal) - Poiana Marinica - Izvorul Pucioasa din Sfântu Gheorghe,Consiliul Județean Covasna,Munții Baraolt,Covasna
+906,984,2021-07-09,Arcuș - Șugaș Băi - Creasta Munții Baraolt,Consiliul Județean Covasna,Munții Baraolt,Covasna
+907,985,2021-10-06,Vârful Peana - Casele Micești,Consiliul Județean Cluj,Făgetul Clujului,Cluj
+907,985,2021-10-06,Vârful Peana - Casele Micești,Consiliul Județean Cluj,Feleac,Cluj
+908,986,2021-10-06,Mănăștur - Râtul Popii - Râtul Penii - Vârful Peana,Consiliul Județean Cluj,Făgetul Clujului,Cluj
+908,986,2021-10-06,Mănăștur - Râtul Popii - Râtul Penii - Vârful Peana,Consiliul Județean Cluj,Feleac,Cluj
+909,987,2021-10-06,Izvorul Sfântul Ioan - Vârful Peana,Consiliul Județean Cluj,Făgetul Clujului,Cluj
+909,987,2021-10-06,Izvorul Sfântul Ioan - Vârful Peana,Consiliul Județean Cluj,Feleac,Cluj
+910,988,2021-10-06,Izvorul Sfântul Ioan - Belvedere - Râtul Penii,Consiliul Județean Cluj,Făgetul Clujului,Cluj
+910,988,2021-10-06,Izvorul Sfântul Ioan - Belvedere - Râtul Penii,Consiliul Județean Cluj,Feleac,Cluj
+911,989,2021-10-06,Camping Făget - Fântâna Bilașcu - Vârful Peana,Consiliul Județean Cluj,Făgetul Clujului,Cluj
+911,989,2021-10-06,Camping Făget - Fântâna Bilașcu - Vârful Peana,Consiliul Județean Cluj,Feleac,Cluj
+912,990,2021-10-06,Mănăștur - Capul Dealului,Consiliul Județean Cluj,Făgetul Clujului,Cluj
+912,990,2021-10-06,Mănăștur - Capul Dealului,Consiliul Județean Cluj,Feleac,Cluj
+913,991,2021-10-06,Versant stâng Tarnița,Consiliul Județean Cluj,Munții Gilăului,Cluj
+914,992,2021-10-06,Circuitul Piatra Corbilor,Consiliul Județean Cluj,Munții Gilăului,Cluj
+915,993,2021-10-06,Circuitul Piatra lui Lucaci,Consiliul Județean Cluj,Munții Gilăului,Cluj
+916,994,2021-10-07,Mărișel (Rusești) - Defileul Someșului Cald - Dâlboaca - Mărișel (Rusești),Consiliul Județean Cluj,Munții Gilăului,Cluj
+917,995,2021-10-07,Mărișel (Biserică) - Belvedere - Trei Pâraie - Mărișel (Biserică),Consiliul Județean Cluj,Munții Gilăului,Cluj
