@@ -33,7 +33,7 @@ jobs:
           git show HEAD~1:data/clean/turism_gov_ro/uniform/ttmo_gov_list.csv > data/clean/turism_gov_ro/uniform/ttmo_gov_list.old.csv
           python scripts/turism_gov_ro/verification_tasks/generate_verification_task_dataset.py
           rm -f data/clean/turism_gov_ro/uniform/ttmo_gov_list.old.csv
-          if [[-f -e "issue.md"]]; then
+          if [[ -f "issue.md" ]]; then
             echo "##[set-output name=should_create_issue;]true"
           fi
       
@@ -49,7 +49,7 @@ jobs:
 
       - name: Remove the issue file
         run: |
-          if [[-f -e "issue.md"]]; then
+          if [[ -f "issue.md" ]]; then
             rm -f issue.md
           fi
 
