@@ -27,16 +27,18 @@ jobs:
       - name: Update the verification tasks and write deleted and modified tasks to markdown files
         id: verify
         run: |
-          python scripts/turism_gov_ro/verification_tasks/generate_verification_task_dataset.py --commit-hash ${{ github.sha }}
+          git show HEAD~1:data/clean/turism_gov_ro/uniform/ttmo_gov_list.csv > data/clean/turism_gov_ro/uniform/ttmo_gov_list.old.csv
+          python scripts/turism_gov_ro/verification_tasks/generate_verification_task_dataset.py
+          rm -f data/clean/turism_gov_ro/uniform/ttmo_gov_list.old.csv
           if [[-f -e "issue.md"]]; then
             echo "##[set-output name=should_create_issue;]true"
           fi
       
-      - name: Create an issue for the modified and deleted rows
+      - name: Create an issue for the new and removed rows
         if: steps.outputs.should_create_issue
         uses: peter-evans/create-issue-from-file@v3
         with:
-          title: Clean dataset rows deleted or modified
+          title: New or removed rows in the clean dataset
           content-filepath: issue.md
           labels: |
             automated

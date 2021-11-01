@@ -159,7 +159,13 @@ def correct_words(value: str) -> str:
         'belvedere': 'Belvedere',
         'malul': 'Malul',
         'paraul': 'Pârâul',
-        'silvic': 'Silvic'
+        'halta': 'Halta',
+        'tunel': 'Tunel',
+        'silvic': 'Silvic',
+        'canton': 'Canton',
+        'creasta': 'Creasta',
+        'muntilor': 'Munților',
+        'motel': 'Motel'
     })
 
 
