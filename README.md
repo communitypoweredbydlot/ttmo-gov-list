@@ -1,4 +1,4 @@
-# [work in progress] ttmo-gov-list
+# ttmo-gov-list
 [![Hits][hits-src]][hits-href]
 [![contributions welcome][contributions-welcome-src]][contributions-welcome-href]  
 [![License][code-license-src]][code-license-href]
@@ -14,7 +14,7 @@ Copyright for the source dataset is held by [© 2017 Ministerul Turismului](http
 The source dataset can be found on the [Autorizare Turism](http://turism.gov.ro/web/autorizare-turism/) page in the _Trasee turistice_ section.
 
 This derived __TTMO-GOV-LIST__ database is made available under the [Open Database License](http://opendatacommons.org/licenses/odbl/1.0/).  
-Any rights in individual contents of the database are licensed under the [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+Any rights in individual contents of the database are licensed under the Database Contents License: [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
 
 The source code is licensed under the [MIT](./LICENSE) license while and all the documentation and text content is licensed under the [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
