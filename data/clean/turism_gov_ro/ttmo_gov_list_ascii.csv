@@ -673,10 +673,6 @@ nr,certificate_number,registration_date,name,administrator,location,county
 635,698,2014-06-16,Costesti - Cetatea Blidaru - Leurdana - Tarsa - Poiana Omului - Varful Rudii - Culmea Meleia - Varful Tampu - Saua Steaua Mare - Varful Godeanu,Consiliul Judetean Hunedoara,Muntii Sureanu,Hunedoara
 636,699,2014-06-16,Podul Gerosu - Dealul Muncelului - Cetatea Fetele Albe - Valea Alba,Consiliul Judetean Hunedoara,Muntii Sureanu,Hunedoara
 637,700,2014-06-16,Gradistea de Munte - Prihodiste - Poiana Omului - Cetatea Piatra Rosie - Valea Rosia - Cioclovina - Pestera Cioclovina,Consiliul Judetean Hunedoara,Muntii Sureanu,Hunedoara
-638,701,2014-07-25,Culmea Bran - Culmea Magurii - Fantana lui Botorog,Administratia Parcului National Piatra Craiului RA,Muntii Piatra Craiului,Brasov
-639,702,2014-07-25,Tohanita - Saua Magura - Satul Magura - Fantana lui Botorog,Administratia Parcului National Piatra Craiului RA,Muntii Piatra Craiului,Brasov
-640,703,2014-07-25,Valea Curmaturii - Poiana Curmatura - Cabana Curmatura,Administratia Parcului National Piatra Craiului RA,Muntii Piatra Craiului,Brasov
-641,704,2014-07-25,Cabana Curmatura - Padinile Frumoase - Varful Ascutit,Administratia Parcului National Piatra Craiului RA,Muntii Piatra Craiului,Brasov
 642,705,2014-09-09,Statiunea Durau - Poiana Viezuri - Cascada Duruitoarea,Consiliul Judetean Neamt,Muntii Ceahlau,Neamt
 643,706,2014-09-09,Statiunea Durau - Piciorul lui Bucur - Cascada Duruitoarea,Consiliul Judetean Neamt,Muntii Ceahlau,Neamt
 644,707,2014-09-09,Statiunea Durau - Cabana Fantanele - Varful Toaca - Cabana Dochia,Consiliul Judetean Neamt,Muntii Ceahlau,Neamt
@@ -686,7 +682,6 @@ nr,certificate_number,registration_date,name,administrator,location,county
 648,711,2014-09-09,Izvorul Muntelui - Curmatura Lutul Rosu - Stanca Dochiei - Jgeabul cu Hotar - Cabana Dochia,Consiliul Judetean Neamt,Muntii Ceahlau,Neamt
 649,712,2014-09-09,Bicazul Ardelean - Bistra Mare - La Scaune - Curmatura Stanilelor - Jgeabul lui Voda - Cabana Dochia,Consiliul Judetean Neamt,Muntii Ceahlau,Neamt
 650,713,2014-11-19,Dealul Moiseiului - Manastirea Moisei - Izvorul Negru - Preluca sub Piatra,Consiliul Judetean Maramures,Muntii Rodnei,Maramures
-651,714,2014-11-19,Podul lui Calinet - Izvorul Capitanului Orlovki - Refugiul Sperantelor - Varful Ascutit,Administratia Parcului National Piatra Craiului RA,Muntii Piatra Craiului,Brasov
 652,715,2014-11-25,Borsec - Izvorul Stravechi - Pestera de Gheata - Grota Ursilor - Borsec,Consiliul Local al Orasului Borsec,Muntii Giurgeului,Harghita
 653,716,2014-11-25,Borsec - Izvorul Stravechi - Izvorul Pierre Curie - Cetatea Bufnitelor - Valea Vinului - Borsecul de Jos - Borsec,Consiliul Local al Orasului Borsec,Muntii Giurgeului,Harghita
 654,717,2014-11-25,Borsec - Fagetelul - Groapa Rotunda - Sapte Izvoare - Borsec,Consiliul Local al Orasului Borsec,Muntii Giurgeului,Harghita
@@ -694,8 +689,6 @@ nr,certificate_number,registration_date,name,administrator,location,county
 656,719,2014-11-25,Borsec - Bulevardul 7 Izvoare - Strada Stadionului - Cascada Sapte Izvoare - Valea Nadasa - Borsec,Consiliul Local al Orasului Borsec,Muntii Giurgeului,Harghita
 657,720,2014-11-25,Borsec - Valea Vinului - Valea lui Filip Andrei - Borsec,Consiliul Local al Orasului Borsec,Muntii Giurgeului,Harghita
 658,721,2014-11-25,Borsec - Strada Malnas - Paraul Malnas - Valea Vinului - Strada Ditraului - Borsec,Consiliul Local al Orasului Borsec,Muntii Giurgeului,Harghita
-659,722,2014-11-25,Borsec - Strada Malnas - Paraul Malnas - Valea Vinului - Strada Ditraului - Borsec,Consiliul Local al Orasului Borsec,Muntii Giurgeului,Harghita
-660,723,2014-11-25,Borsec - Valea Hanzkel - Varful Arcoza - Pasul Creanga - Borsec,Consiliul Local al Orasului Borsec,Muntii Giurgeului,Harghita
 661,724,2014-11-25,Borsec - Muntele Dosul Batcii - Capu Corbului - Paraul Cupelor - Uzina de apa 7 Izvoare - Borsec,Consiliul Local al Orasului Borsec,Muntii Giurgeului,Harghita
 662,725,2014-11-25,Borsec - Valea Nadasa - Fagetul Mare - Culmea Mezovesti - Varful Tibra - Casa Tifrei - Valea Bistricioarei - Paraul Cupelor - Uzina de apa 7 Izvoare - Borsec,Consiliul Local al Orasului Borsec,Muntii Giurgeului,Harghita
 663,726,2014-11-25,Borsec - Strada Carpati - Valea Nadasa - Varful Arcoza - Pasul Creanga - Borsecul de Jos - Borsec,Consiliul Local al Orasului Borsec,Muntii Giurgeului,Harghita
