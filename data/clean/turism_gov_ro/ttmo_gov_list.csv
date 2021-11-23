@@ -673,6 +673,10 @@ nr,certificate_number,registration_date,name,administrator,location,county
 635,698,2014-06-16,Costești - Cetatea Blidaru - Leurdana - Târsa - Poiana Omului - Vârful Rudii - Culmea Meleia - Vârful Tâmpu - Șaua Steaua Mare - Vârful Godeanu,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
 636,699,2014-06-16,Podul Gerosu - Dealul Muncelului - Cetatea Fețele Albe - Valea Albă,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
 637,700,2014-06-16,Grădiștea de Munte - Prihodiște - Poiana Omului - Cetatea Piatra Roșie - Valea Roșia - Cioclovina - Peștera Cioclovina,Consiliul Județean Hunedoara,Munții Șureanu,Hunedoara
+638,701,2014-07-25,Comuna Bran - Culmea Măgurii - Fântâna lui Botorog,Consiliul Județean Brașov,Munții Piatra Craiului,Brașov
+639,702,2014-07-25,Tohănița - Șaua Măgura - Satul Măgura - Fântâna lui Botorog,Consiliul Județean Brașov,Munții Piatra Craiului,Brașov
+640,703,2014-07-25,Valea Curmăturii - Poiana Curmătura - Cabana Curmătura,Consiliul Județean Brașov,Munții Piatra Craiului,Brașov
+641,704,2014-07-25,Cabana Curmătura - Padinile Frumoase - Vârful Ascuțit,Consiliul Județean Brașov,Munții Piatra Craiului,Brașov
 642,705,2014-09-09,Stațiunea Durău - Poiana Viezuri - Cascada Duruitoarea,Consiliul Județean Neamț,Munții Ceahlău,Neamț
 643,706,2014-09-09,Stațiunea Durău - Piciorul lui Bucur - Cascada Duruitoarea,Consiliul Județean Neamț,Munții Ceahlău,Neamț
 644,707,2014-09-09,Stațiunea Durău - Cabana Fântânele - Vârful Toaca - Cabana Dochia,Consiliul Județean Neamț,Munții Ceahlău,Neamț
@@ -682,6 +686,7 @@ nr,certificate_number,registration_date,name,administrator,location,county
 648,711,2014-09-09,Izvorul Muntelui - Curmătura Lutul Roșu - Stânca Dochiei - Jgeabul cu Hotar - Cabana Dochia,Consiliul Județean Neamț,Munții Ceahlău,Neamț
 649,712,2014-09-09,Bicazul Ardelean - Bistra Mare - La Scaune - Curmătura Stanilelor - Jgeabul lui Vodă - Cabana Dochia,Consiliul Județean Neamț,Munții Ceahlău,Neamț
 650,713,2014-11-19,Dealul Moiseiului - Mănăstirea Moisei - Izvorul Negru - Preluca sub Piatră,Consiliul Județean Maramureș,Munții Rodnei,Maramureș
+651,714,2014-11-19,Podul lui Călineț - Izvorul Căpitanului Orlovski - Refugiul Speranțelor - Vârful Ascuțit,Consiliul Județean Brașov,Munții Piatra Craiului,Brașov
 652,715,2014-11-25,Borsec - Izvorul Străvechi - Peștera de Gheață - Grota Urșilor - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
 653,716,2014-11-25,Borsec - Izvorul Străvechi - Izvorul Pierre Curie - Cetatea Bufnițelor - Valea Vinului - Borsecul de Jos - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
 654,717,2014-11-25,Borsec - Făgețelul - Groapa Rotundă - Șapte Izvoare - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
@@ -689,6 +694,8 @@ nr,certificate_number,registration_date,name,administrator,location,county
 656,719,2014-11-25,Borsec - Bulevardul 7 Izvoare - Strada Stadionului - Cascada Șapte Izvoare - Valea Nadășa - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
 657,720,2014-11-25,Borsec - Valea Vinului - Valea lui Filip Andrei - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
 658,721,2014-11-25,Borsec - Strada Malnaș - Pârâul Malnaș - Valea Vinului - Strada Ditrăului - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+659,722,2014-11-25,Borsec - Pasul Creangă - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
+660,723,2014-11-25,Borsec - Valea Hanzel - Vârful Arcoza - Pasul Creangă - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
 661,724,2014-11-25,Borsec - Muntele Dosul Bâtcii - Capu Corbului - Pârâul Cupelor - Uzina de apă 7 Izvoare - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
 662,725,2014-11-25,Borsec - Valea Nadășa - Făgetul Mare - Culmea Mezovești - Vârful Țibra - Casa Țifrei - Valea Bistricioarei - Pârâul Cupelor - Uzina de apă 7 Izvoare - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
 663,726,2014-11-25,Borsec - Strada Carpați - Valea Nadășa - Vârful Arcoza - Pasul Creangă - Borsecul de Jos - Borsec,Consiliul Local al Orașului Borsec,Munții Giurgeului,Harghita
@@ -959,3 +966,7 @@ nr,certificate_number,registration_date,name,administrator,location,county
 915,993,2021-10-06,Circuitul Piatra lui Lucaci,Consiliul Județean Cluj,Munții Gilăului,Cluj
 916,994,2021-10-07,Mărișel (Rusești) - Defileul Someșului Cald - Dâlboaca - Mărișel (Rusești),Consiliul Județean Cluj,Munții Gilăului,Cluj
 917,995,2021-10-07,Mărișel (Biserică) - Belvedere - Trei Pâraie - Mărișel (Biserică),Consiliul Județean Cluj,Munții Gilăului,Cluj
+918,996,2021-11-03,Valea Doabrei - Vârful Poiana Sulița - Valea Călinești,Consiliul Local Brezoi,Munții Lotrului,Vâlcea
+919,997,2021-11-03,Brezoi - Tabăra Lotru,Consiliul Local Brezoi,Munții Lotrului,Vâlcea
+920,998,2021-11-03,Brezoi - Vârful Țurțudan - Brezoi,Consiliul Local Brezoi,Munții Lotrului,Vâlcea
+921,999,2021-11-03,Brezoi - Vârful Zimbru,Consiliul Local Brezoi,Munții Lotrului,Vâlcea
