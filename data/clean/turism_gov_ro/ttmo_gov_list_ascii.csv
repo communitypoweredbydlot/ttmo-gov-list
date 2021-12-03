@@ -164,30 +164,23 @@ nr,certificate_number,registration_date,name,administrator,location,county
 163,163,2006-05-11,Balvanyos - Lacul Sfanta Ana,Consiliul Judetean Covasna,Muntii Bodoc,Covasna
 164,164,2006-05-11,Lacul Sfanta Ana - Varful Tetele,Consiliul Judetean Covasna,Muntii Turiei,Covasna
 165,165,2006-05-11,Baile Balvanyos - Paraul Balvanyos - Dealul Mijlociu - Tinovul Buffogo,Consiliul Judetean Covasna,Muntii Turiei,Covasna
-166,166,2006-06-21,Sinaia - Cota 1400 - Cabana Varful cu Dor - Cabana Valea Dorului - Saua Laptici - Cabana Padina,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
-166,166,2006-06-21,Sinaia - Cota 1400 - Cabana Varful cu Dor - Cabana Valea Dorului - Saua Laptici - Cabana Padina,Consiliul Judetean Dambovita,Muntii Bucegi,Prahova
+166,166,2006-06-21,Sinaia - Cota 1400 - Cabana Varful cu Dor - Cabana Valea Dorului - Saua Laptici - Cabana Padina,Consiliul Judetean Prahova si Consiliul Judetean Dambovita,Muntii Bucegi,Prahova
 167,167,2006-06-21,Cabana Varful cu Dor - Cota 2000 - Cabana Piatra Arsa - Cabana Babele - Cabana Varful Omu,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
 168,168,2006-06-21,Cabana Varful cu Dor - Saua Calugarului,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
-169,169,2006-06-21,Cabana Varful cu Dor - Cabana Valea Dorului - Blana - Cabana Zanoaga,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
-169,169,2006-06-21,Cabana Varful cu Dor - Cabana Valea Dorului - Blana - Cabana Zanoaga,Consiliul Judetean Dambovita,Muntii Bucegi,Prahova
-170,170,2006-06-21,Sinaia - Poiana Stanei Piciorul Pietrei Arse - Cabana Piatra Arsa - Hotelul Pestera,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
-170,170,2006-06-21,Sinaia - Poiana Stanei Piciorul Pietrei Arse - Cabana Piatra Arsa - Hotelul Pestera,Consiliul Judetean Dambovita,Muntii Bucegi,Prahova
+169,169,2006-06-21,Cabana Varful cu Dor - Cabana Valea Dorului - Blana - Cabana Zanoaga,Consiliul Judetean Prahova si Consiliul Judetean Dambovita,Muntii Bucegi,Prahova
+170,170,2006-06-21,Sinaia - Poiana Stanei Piciorul Pietrei Arse - Cabana Piatra Arsa - Hotelul Pestera,Consiliul Judetean Prahova si Consiliul Judetean Dambovita,Muntii Bucegi,Prahova
 171,171,2006-06-21,Busteni - Cascada Urlatoarea,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
 172,172,2006-06-21,Poiana Tapului - Cascada Urlatoarera,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
 173,173,2006-06-21,Busteni - Valea Jepilor Mari - Cantonul Jepi - Cabana Piatra Arsa,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
-174,174,2006-06-21,Busteni - Caminul Alpin - Plaiul Munticelului - Poiana Costilei - Pichetul Rosu - La Prepeleac - Cabana Malaiesti,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
-174,174,2006-06-21,Busteni - Caminul Alpin - Plaiul Munticelului - Poiana Costilei - Pichetul Rosu - La Prepeleac - Cabana Malaiesti,Consiliul Judetean Brasov,Muntii Bucegi,Prahova
-175,175,2006-06-21,Busteni - Valea Jepilor Mici - Cabana Caraiman - Cabana Babele - Hotel Pestera,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
-175,175,2006-06-21,Busteni - Valea Jepilor Mici - Cabana Caraiman - Cabana Babele - Hotel Pestera,Consiliul Judetean Dambovita,Muntii Bucegi,Prahova
+174,174,2006-06-21,Busteni - Caminul Alpin - Plaiul Munticelului - Poiana Costilei - Pichetul Rosu - La Prepeleac - Cabana Malaiesti,Consiliul Judetean Prahova si Consiliul Judetean Brasov,Muntii Bucegi,Prahova
+175,175,2006-06-21,Busteni - Valea Jepilor Mici - Cabana Caraiman - Cabana Babele - Hotel Pestera,Consiliul Judetean Prahova si Consiliul Judetean Dambovita,Muntii Bucegi,Prahova
 176,176,2006-06-21,Busteni - Plaiul Fanului - Poiana Costilei - Valea Cerbului - Cabana Varful Omu,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
 177,177,2006-06-21,Busteni - Cabana Gura Diham - Cabana Poiana Izvoarelor - Pichetul Rosu - La Prepeleac - Creasta Bucsoiul Mare - Cabana Varful Omu,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
 178,178,2006-06-21,Busteni - Cabana Gura Diham - Saua Baiului - Cabana Diham,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
 179,179,2006-06-21,Cabana Caraiman - Monumentul Eroilor,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
 180,180,2006-06-21,Cabana Babele - Varful Caraiman - Monumentul Eroilor - Spinarea Costilei - Saua Sugarilor,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
-181,181,2006-06-21,Cabana Varful Omu - Cascada Obarsia Ialomitei - Hotel Pestera,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
-181,181,2006-06-21,Cabana Varful Omu - Cascada Obarsia Ialomitei - Hotel Pestera,Consiliul Judetean Dambovita,Muntii Bucegi,Prahova
-182,182,2006-06-21,Cabana Varful Omu - Muntele Doamnele - Saua Strunga - Cabana Padina,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
-182,182,2006-06-21,Cabana Varful Omu - Muntele Doamnele - Saua Strunga - Cabana Padina,Consiliul Judetean Dambovita,Muntii Bucegi,Prahova
+181,181,2006-06-21,Cabana Varful Omu - Cascada Obarsia Ialomitei - Hotel Pestera,Consiliul Judetean Prahova si Consiliul Judetean Dambovita,Muntii Bucegi,Prahova
+182,182,2006-06-21,Cabana Varful Omu - Muntele Doamnele - Saua Strunga - Cabana Padina,Consiliul Judetean Prahova si Consiliul Judetean Dambovita,Muntii Bucegi,Prahova
 183,183,2006-06-21,Saua Baiului - Varful Leuca Mica - Valea Grecului - Azuga,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
 184,184,2006-12-06,Arefu - Clabucet - Muntele Marginea - Florea - Varful Podeanu - Caldarea Berbecilor - Varful Negoiu,Consiliul Judetean Arges,Muntii Fagaras,Arges
 185,185,2006-12-06,Cumpana - Clabucet - Muntele Marginea - Izvorul Negoiu - Varful Negoiu,Consiliul Judetean Arges,Muntii Fagaras,Arges
@@ -294,46 +287,26 @@ nr,certificate_number,registration_date,name,administrator,location,county
 286,289,2007-03-13,Zugreni - Paraul Colbu - Piciorul Tepuselor - Cabana Giumalau - Varful Giumalau,Consiliul Local al Orasului Vatra Dornei,Muntii Giumalau,Suceava
 287,294,2007-03-13,Dorna Candreni - Sesu Muntelui - Paraul Haju,Consiliul Local al Orasului Vatra Dornei,Muntii Suhard,Suceava
 288,296,2007-03-13,Vatra Dornei - Poiana Spanzului - Poiana Snopului - Poiana Apa Rece - Comuna Sarul Dornei,Consiliul Local al Orasului Vatra Dornei,Muntii Calimani,Suceava
-289,352,2008-04-15,Stana de Vale - Varful Cucurbata Mare (Bihorul),Consiliul Judetean Bihor,Muntii Bihor,Bihor
-289,352,2008-04-15,Stana de Vale - Varful Cucurbata Mare (Bihorul),Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-290,353,2008-04-15,Pietroasa - Saua Bohodei - Valea Aleului,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-290,353,2008-04-15,Pietroasa - Saua Bohodei - Valea Aleului,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-291,354,2008-04-15,Satul de Vacanta Boga - Saua Bohodei,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-291,354,2008-04-15,Satul de Vacanta Boga - Saua Bohodei,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-292,355,2008-04-15,"Camping ""La Grajduri"" - Casa de Piatra",Consiliul Judetean Bihor,Muntii Bihor,Bihor
-292,355,2008-04-15,"Camping ""La Grajduri"" - Casa de Piatra",Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-293,356,2008-04-15,Pietroasa - Arieseni,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-293,356,2008-04-15,Pietroasa - Arieseni,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-294,357,2008-04-15,Saua Vartop - Stei,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-294,357,2008-04-15,Saua Vartop - Stei,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-295,358,2008-04-15,Campani - DN 75 km 25 +100,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-295,358,2008-04-15,Campani - DN 75 km 25 +100,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-296,359,2008-04-15,Circuitul Pesterii Ursilor,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-296,359,2008-04-15,Circuitul Pesterii Ursilor,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-297,360,2008-04-15,Cabana Vladeasa - Garda de Sus,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-297,360,2008-04-15,Cabana Vladeasa - Garda de Sus,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-298,361,2008-04-15,Piatra Graitoare - Camping Runcu Ars (Ponor),Consiliul Judetean Bihor,Muntii Bihor,Bihor
-298,361,2008-04-15,Piatra Graitoare - Camping Runcu Ars (Ponor),Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-299,362,2008-04-15,Circuitul Izvoarelor Somesului Cald,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-299,362,2008-04-15,Circuitul Izvoarelor Somesului Cald,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-300,363,2008-04-15,Cantonul Forestier Padis - Cabana Varasoaia,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-300,363,2008-04-15,Cantonul Forestier Padis - Cabana Varasoaia,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-301,364,2008-04-15,Circuit Magura Vanata,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-301,364,2008-04-15,Circuit Magura Vanata,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-302,365,2008-04-15,Sat Pietroasa - Cabana Padis,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-302,365,2008-04-15,Sat Pietroasa - Cabana Padis,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-303,366,2008-04-15,Circuitul Gropii de la Barsa,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-303,366,2008-04-15,Circuitul Gropii de la Barsa,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-304,367,2008-04-15,Circuitul Cetatilor Ponorului,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-304,367,2008-04-15,Circuitul Cetatilor Ponorului,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-305,368,2008-04-15,Circuitul Galbenei,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-305,368,2008-04-15,Circuitul Galbenei,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-306,369,2008-04-15,Cabana Padis - Poiana Caput,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-306,369,2008-04-15,Cabana Padis - Poiana Caput,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-307,370,2008-04-15,Cabana Padis - Avenul Negru - Avenul Acoperit - Avenul Pionierilor,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-307,370,2008-04-15,Cabana Padis - Avenul Negru - Avenul Acoperit - Avenul Pionierilor,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-308,371,2008-04-15,Cabana Padis - Ghetarul Scarisoara,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-308,371,2008-04-15,Cabana Padis - Ghetarul Scarisoara,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
+289,352,2008-04-15,Stana de Vale - Varful Cucurbata Mare (Bihorul),Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+290,353,2008-04-15,Pietroasa - Saua Bohodei - Valea Aleului,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+291,354,2008-04-15,Satul de Vacanta Boga - Saua Bohodei,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+292,355,2008-04-15,"Camping ""La Grajduri"" - Casa de Piatra",Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+293,356,2008-04-15,Pietroasa - Arieseni,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+294,357,2008-04-15,Saua Vartop - Stei,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+295,358,2008-04-15,Campani - DN 75 km 25 +100,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+296,359,2008-04-15,Circuitul Pesterii Ursilor,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+297,360,2008-04-15,Cabana Vladeasa - Garda de Sus,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+298,361,2008-04-15,Piatra Graitoare - Camping Runcu Ars (Ponor),Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+299,362,2008-04-15,Circuitul Izvoarelor Somesului Cald,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+300,363,2008-04-15,Cantonul Forestier Padis - Cabana Varasoaia,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+301,364,2008-04-15,Circuit Magura Vanata,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+302,365,2008-04-15,Sat Pietroasa - Cabana Padis,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+303,366,2008-04-15,Circuitul Gropii de la Barsa,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+304,367,2008-04-15,Circuitul Cetatilor Ponorului,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+305,368,2008-04-15,Circuitul Galbenei,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+306,369,2008-04-15,Cabana Padis - Poiana Caput,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+307,370,2008-04-15,Cabana Padis - Avenul Negru - Avenul Acoperit - Avenul Pionierilor,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+308,371,2008-04-15,Cabana Padis - Ghetarul Scarisoara,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
 309,372,2008-06-30,Cantonul Silvic Mate Pal - Varful Lacauti,Consiliul Judetean Covasna,Muntii Bretcului,Covasna
 310,373,2008-06-30,Olyves - Varful Lacauti,Consiliul Judetean Covasna,Muntii Bretcului,Covasna
 311,374,2008-06-30,Comandau - Creasta Muntii Bretcului,Consiliul Judetean Covasna,Muntii Bretcului,Covasna
@@ -483,8 +456,7 @@ nr,certificate_number,registration_date,name,administrator,location,county
 455,518,2010-06-30,Mara - Valea Hopsia - Masa de Piatra - Rezervatia Creasta Cocosului,Consiliul Judetean Maramures,Muntii Gutai,Maramures
 456,519,2010-06-30,Breb - Taul Morarenilor - Masa de Piatra - Rezervatia Creasta Cocosului,Consiliul Judetean Maramures,Muntii Gutai,Maramures
 457,520,2010-06-30,Budesti - La Borcut Magura Budestiului - Rezervatia Creasta Cocosului,Consiliul Judetean Maramures,Muntii Gutai,Maramures
-458,521,2010-06-30,Mara - Valea Crivini - Cheile Tatarului - Taul Lui Dumitru,Consiliul Judetean Maramures,Muntii Gutai,Maramures
-458,521,2010-06-30,Mara - Valea Crivini - Cheile Tatarului - Taul Lui Dumitru,Consiliul Judetean Maramures,Muntii Ignis,Maramures
+458,521,2010-06-30,Mara - Valea Crivini - Cheile Tatarului - Taul Lui Dumitru,Consiliul Judetean Maramures,Muntii Gutai si Muntii Ignis,Maramures
 459,522,2010-07-12,Harseni - Copacel - Muchia Scoarta - Curmatura Tiganului - Varful Berevoiului,Consiliul Judetean Brasov,Muntii Fagaras,Brasov
 460,523,2010-07-12,Muchia Scoarta - Piciorul Batran - Valea Berevoiului - Rece,Consiliul Judetean Brasov,Muntii Fagaras,Brasov
 461,524,2010-07-12,Margineni - Vacarea Mica - Vacarea Mare - Varful Comisei,Consiliul Judetean Brasov,Muntii Fagaras,Brasov
@@ -624,14 +596,10 @@ nr,certificate_number,registration_date,name,administrator,location,county
 595,658,2012-07-12,Galautas - Varful Batrana,Consiliul Judetean Harghita,Muntii Calimani,Harghita
 596,659,2012-07-12,Toplita - Cartier Magherus - Partiile Magherus si Bradul - Poiana Refugiu Batrana - Varful Batrana,Consiliul Judetean Harghita,Muntii Calimani,Harghita
 597,660,2012-07-12,Toplita - Partia Bradul - Poiana de sub Varful Batrana - Varful Batrana,Consiliul Judetean Harghita,Muntii Calimani,Harghita
-598,661,2012-10-03,Azuga (DN1) - Varful Clabucetul Taurului - Cabana Garbova,Consiliul Judetean Prahova,Muntii Baiului,Prahova
-598,661,2012-10-03,Azuga (DN1) - Varful Clabucetul Taurului - Cabana Garbova,Consiliul Judetean Prahova,Muntii Baiului,Brasov
-599,662,2012-10-03,Baza Partie Sorica - Captare de Apa - Cabana Garbova,Consiliul Judetean Prahova,Muntii Baiului,Prahova
-599,662,2012-10-03,Baza Partie Sorica - Captare de Apa - Cabana Garbova,Consiliul Judetean Prahova,Muntii Baiului,Brasov
-600,663,2012-10-03,Pastravarie - Varful Clabucetul Azugii - Cabana Susai,Consiliul Judetean Prahova,Muntii Baiului,Prahova
-600,663,2012-10-03,Pastravarie - Varful Clabucetul Azugii - Cabana Susai,Consiliul Judetean Prahova,Muntii Baiului,Brasov
-601,664,2012-10-03,Gara Azuga - Varful Grecului - Cabana Diham,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
-601,664,2012-10-03,Gara Azuga - Varful Grecului - Cabana Diham,Consiliul Judetean Prahova,Muntii Bucegi,Brasov
+598,661,2012-10-03,Azuga (DN1) - Varful Clabucetul Taurului - Cabana Garbova,Consiliul Judetean Prahova,Muntii Baiului,Prahova si Brasov
+599,662,2012-10-03,Baza Partie Sorica - Captare de Apa - Cabana Garbova,Consiliul Judetean Prahova,Muntii Baiului,Prahova si Brasov
+600,663,2012-10-03,Pastravarie - Varful Clabucetul Azugii - Cabana Susai,Consiliul Judetean Prahova,Muntii Baiului,Prahova si Brasov
+601,664,2012-10-03,Gara Azuga - Varful Grecului - Cabana Diham,Consiliul Judetean Prahova,Muntii Bucegi,Prahova si Brasov
 602,665,2012-10-03,Poiana Tapului - Valea Babei - Poiana Stanei,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
 603,666,2012-10-03,Busteni - Culmea Zamora - Culmea Orjogoaia - Plaiul Orjogoaia - Traisteni,Consiliul Judetean Prahova,Muntii Baiului,Prahova
 604,667,2012-10-03,Drum de Vara - Coltii lui Barbes - Lacurile Vanturis - Valea Soarelui,Consiliul Judetean Prahova,Muntii Bucegi,Prahova
@@ -650,16 +618,11 @@ nr,certificate_number,registration_date,name,administrator,location,county
 617,680,2013-06-27,Vaideeni - Valea Seaca - Varful Teis - Vaideeni,Consiliul Judetean Valcea,Muntii Capatanii,Valcea
 618,681,2013-06-27,Vaideeni - Bradateaua Mica - Dealul Capela - Bradateaua Mare - Vaideeni,Consiliul Judetean Valcea,Muntii Capatanii,Valcea
 619,682,2013-06-27,Varful Nedeia - Curmatura Funicel - Varful Ursu - Curmatura Rodeanu - Varful Zmeurat -,Consiliul Judetean Valcea,Muntii Capatanii,Valcea
-620,683,2013-08-06,Saua Vartop - Groapa Ruginoasa - Pietrele Negre,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-620,683,2013-08-06,Saua Vartop - Groapa Ruginoasa - Pietrele Negre,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-621,684,2013-08-06,Partia Vartop 1 - Partia Piatra Graitoare - Magistrala 1 Banda Rosie,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-621,684,2013-08-06,Partia Vartop 1 - Partia Piatra Graitoare - Magistrala 1 Banda Rosie,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-622,685,2013-08-06,Magistrala 1 Banda Rosie - Belvedere Glavoaia,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-622,685,2013-08-06,Magistrala 1 Banda Rosie - Belvedere Glavoaia,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-623,686,2013-08-06,"Cabana Meziad - Motel ""Baraj Lesu""",Consiliul Judetean Bihor,Muntii Bihor,Bihor
-623,686,2013-08-06,"Cabana Meziad - Motel ""Baraj Lesu""",Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
-624,687,2013-08-06,Stana de Vale - Moara Dracului,Consiliul Judetean Bihor,Muntii Bihor,Bihor
-624,687,2013-08-06,Stana de Vale - Moara Dracului,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
+620,683,2013-08-06,Saua Vartop - Groapa Ruginoasa - Pietrele Negre,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+621,684,2013-08-06,Partia Vartop 1 - Partia Piatra Graitoare - Magistrala 1 Banda Rosie,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+622,685,2013-08-06,Magistrala 1 Banda Rosie - Belvedere Glavoaia,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+623,686,2013-08-06,"Cabana Meziad - Motel ""Baraj Lesu""",Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
+624,687,2013-08-06,Stana de Vale - Moara Dracului,Consiliul Judetean Bihor,Muntii Bihor si Muntii Vladeasa,Bihor
 625,688,2014-03-19,Circuitul Pestera din Mina Farcu,Consiliul Judetean Bihor,Muntii Padurea Craiului,Bihor
 626,689,2014-06-16,Complex Turistic Cheile Butii - Dalma Mare - Varful Plesa - Varful Piule - Saua Scorota - Cabana Buta,Consiliul Judetean Hunedoara,Muntii Retezatul Mic,Hunedoara
 627,690,2014-06-16,Uricani - Dealul Serpilor - Saua Tulisa - Saua Bilugu - Varful Bilugu - Varful Vacarea - Varful Lazarul - Varful Custura - Varful Papusa - Varful Peleaga - Caldarea Berbecilor - Lacul Bucura,Consiliul Judetean Hunedoara,Muntii Retezat,Hunedoara
@@ -705,8 +668,7 @@ nr,certificate_number,registration_date,name,administrator,location,county
 667,730,2014-12-04,Pestera cu Cristale din Mina Farcu - Stanu Carnului - Cheile Lazuri - Pestera Rosie - Pestera cu Cristale din Mina Farcu,Consiliul Judetean Bihor,Muntii Padurea Craiului,Bihor
 668,731,2014-12-04,Pestera cu Cristale din Mina Farcu - Izbucul Rosiei,Consiliul Judetean Bihor,Muntii Padurea Craiului,Bihor
 669,732,2014-12-04,Borz - Sub Varful Pacau - Borz,Consiliul Judetean Bihor,Muntii Codru-Moma,Bihor
-670,733,2014-12-04,Valea Iadului - Valea de Runc - Cascada Runcului - Varful Muncelasu - Cascada Laia - DJ 108J - Cantonul Murgasu - Cascada Valu Miresii - Saritoarea Iedutului - Cascada Iadolina - Valea Iadului,Consiliul Judetean Bihor,Muntii Padurea Craiului,Bihor
-670,733,2014-12-04,Valea Iadului - Valea de Runc - Cascada Runcului - Varful Muncelasu - Cascada Laia - DJ 108J - Cantonul Murgasu - Cascada Valu Miresii - Saritoarea Iedutului - Cascada Iadolina - Valea Iadului,Consiliul Judetean Bihor,Muntii Vladeasa,Bihor
+670,733,2014-12-04,Valea Iadului - Valea de Runc - Cascada Runcului - Varful Muncelasu - Cascada Laia - DJ 108J - Cantonul Murgasu - Cascada Valu Miresii - Saritoarea Iedutului - Cascada Iadolina - Valea Iadului,Consiliul Judetean Bihor,Muntii Padurea Craiului si Muntii Vladeasa,Bihor
 671,734,2015-03-01,DN 7C (Vama Cucului) - Muchia Laita - Varful Mierea - Valea Doamnei,Consiliul Judetean Sibiu,Muntii Fagaras,Sibiu
 672,735,2015-03-01,Complex Turistic Albota - Valea Arpaselului - Muchia Netedu - Bifurcatia de sub Varful Buteanu,Consiliul Judetean Sibiu,Muntii Fagaras,Sibiu
 673,736,2015-03-01,Cabana Barcaciu - Caldarea Vaii Mari a Avrigului - Lacul Avrig,Consiliul Judetean Sibiu,Muntii Fagaras,Sibiu
@@ -789,14 +751,10 @@ nr,certificate_number,registration_date,name,administrator,location,county
 749,816,2017-12-12,Negreni - Varful Merisorului - Varful Magura Mare - Bucea - Negreni,Consiliul Local al Comunei Negreni,Muntii Vladeasa,Cluj
 750,817,2017-12-12,Negreni - Varful Comului,Consiliul Local al Comunei Negreni,Muntii Vladeasa,Cluj
 751,818,2018-04-12,Cheile Cibului - Cheile Glodului - Izvorul Tamaduirii - Ardeu,Consiliul Judetean Alba,Muntii Metaliferi,Alba
-752,819,2018-04-12,Statiunea Muntele Baisorii - Crucea Clencii - Stiolne - Rezervatia Scarita Belioara - Cheile Runcului - Runc,Consiliul Judetean Alba,Muntii Gilaului,Alba
-752,819,2018-04-12,Statiunea Muntele Baisorii - Crucea Clencii - Stiolne - Rezervatia Scarita Belioara - Cheile Runcului - Runc,Consiliul Judetean Alba,Muntele Mare,Alba
-753,820,2018-04-12,Circuitul Rezervatiei Scarita Belioara,Consiliul Judetean Alba,Muntii Gilaului,Alba
-753,820,2018-04-12,Circuitul Rezervatiei Scarita Belioara,Consiliul Judetean Alba,Muntele Mare,Alba
-754,821,2018-04-12,Schitul Posaga - Belioara - La Mateoaie - Saua La Rascruce,Consiliul Judetean Alba,Muntii Gilaului,Alba
-754,821,2018-04-12,Schitul Posaga - Belioara - La Mateoaie - Saua La Rascruce,Consiliul Judetean Alba,Muntele Mare,Alba
-755,822,2018-04-12,Runc - Cheile Pociovalistei - Poiana Cornu Pietrei - Varful Scarita - Rezervatia Scarita Belioara,Consiliul Judetean Alba,Muntii Gilaului,Alba
-755,822,2018-04-12,Runc - Cheile Pociovalistei - Poiana Cornu Pietrei - Varful Scarita - Rezervatia Scarita Belioara,Consiliul Judetean Alba,Muntele Mare,Alba
+752,819,2018-04-12,Statiunea Muntele Baisorii - Crucea Clencii - Stiolne - Rezervatia Scarita Belioara - Cheile Runcului - Runc,Consiliul Judetean Alba,Muntii Gilaului si Muntele Mare,Alba
+753,820,2018-04-12,Circuitul Rezervatiei Scarita Belioara,Consiliul Judetean Alba,Muntii Gilaului si Muntele Mare,Alba
+754,821,2018-04-12,Schitul Posaga - Belioara - La Mateoaie - Saua La Rascruce,Consiliul Judetean Alba,Muntii Gilaului si Muntele Mare,Alba
+755,822,2018-04-12,Runc - Cheile Pociovalistei - Poiana Cornu Pietrei - Varful Scarita - Rezervatia Scarita Belioara,Consiliul Judetean Alba,Muntii Gilaului si Muntele Mare,Alba
 756,823,2018-04-12,Salciua de Jos - Poiana Sipote - Pestera Poarta Zmeilor - Platoul Bedeleu - Cheile Plaiului - Izvoarele,Consiliul Judetean Alba,Muntii Trascau,Alba
 757,824,2018-04-12,Rimetea - Varful Ugerului - Lunca Ariesului,Consiliul Judetean Alba,Muntii Trascau,Alba
 758,825,2018-04-12,Rimetea - Varful Piatra Secuiului - Coltesti - Paraul Muntelui - Vidolm,Consiliul Judetean Alba,Muntii Trascau,Alba
@@ -823,8 +781,7 @@ nr,certificate_number,registration_date,name,administrator,location,county
 779,846,2018-04-12,Moneasa - Ruinele Cuptorului de Topit Fier - Cariera de Marmura,Consiliul Judetean Arad,Muntii Codru-Moma,Arad
 780,847,2018-05-14,Bulz - Munteni - Remeti - Dealul Caprei - Floroiu - Varful Pin - Varful Scoroset - Dealul Mare - Catunul Fanesti - Valea Saracel - Bulz,Consiliul Judetean Bihor,Muntii Padurea Craiului,Bihor
 781,848,2018-12-05,Lacul Gura Apei - Culmea Zlata - Varful Zlata - Platoul Rades - Zlata - Lacul Zanoaga - Tau Rasucit - Culmea Slaveiu - Lacul Bucura,Consiliul Judetean Hunedoara,Muntii Retezat,Hunedoara
-782,849,2018-12-05,Lacul Gura Apei - Culmea Branu - Refugiul Branu - Varful Gugu - Varful Moraru - Saua Matului - Plaiul Bulgului - Paraul Iovanu - Lacul lui Iovan,Consiliul Judetean Hunedoara,Muntii Retezat,Hunedoara
-782,849,2018-12-05,Lacul Gura Apei - Culmea Branu - Refugiul Branu - Varful Gugu - Varful Moraru - Saua Matului - Plaiul Bulgului - Paraul Iovanu - Lacul lui Iovan,Consiliul Judetean Hunedoara,Muntii Godeanu,Hunedoara
+782,849,2018-12-05,Lacul Gura Apei - Culmea Branu - Refugiul Branu - Varful Gugu - Varful Moraru - Saua Matului - Plaiul Bulgului - Paraul Iovanu - Lacul lui Iovan,Consiliul Judetean Hunedoara,Muntii Retezat si Muntii Godeanu,Hunedoara
 783,850,2018-12-05,Centrul de informare turistica Hunedoara - Castelul Corvinilor - Taul Teliucului - Lacul Cincis - Toplita - Hasdau - Bolta Apei - Cheile Cernei - Lunca Cernii - Gura Bordului - Rusca Montana - Voislova - Otelu Rosu,Consiliul Judetean Hunedoara,Muntii Poiana Rusca,Hunedoara
 784,851,2018-12-05,Centrul de informare turistica Hunedoara - Castelul Corvinilor - Taul Teliucului - Barajul Cincis - Pensiunea Panorama Ghelari - Casa Muzeu Dragan Muntean - Poienita Voinii - Bunila - Vadu Dobrii - Poiana Crivina - Varful Rusca,Consiliul Judetean Hunedoara,Muntii Poiana Rusca,Hunedoara
 785,852,2018-12-05,Centrul de informare turistica Hunedoara - Castelul Corvinilor - Taul Teliucului - Barajul Cincis - Centrala Hidroelectrica Catanas - Furnalul Govajdia - Craciuneasa - Cerisor - Lelese - Runcu Mare - Vadu Dobrii - Roscani - Dobra,Consiliul Judetean Hunedoara,Muntii Poiana Rusca,Hunedoara
@@ -858,8 +815,7 @@ nr,certificate_number,registration_date,name,administrator,location,county
 814,881,2018-12-14,Julita (DJ 708) - Gurahont - Varful Drocea,Consiliul Judetean Arad,Muntii Zarand,Arad
 815,882,2018-12-14,"Via Transilvanica - Tronsonul VT BN 1 Pasul Gradinita - Sat Lunca Ilvei - Poiana Galan - Traseu ""Drumul Romanilor"" - Baza Tasuleasa",Consiliul Judetean Bistrita-Nasaud,Muntii Bargaului,Bistrita-Nasaud
 816,883,2018-12-14,"Via Transilvanica - Tronsonul VT BN 2 Baza Tasuleasa - Traseu turistic ""Drumul Romanilor"" - Valea Lazaroaia - Valea Strajii - Muresenii Bargaului - Poiana ""Brazii Buni"" - Bistrita Bargaului",Consiliul Judetean Bistrita-Nasaud,Muntii Bargaului,Bistrita-Nasaud
-817,884,2018-12-14,Via Transilvanica - Tronsonul VT BN 3 Comuna Bistrita Bargaului - Drum forestier Blidireasa - Drum forestier Dealu Negru - Nou - Petris - Orheiul Bistritei,Consiliul Judetean Bistrita-Nasaud,Muntii Calimani,Bistrita-Nasaud
-817,884,2018-12-14,Via Transilvanica - Tronsonul VT BN 3 Comuna Bistrita Bargaului - Drum forestier Blidireasa - Drum forestier Dealu Negru - Nou - Petris - Orheiul Bistritei,Consiliul Judetean Bistrita-Nasaud,Piemontul Muntilor Caliman,Bistrita-Nasaud
+817,884,2018-12-14,Via Transilvanica - Tronsonul VT BN 3 Comuna Bistrita Bargaului - Drum forestier Blidireasa - Drum forestier Dealu Negru - Nou - Petris - Orheiul Bistritei,Consiliul Judetean Bistrita-Nasaud,Muntii Calimani si Piemontul Muntilor Caliman,Bistrita-Nasaud
 818,885,2018-12-14,Via Transilvanica - Tronsonul VT BN 4 Sat Orheiul Bistritei - Sesul Orheiului - Padurea Magurele - Magurele - Mariselu - Jeica,Consiliul Judetean Bistrita-Nasaud,Piemontul Muntilor Caliman,Bistrita-Nasaud
 819,886,2018-12-14,Via Transilvanica - Tronsonul VT BN 5 Sat Jeica - Monor,Consiliul Judetean Bistrita-Nasaud,Piemontul Muntilor Caliman,Bistrita-Nasaud
 820,887,2020-09-08,Gol Alpin Pietroasa - Varful Pietroasa,Consiliul Judetean Satu Mare,Muntii Gutai,Satu Mare
@@ -949,18 +905,12 @@ nr,certificate_number,registration_date,name,administrator,location,county
 904,982,2021-07-09,Sfantu Gheorghe (Stadion Municipal) - Poiana Birone - Izvorul Honved - Izvorul Pucioasa din Sfantu Gheorghe,Consiliul Judetean Covasna,Muntii Baraolt,Covasna
 905,983,2021-07-09,Sfantu Gheorghe (Stadion Municipal) - Poiana Marinica - Izvorul Pucioasa din Sfantu Gheorghe,Consiliul Judetean Covasna,Muntii Baraolt,Covasna
 906,984,2021-07-09,Arcus - Sugas Bai - Creasta Muntii Baraolt,Consiliul Judetean Covasna,Muntii Baraolt,Covasna
-907,985,2021-10-06,Varful Peana - Casele Micesti,Consiliul Judetean Cluj,Fagetul Clujului,Cluj
-907,985,2021-10-06,Varful Peana - Casele Micesti,Consiliul Judetean Cluj,Feleac,Cluj
-908,986,2021-10-06,Manastur - Ratul Popii - Ratul Penii - Varful Peana,Consiliul Judetean Cluj,Fagetul Clujului,Cluj
-908,986,2021-10-06,Manastur - Ratul Popii - Ratul Penii - Varful Peana,Consiliul Judetean Cluj,Feleac,Cluj
-909,987,2021-10-06,Izvorul Sfantul Ioan - Varful Peana,Consiliul Judetean Cluj,Fagetul Clujului,Cluj
-909,987,2021-10-06,Izvorul Sfantul Ioan - Varful Peana,Consiliul Judetean Cluj,Feleac,Cluj
-910,988,2021-10-06,Izvorul Sfantul Ioan - Belvedere - Ratul Penii,Consiliul Judetean Cluj,Fagetul Clujului,Cluj
-910,988,2021-10-06,Izvorul Sfantul Ioan - Belvedere - Ratul Penii,Consiliul Judetean Cluj,Feleac,Cluj
-911,989,2021-10-06,Camping Faget - Fantana Bilascu - Varful Peana,Consiliul Judetean Cluj,Fagetul Clujului,Cluj
-911,989,2021-10-06,Camping Faget - Fantana Bilascu - Varful Peana,Consiliul Judetean Cluj,Feleac,Cluj
-912,990,2021-10-06,Manastur - Capul Dealului,Consiliul Judetean Cluj,Fagetul Clujului,Cluj
-912,990,2021-10-06,Manastur - Capul Dealului,Consiliul Judetean Cluj,Feleac,Cluj
+907,985,2021-10-06,Varful Peana - Casele Micesti,Consiliul Judetean Cluj,Fagetul Clujului si Feleac,Cluj
+908,986,2021-10-06,Manastur - Ratul Popii - Ratul Penii - Varful Peana,Consiliul Judetean Cluj,Fagetul Clujului si Feleac,Cluj
+909,987,2021-10-06,Izvorul Sfantul Ioan - Varful Peana,Consiliul Judetean Cluj,Fagetul Clujului si Feleac,Cluj
+910,988,2021-10-06,Izvorul Sfantul Ioan - Belvedere - Ratul Penii,Consiliul Judetean Cluj,Fagetul Clujului si Feleac,Cluj
+911,989,2021-10-06,Camping Faget - Fantana Bilascu - Varful Peana,Consiliul Judetean Cluj,Fagetul Clujului si Feleac,Cluj
+912,990,2021-10-06,Manastur - Capul Dealului,Consiliul Judetean Cluj,Fagetul Clujului si Feleac,Cluj
 913,991,2021-10-06,Versant stang Tarnita,Consiliul Judetean Cluj,Muntii Gilaului,Cluj
 914,992,2021-10-06,Circuitul Piatra Corbilor,Consiliul Judetean Cluj,Muntii Gilaului,Cluj
 915,993,2021-10-06,Circuitul Piatra lui Lucaci,Consiliul Judetean Cluj,Muntii Gilaului,Cluj
