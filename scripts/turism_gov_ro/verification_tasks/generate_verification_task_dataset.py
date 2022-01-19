@@ -118,7 +118,7 @@ def generate_verification_tasks(ttmo_gov_list_path, ttmo_gov_list_old_path, outp
                 new.append(undf[undf['certificate_number'] == row.certificate_number].iloc[0])
                 nvts.append(new_task)
             else:
-                removed.append(v_task)
+                removed.append(uodf[uodf['certificate_number'] == row.certificate_number].iloc[0])
 
         nvtdf = pd.DataFrame(nvts)
         write_verification_file(nvtdf, output_path)
