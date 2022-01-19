@@ -17,7 +17,7 @@ class FetchException(Exception):
     pass
 
 
-def get_proxies() -> dict:
+def get_proxies() -> list[dict]:
     response = requests.get('https://free-proxy-list.net/')
     soup = BeautifulSoup(response.text, 'html.parser')
     table = soup.find('table', attrs={'class': 'table table-striped table-bordered'})
@@ -30,6 +30,24 @@ def get_proxies() -> dict:
                 'ip': cols[0].text.strip(),
                 'port': cols[1].text.strip()
             })
+    return proxies
+
+
+def get_proxies_geonode() -> list[dict]:
+    response = requests.get('https://proxylist.geonode.com/api/proxy-list?limit=50&page=1&sort_by=lastChecked&sort_type=desc&filterLastChecked=30&protocols=http%2Chttps')
+    # go through the response data field
+    # and extract the ip and port
+    proxies = []
+
+    if response.status_code != 200:
+        print(f'Fetching {response.url} failed with status code: {response.status_code}.')
+        return []
+
+    for proxy in response.json()['data']:
+        proxies.append({
+            'ip': proxy['ip'],
+            'port': proxy['port']
+        })
     return proxies
 
 
@@ -76,7 +94,7 @@ def fetch_dataset(url: str, link_text_prefix: str, user_agent: str, proxy: dict 
 
 def fetch_dataset_insistently(url: str, link_text_prefix: str, user_agent: str) -> dict:
     """Fetch the approved routes dataset."""
-    proxies = get_proxies()
+    proxies = get_proxies_geonode() + get_proxies()
     print(f'{len(proxies)} proxies found.')
     for i, proxy in enumerate(proxies):
         print(f'Fetching dataset, try with proxy [{i + 1}] {proxy}.')
