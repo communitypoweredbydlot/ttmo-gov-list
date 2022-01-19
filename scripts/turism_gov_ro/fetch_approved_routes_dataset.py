@@ -18,18 +18,17 @@ class FetchException(Exception):
 
 
 def get_proxies() -> dict:
-    response = requests.get('https://scrapingant.com/free-proxies/')
+    response = requests.get('https://free-proxy-list.net/')
     soup = BeautifulSoup(response.text, 'html.parser')
-    table = soup.find('table', attrs={'class': 'proxies-table'})
+    table = soup.find('table', attrs={'class': 'table table-striped table-bordered'})
 
     proxies = []
     for row in table.find_all('tr'):
         cols = row.find_all('td')
-        if len(cols) > 0 and cols[2].text.strip().lower() == 'http':
+        if len(cols) > 0:
             proxies.append({
                 'ip': cols[0].text.strip(),
-                'port': cols[1].text.strip(),
-                'protocol': cols[2].text.strip().lower()
+                'port': cols[1].text.strip()
             })
     return proxies
 
@@ -82,7 +81,7 @@ def fetch_dataset_insistently(url: str, link_text_prefix: str, user_agent: str) 
     for i, proxy in enumerate(proxies):
         print(f'Fetching dataset, try with proxy [{i + 1}] {proxy}.')
         req_proxy = {
-            proxy['protocol']: f'{proxy["protocol"]}://{proxy["ip"]}:{proxy["port"]}'
+            'http': f'http://{proxy["ip"]}:{proxy["port"]}'
         }
         try:
             download_info = fetch_dataset(url, link_text_prefix, user_agent, req_proxy)
