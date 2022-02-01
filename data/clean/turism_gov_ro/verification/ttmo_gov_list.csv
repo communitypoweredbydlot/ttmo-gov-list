@@ -918,5 +918,5 @@ nr,certificate_number,registration_date,name,administrator,location,county,verif
 917,995,2021-10-07,Mărișel (Biserică) - Belvedere - Trei Pâraie - Mărișel (Biserică),Consiliul Județean Cluj,Munții Gilăului,Cluj,True,995,
 918,996,2021-11-03,Valea Doabrei - Vârful Poiana Sulița - Valea Călinești,Consiliul al Orașului Local Brezoi,Munții Lotrului,Vâlcea,True,996,
 919,997,2021-11-03,Brezoi - Tabăra Lotru,Consiliul Local al Orașului Brezoi,Munții Lotrului,Vâlcea,True,997,remove explicity city tag|use proper name
-920,998,2021-11-03,Brezoi - Vârful Țurțudan - Brezoi,Consiliul al Orașului Local Brezoi,Munții Lotrului,Vâlcea,True,998,remove explicity city tag
+920,998,2021-11-03,Brezoi - Vârful Țurțudan - Brezoi,Consiliul Local al Orașului Brezoi,Munții Lotrului,Vâlcea,True,998,remove explicity city tag
 921,999,2021-11-03,Brezoi - Vârful Zimbru,Consiliul Local al Orașului Brezoi,Munții Lotrului,Vâlcea,True,999,remove explicity city tag
