@@ -2,8 +2,7 @@ name: Convert the source dataset to CSV and clean
 on:
   push:
     paths:
-      - "data/original/turism_gov_ro/ttmo_approved_list.xls"
-      - "data/original/turism_gov_ro/info.json"
+      - "data/**.xls"
   workflow_dispatch:
 
 jobs:

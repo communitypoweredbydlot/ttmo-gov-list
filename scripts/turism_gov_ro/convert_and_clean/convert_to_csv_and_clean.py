@@ -14,7 +14,10 @@ CLEANING_RULE = Enum('CLEANING_RULE', 'CONVERT_CHARS REMOVE_EXTRA_END_SPACES REM
                                       'EXPAND_ABBREVIATIONS CORRECT_WORDS CORRECT_NAMES FORMAT_PARENTHESIS '
                                       'ADD_SPACE_AFTER_DOT')
 
-Cleaned = namedtuple('Cleaned', 'nr certificate_number registration_date name administrator location county')
+
+CleanedOriginal = namedtuple('Cleaned', 'nr certificate_number registration_date name administrator location county')
+Cleaned20220304 = namedtuple('Cleaned', 'nr certificate_number registration_date name administrator location county marking duration difficulty seasonality equipment_level')
+
 Errors = namedtuple('Errors', 'certificate_number column correction')
 
 
@@ -187,37 +190,33 @@ def clean_string_column(value: str) -> Tuple[str, List[Type[CLEANING_RULE]]]:
     ], value)
 
 
-def clean_column(cleaning_functions: Tuple[Callable[[str], str], Type[CLEANING_RULE]],
+def clean_column(cleaning_functions: list[Tuple[Callable[[str], str]], Type[CLEANING_RULE]],
                  column_value: str) -> Tuple[str, List[Type[CLEANING_RULE]]]:
     return reduce(lambda x, y: validate_with(y, x), cleaning_functions, (column_value, []))
 
 
-def clean(source_df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
-    print('Sanitizing the data.')
-
+def cleaner_original(row):
     errors = []
-    cleaned_rows = []
-    for row in source_df.dropna().itertuples(index=False):
-        s_name, name_errors = clean_string_column(row.name)
-        s_administrator, administrator_errors = clean_string_column(row.administrator)
-        s_location, location_errors = clean_string_column(row.location)
-        s_county, county_errors = clean_string_column(row.county)
-        s_certificate_number = re.match(r'^(\d+)', str(row.certificate_number)).group() if str(
-            row.certificate_number) else row.certificate_number
+    s_name, name_errors = clean_string_column(row.name)
+    s_administrator, administrator_errors = clean_string_column(row.administrator)
+    s_location, location_errors = clean_string_column(row.location)
+    s_county, county_errors = clean_string_column(row.county)
+    s_certificate_number = re.match(r'^(\d+)', str(row.certificate_number)).group() if str(
+        row.certificate_number) else row.certificate_number
 
-        for ne in name_errors:
-            errors.append(Errors(certificate_number=row.certificate_number, column='name', correction=ne))
+    for ne in name_errors:
+        errors.append(Errors(certificate_number=row.certificate_number, column='name', correction=ne))
 
-        for ae in administrator_errors:
-            errors.append(Errors(certificate_number=row.certificate_number, column='administrator', correction=ae))
+    for ae in administrator_errors:
+        errors.append(Errors(certificate_number=row.certificate_number, column='administrator', correction=ae))
 
-        for le in location_errors:
-            errors.append(Errors(certificate_number=row.certificate_number, column='location', correction=le))
+    for le in location_errors:
+        errors.append(Errors(certificate_number=row.certificate_number, column='location', correction=le))
 
-        for ce in county_errors:
-            errors.append(Errors(certificate_number=row.certificate_number, column='county', correction=ce))
+    for ce in county_errors:
+        errors.append(Errors(certificate_number=row.certificate_number, column='county', correction=ce))
 
-        cleaned_rows.append(Cleaned(
+    return CleanedOriginal(
             nr=row.nr,
             certificate_number=s_certificate_number,
             registration_date=row.registration_date,
@@ -225,43 +224,97 @@ def clean(source_df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
             administrator=s_administrator,
             location=s_location,
             county=s_county
-        ))
+        ), errors
+
+
+def cleaner_20220304(row):
+    cleaned, errors = cleaner_original(row)
+
+    return Cleaned20220304(
+            nr=row.nr,
+            certificate_number=cleaned.certificate_number,
+            registration_date=cleaned.registration_date,
+            name=cleaned.name,
+            administrator=cleaned.administrator,
+            location=cleaned.location,
+            county=cleaned.county,
+            marking=row.marking,
+            duration=row.duration,
+            difficulty=row.difficulty,
+            seasonality=row.seasonality,
+            equipment_level=row.equipment_level
+        ), errors
+
+
+def clean(source_df: pd.DataFrame, cleaner) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    errors = []
+    cleaned_rows = []
+    for row in source_df.dropna().itertuples(index=False):
+        cleaned_row, row_errors = cleaner(row)
+        cleaned_rows.append(cleaned_row)
+        errors.extend(row_errors)
     return pd.DataFrame(cleaned_rows), pd.DataFrame(errors)
+
+
+def read_original_ttmo_dataset(xls_file_path: str, sheet_name: str) -> (pd.DataFrame, list[str], list[str]):
+    known_columns = [
+        'Nr. crt.',
+        'Nr. Certificat',
+        'Data emiterii',
+        'Denumire traseu',
+        'Administrator',
+        'Amplasare',
+        'Judeţ',
+        'Marcaj',
+        'Durată traseu',
+        'Grad de dificultate',
+        'Sezonalitate',
+        'Nivel de echipare solicitat'
+    ]
+    unknown_columns = []
+
+    def is_know_column(column_name: str) -> bool:
+        if column_name in known_columns:
+            return True
+        elif column_name == 'Unnamed: 0':
+            return False
+
+        unknown_columns.append(column_name)
+        return False
+
+    df = pd.read_excel(xls_file_path, sheet_name=sheet_name, header=5,
+                       usecols=lambda cn: is_know_column(cn), parse_dates=[3]).dropna()
+    missing_columns = [cn for cn in df.columns.values.tolist() if cn not in known_columns]
+    return df.convert_dtypes().dropna(), missing_columns, unknown_columns
+
+
+def export_to_csv(df: pd.DataFrame, xls_file_path):
+    source_csv_dest_path = f'{os.path.splitext(xls_file_path)[0]}.csv'
+    df.to_csv(source_csv_dest_path, index=False, date_format='%Y-%m-%d')
 
 
 @click.command()
 @click.argument('xls_file',
-                default='data/original/turism_gov_ro/ttmo_approved_list.xls',
-                required=True,
+                required=False,
                 type=click.Path(exists=True, dir_okay=False, readable=True))
 @click.argument('csv_file',
-                default='data/clean/turism_gov_ro/uniform/ttmo_gov_list.csv',
-                required=True,
+                required=False,
                 type=click.Path(exists=False, dir_okay=False, writable=True))
-@click.option('--sheet-name', '-s', default=0, type=int, help="The name of the sheet to convert.")
+@click.option('--sheet-name', '-s', default=0, type=click.STRING, help='The name of the sheet to convert.')
 def convert_and_clean(xls_file, csv_file, sheet_name):
     """
-    Convert the the xls to csv and write a clean-ish copy to the destination folder.
+    Convert the xls to csv and write a clean-ish copy to the destination folder.
     """
-    print('Loading the xls file.')
-    source_df = pd.read_excel(xls_file, sheet_name=sheet_name, header=5,
-                              parse_dates=[3], usecols=range(1, 8),
-                              dtype={
-                                    'Denumire traseu': 'string',
-                                    'Administrator': 'string',
-                                    'Amplasare': 'string',
-                                    'Judeţ': 'string'
-                                },
-                              converters={
-                                    'Nr. crt.': lambda v: int(v),
-                                }
-                              ).dropna()
+    source_df, source_ms, source_uk = read_original_ttmo_dataset(xls_file, sheet_name)
 
-    source_csv_dest_path = f'{os.path.splitext(xls_file)[0]}.csv'
-    print(f'Writing a CSV copy without modifications to {source_csv_dest_path}')
-    source_df.to_csv(source_csv_dest_path, index=False, date_format='%Y-%m-%d')
+    if source_ms:
+        raise Exception(f'The following expected columns are missing: {source_ms}')
 
-    print('Cleaning the source dataset.')
+    if source_uk:
+        raise Exception(f'The following new columns were found: {source_uk}')
+
+    export_to_csv(source_df, xls_file)
+
     source_df.rename(columns={
         'Nr. crt.': 'nr',
         'Nr. Certificat': 'certificate_number',
@@ -269,17 +322,18 @@ def convert_and_clean(xls_file, csv_file, sheet_name):
         'Denumire traseu': 'name',
         'Administrator': 'administrator',
         'Amplasare': 'location',
-        'Judeţ': 'county'
+        'Judeţ': 'county',
+        'Marcaj': 'marking',
+        'Durată traseu': 'duration',
+        'Grad de dificultate': 'difficulty',
+        'Sezonalitate': 'seasonality',
+        'Nivel de echipare solicitat': 'equipment_level'
     }, inplace=True)
 
     cleaned_df, errors_df = clean(source_df)
 
     errors_file_name = f'{os.path.splitext(csv_file)[0]}.error.csv'
-    print(f'Writing the errors file to {errors_file_name}.')
-    os.makedirs(os.path.dirname(csv_file), exist_ok=True)
     errors_df.to_csv(errors_file_name, index=False)
-
-    print(f'Writing the clean-ish csv file to {csv_file}')
     cleaned_df.to_csv(csv_file, index=False, date_format='%Y-%m-%d')
 
 

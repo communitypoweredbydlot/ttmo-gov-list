@@ -8,11 +8,12 @@ from unidecode import unidecode
 @click.command()
 @click.option('--input-path',
               type=click.Path(exists=True, dir_okay=False, readable=True),
-              default='data/clean/turism_gov_ro/verification/ttmo_gov_list.csv')
+              default=None)
 @click.option('--output-path',
               type=click.Path(exists=False, dir_okay=False, readable=True),
-              default='data/clean/turism_gov_ro/ttmo_gov_list.csv')
+              default=None)
 def generate_validated_dataset(input_path, output_path):
+    # When the values are none find the most recent dataset and generate in the corresponding path
     ver_df = pd.read_csv(input_path, header=0)
     validated_dataset = ver_df.loc[ver_df['verified']].drop(labels=['verified', 'source', 'commentary'], axis=1)
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
